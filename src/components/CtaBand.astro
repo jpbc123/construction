@@ -1,0 +1,21 @@
+---
+import { url } from '../lib/clients.js';
+
+const {
+  client,
+  heading = "Let's work together. Get a quote today.",
+  text = 'Tell us about your project and get an itemised, line-item quotation — no obligation, no pressure.',
+  seed = `${client.slug}-cta`,
+} = Astro.props;
+---
+
+<section
+  class="cta-band"
+  style={`background-image: url('https://picsum.photos/seed/${seed}/1920/700');`}
+>
+  <div class="container" data-reveal>
+    <h2>{heading}</h2>
+    <p>{text}</p>
+    <a class="btn btn-oxide" href={url(client, 'quote')}>Get a quote</a>
+  </div>
+</section>

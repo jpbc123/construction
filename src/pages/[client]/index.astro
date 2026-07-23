@@ -1,0 +1,224 @@
+---
+import Base from '../../layouts/Base.astro';
+import LogoStrip from '../../components/LogoStrip.astro';
+import StatsRow from '../../components/StatsRow.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import ProcessSection from '../../components/ProcessSection.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import Icon from '../../components/Icon.astro';
+import { getClientSlugs, getClient, url } from '../../lib/clients.js';
+
+export function getStaticPaths() {
+  return getClientSlugs().map((slug) => ({
+    params: { client: slug },
+    props: { client: getClient(slug) },
+  }));
+}
+
+const { client } = Astro.props;
+const { company, copy, services, projects, testimonials, posts } = client;
+---
+
+<Base client={client} title={copy.seo.homeTitle} description={copy.seo.homeDescription}>
+  <!-- 01 · Hero -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="num">Est. {company.founded}</span> / {copy.region}</p>
+          <h1 id="hero-heading">{copy.heroHeading}</h1>
+          <p class="lede">
+            {company.tagline} From first site visit to final handover, one team owns your budget,
+            your schedule, and the result.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href={url(client, 'quote')}>Get a quote</a>
+            <a class="btn btn-outline" href={url(client, 'services')}>Learn more</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img
+            src={`https://picsum.photos/seed/${client.slug}-hero/1200/900`}
+            alt={`A recently completed ${company.name} renovation project`}
+            width="1200"
+            height="900"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </div>
+      </div>
+
+      <StatsRow client={client} />
+
+      <p style="text-align:center; margin: 40px 0 24px;">
+        <a class="scroll-cue" href="#trusted-by">
+          Scroll
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 4v16m0 0-6-6m6 6 6-6"></path>
+          </svg>
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 02 · Trusted by -->
+  <div id="trusted-by">
+    <LogoStrip client={client} />
+  </div>
+
+  <!-- 03 · About teaser -->
+  <section class="section" aria-labelledby="about-teaser-heading">
+    <div class="container">
+      <div class="split">
+        <div class="split-media" data-reveal>
+          <img
+            src={`https://picsum.photos/seed/${client.slug}-teaser/900/720`}
+            alt={`${company.name} project team reviewing plans around a site table`}
+            width="900"
+            height="720"
+            loading="lazy"
+          />
+          <span class="media-tag">On site since {company.founded}</span>
+        </div>
+        <div data-reveal style="--reveal-delay: 120ms;">
+          <p class="eyebrow"><span class="num">03</span> / Who we are</p>
+          <h2 id="about-teaser-heading">Modern methods. Simple promises.</h2>
+          <p class="lede">
+            We keep the craft and drop the chaos: transparent pricing, one accountable team, and
+            homes built to be lived in — not just photographed on handover day.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href={url(client, 'about')}>About {company.name}</a>
+            <a class="btn btn-outline" href={url(client, 'portfolio')}>See our work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 · Services -->
+  <section class="section dark-section" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow"><span class="num">04</span> / What we do</p>
+        <h2 id="services-heading">Six services. One point of contact.</h2>
+        <p class="lede">
+          Whether you need a full renovation partner or a specialist for one phase, the same
+          standards apply.
+        </p>
+      </div>
+      <div class="grid-3">
+        {
+          services.map((service, i) => (
+            <a
+              class="card service-card"
+              href={`${url(client, 'services')}#${service.slug}`}
+              data-reveal
+              style={`--reveal-delay: ${(i % 3) * 90}ms;`}
+            >
+              <span class="icon-badge">
+                <Icon name={service.icon} />
+              </span>
+              <h3>{service.title}</h3>
+              <p>{service.blurb}</p>
+              <span class="card-link-note">Explore service →</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 · Recent projects -->
+  <section class="section" aria-labelledby="projects-heading">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow"><span class="num">05</span> / Recent projects</p>
+        <h2 id="projects-heading">Work that speaks for itself</h2>
+      </div>
+      <div class="grid-3">
+        {
+          projects
+            .slice(0, 3)
+            .map((project, i) => (
+              <ProjectCard project={project} href={url(client, 'portfolio')} delay={i * 90} />
+            ))
+        }
+      </div>
+      <p style="margin-top: 36px;" data-reveal>
+        <a class="btn btn-outline" href={url(client, 'portfolio')}>View full portfolio</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 06 · CTA band -->
+  <CtaBand client={client} />
+
+  <!-- 07 · Process -->
+  <ProcessSection client={client} num="07" />
+
+  <!-- 08 · Testimonials -->
+  <section class="section dark-section" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="section-head center" data-reveal>
+        <p class="eyebrow"><span class="num">08</span> / Client words</p>
+        <h2 id="testimonials-heading">People we've built for</h2>
+      </div>
+      <div class="grid-3">
+        {
+          testimonials.map((t, i) => (
+            <div class="card testimonial-card" data-reveal style={`--reveal-delay: ${i * 90}ms;`}>
+              <blockquote>{t.quote}</blockquote>
+              <div class="testimonial-who">
+                <img
+                  src={`https://picsum.photos/seed/${t.seed}/96/96`}
+                  alt=""
+                  width="96"
+                  height="96"
+                  loading="lazy"
+                />
+                <div>
+                  <div class="who-name">{t.name}</div>
+                  <div class="who-city">{t.city}</div>
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- 09 · Blog teasers -->
+  <section class="section" aria-labelledby="blog-heading">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow"><span class="num">09</span> / From the field</p>
+        <h2 id="blog-heading">Notes for owners and builders</h2>
+      </div>
+      <div class="grid-3">
+        {
+          posts.map((post, i) => (
+            <a class="card post-card" href="#" data-reveal style={`--reveal-delay: ${i * 90}ms;`}>
+              <img
+                src={`https://picsum.photos/seed/${post.seed}/800/450`}
+                alt=""
+                width="800"
+                height="450"
+                loading="lazy"
+              />
+              <div class="post-body">
+                <div class="post-meta">
+                  <span class="post-tag">{post.category}</span>
+                  <span>{post.date}</span>
+                </div>
+                <h3>{post.title}</h3>
+                <p class="excerpt">{post.excerpt}</p>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,90 @@
+---
+import Base from '../../layouts/Base.astro';
+import StatsRow from '../../components/StatsRow.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import ProcessSection from '../../components/ProcessSection.astro';
+import { getClientSlugs, getClient } from '../../lib/clients.js';
+
+export function getStaticPaths() {
+  return getClientSlugs().map((slug) => ({
+    params: { client: slug },
+    props: { client: getClient(slug) },
+  }));
+}
+
+const { client } = Astro.props;
+const { company, team, copy } = client;
+---
+
+<Base client={client} title="About Us" description={copy.seo.aboutDescription}>
+  <section class="page-hero dark-section" aria-labelledby="about-hero-heading">
+    <div class="container">
+      <p class="eyebrow"><span class="num">01</span> / About</p>
+      <h1 id="about-hero-heading">Builders first, everything else second</h1>
+      <p class="lede">
+        {company.legalName} was founded in {company.founded} on one conviction: a quotation should
+        be a promise, not an opening bid.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="story-heading">
+    <div class="container">
+      <div class="split">
+        <div data-reveal>
+          <p class="eyebrow"><span class="num">02</span> / Our story</p>
+          <h2 id="story-heading">{copy.storyHeading}</h2>
+          {copy.story.map((para) => <p>{para}</p>)}
+          <StatsRow client={client} />
+        </div>
+        <div class="split-media" data-reveal style="--reveal-delay: 120ms;">
+          <img
+            src={`https://picsum.photos/seed/${client.slug}-story/900/1050`}
+            alt={`${company.name} crew on site at a residential renovation`}
+            width="900"
+            height="1050"
+            loading="lazy"
+          />
+          <span class="media-tag">{copy.mediaTag}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark-section" aria-labelledby="team-heading">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow"><span class="num">03</span> / Leadership</p>
+        <h2 id="team-heading">The people who sign their work</h2>
+      </div>
+      <div class="grid-4">
+        {
+          team.map((member, i) => (
+            <div class="card team-card" data-reveal style={`--reveal-delay: ${i * 90}ms;`}>
+              <img
+                src={`https://picsum.photos/seed/${member.seed}/600/600`}
+                alt={`Portrait of ${member.name}, ${member.role}`}
+                width="600"
+                height="600"
+                loading="lazy"
+              />
+              <div class="team-body">
+                <div class="team-name">{member.name}</div>
+                <div class="team-role">{member.role}</div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <ProcessSection client={client} num="04" />
+
+  <CtaBand
+    client={client}
+    seed={`${client.slug}-cta-about`}
+    heading="Meet us before you commit to anything."
+    text="A 30-minute call costs nothing and usually saves owners weeks. Bring your idea; we'll bring the questions no one else asks."
+  />
+</Base>

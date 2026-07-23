@@ -1,0 +1,33 @@
+---
+const { client } = Astro.props;
+
+// Simple generated SVG wordmarks — replace with real logos later.
+const styleFor = {
+  caps: 'font-family: Archivo, sans-serif; font-weight: 800; letter-spacing: 3px; text-transform: uppercase; font-size: 15px;',
+  serif: 'font-family: Georgia, serif; font-weight: 700; font-size: 19px;',
+  script: 'font-family: Georgia, serif; font-style: italic; font-size: 19px;',
+  mono: "font-family: 'Courier New', monospace; font-weight: 700; letter-spacing: 1px; font-size: 17px;",
+};
+---
+
+<section class="logo-strip" aria-label="Suppliers and partners we work with">
+  <div class="container">
+    <div class="logo-strip-inner">
+      {
+        client.company.clients.map((logo) => (
+          <svg width="170" height="40" viewBox="0 0 170 40" role="img" aria-label={logo.name}>
+            <text
+              x="85"
+              y="25"
+              text-anchor="middle"
+              fill="#16222E"
+              style={styleFor[logo.style] ?? styleFor.caps}
+            >
+              {logo.name}
+            </text>
+          </svg>
+        ))
+      }
+    </div>
+  </div>
+</section>

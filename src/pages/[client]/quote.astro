@@ -1,0 +1,207 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getClientSlugs, getClient, url } from '../../lib/clients.js';
+
+export function getStaticPaths() {
+  return getClientSlugs().map((slug) => ({
+    params: { client: slug },
+    props: { client: getClient(slug) },
+  }));
+}
+
+const { client } = Astro.props;
+const { company, services, copy } = client;
+const budgets = copy.budgets;
+---
+
+<Base client={client} title="Request a Quote" description={copy.seo.quoteDescription}>
+  <section class="page-hero dark-section" aria-labelledby="quote-hero-heading">
+    <div class="container">
+      <p class="eyebrow"><span class="num">01</span> / Get a quote</p>
+      <h1 id="quote-hero-heading">Tell us what you're building</h1>
+      <p class="lede">
+        The more you share, the sharper the quotation. We reply to every request within one working
+        day and deliver an itemised quotation within three.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Quote request form">
+    <div class="container">
+      <div class="quote-layout">
+        <aside class="quote-aside" data-reveal>
+          <div class="aside-item">
+            <strong>1.</strong>
+            <span>Send the form — takes about three minutes.</span>
+          </div>
+          <div class="aside-item">
+            <strong>2.</strong>
+            <span>We call you within one working day to clarify scope.</span>
+          </div>
+          <div class="aside-item">
+            <strong>3.</strong>
+            <span>You get an itemised quotation within three working days.</span>
+          </div>
+          <hr class="chalk-rule" />
+          <div class="aside-item">
+            <span>
+              Prefer to talk first? Call <a href={`tel:${company.phone.replace(/[^+\d]/g, '')}`}>{company.phone}</a>{' '}
+              or email <a href={`mailto:${company.email}`}>{company.email}</a>.
+            </span>
+          </div>
+        </aside>
+
+        <div data-reveal style="--reveal-delay: 120ms;">
+          <!--
+            NOTE: This form has no backend yet. To wire a real endpoint:
+              - Formspree: set action="https://formspree.io/f/YOUR_FORM_ID" method="POST"
+                and remove the preventDefault() in the submit handler below, or
+              - Netlify Forms: add `data-netlify="true"` and a `name` attribute to the form,
+                then deploy to Netlify.
+          -->
+          <form class="quote-form" id="quote-form" novalidate>
+            <div class="field-pair">
+              <div class="field">
+                <label for="qf-name">Full name</label>
+                <input type="text" id="qf-name" name="name" autocomplete="name" required />
+                <p class="field-error" id="qf-name-error">Please tell us your name.</p>
+              </div>
+              <div class="field">
+                <label for="qf-email">Email</label>
+                <input type="email" id="qf-email" name="email" autocomplete="email" required />
+                <p class="field-error" id="qf-email-error">
+                  That email doesn't look right — check for typos.
+                </p>
+              </div>
+            </div>
+
+            <div class="field-pair">
+              <div class="field">
+                <label for="qf-phone">Phone <span class="optional">(optional)</span></label>
+                <input type="tel" id="qf-phone" name="phone" autocomplete="tel" />
+                <p class="field-error" id="qf-phone-error">
+                  Please enter a valid phone number, or leave this blank.
+                </p>
+              </div>
+              <div class="field">
+                <label for="qf-service">Service needed</label>
+                <select id="qf-service" name="service" required>
+                  <option value="">Select a service…</option>
+                  {services.map((s) => <option value={s.title}>{s.title}</option>)}
+                  <option value="Not sure">Not sure yet</option>
+                </select>
+                <p class="field-error" id="qf-service-error">Please choose the closest match.</p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="qf-budget">Budget range</label>
+              <select id="qf-budget" name="budget" required>
+                <option value="">Select a range…</option>
+                {budgets.map((b) => <option value={b}>{b}</option>)}
+              </select>
+              <p class="field-error" id="qf-budget-error">
+                A rough range is fine — it helps us scope realistically.
+              </p>
+            </div>
+
+            <div class="field">
+              <label for="qf-description">Project description</label>
+              <textarea
+                id="qf-description"
+                name="description"
+                rows="6"
+                required
+                placeholder="Location, rough size, what you want built or changed, and any deadlines."
+              ></textarea>
+              <p class="field-error" id="qf-description-error">
+                A sentence or two is enough — what and where.
+              </p>
+            </div>
+
+            <div>
+              <button class="btn btn-primary" type="submit">Request my quote</button>
+            </div>
+          </form>
+
+          <div class="form-success" id="form-success" role="status" tabindex="-1">
+            <span class="check">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m4.5 12.5 5 5 10-11"></path>
+              </svg>
+            </span>
+            <h2>Request received. We're on it.</h2>
+            <p>
+              Thanks — your request is in our queue. Expect a call or email from a {company.name} project
+              manager within one working day, and a full itemised quotation within three.
+            </p>
+            <a class="btn btn-outline" href={url(client, 'portfolio')}>
+              Browse our work while you wait
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const form = document.getElementById('quote-form');
+    const success = document.getElementById('form-success');
+
+    const setError = (field, hasError) => {
+      const wrapper = field.closest('.field');
+      wrapper?.classList.toggle('has-error', hasError);
+      field.setAttribute('aria-invalid', String(hasError));
+      const error = wrapper?.querySelector('.field-error');
+      if (error?.id) {
+        if (hasError) field.setAttribute('aria-describedby', error.id);
+        else field.removeAttribute('aria-describedby');
+      }
+      return !hasError;
+    };
+
+    const validators = {
+      name: (v) => v.trim().length >= 2,
+      email: (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()),
+      phone: (v) => v.trim() === '' || /^[+()\-.\s\d]{7,20}$/.test(v.trim()),
+      service: (v) => v !== '',
+      budget: (v) => v !== '',
+      description: (v) => v.trim().length >= 10,
+    };
+
+    if (form && success) {
+      // Re-validate a field as soon as the user fixes it.
+      form.addEventListener('input', (event) => {
+        const field = event.target;
+        if (!(field instanceof HTMLElement) || !('name' in field)) return;
+        const check = validators[field.name];
+        if (check && field.closest('.field')?.classList.contains('has-error')) {
+          setError(field, !check(field.value));
+        }
+      });
+
+      form.addEventListener('submit', (event) => {
+        // TODO: wire a real endpoint here (e.g. Formspree POST or Netlify Forms)
+        // and remove this preventDefault() so the form actually submits.
+        event.preventDefault();
+
+        let firstInvalid = null;
+        for (const [name, check] of Object.entries(validators)) {
+          const field = form.elements.namedItem(name);
+          if (!field) continue;
+          const valid = setError(field, !check(field.value));
+          if (!valid && !firstInvalid) firstInvalid = field;
+        }
+
+        if (firstInvalid) {
+          firstInvalid.focus();
+          return;
+        }
+
+        form.hidden = true;
+        success.classList.add('visible');
+        success.focus();
+      });
+    }
+  </script>
+</Base>

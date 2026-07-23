@@ -1,0 +1,199 @@
+{
+  "slug": "nusa-rekabina",
+  "copy": {
+    "region": "Puncak Alam, Selangor",
+    "serviceArea": "Puncak Alam, Kuala Selangor, Shah Alam and Setia Alam",
+    "licence": "Registered renovation enterprise (fictional)",
+    "budgets": ["Bawah RM15k", "RM15k – RM30k", "RM30k – RM60k", "RM60k – RM100k", "Melebihi RM100k", "Belum pasti"],
+    "heroHeading": "Your first home, done honestly",
+    "storyHeading": "Built for people buying their first house",
+    "mediaTag": "Bandar Puncak Alam, Selangor",
+    "story": [
+      "Nusa Rekabina started in 2020 in Puncak Alam, where most of our neighbours were collecting keys to their first house with almost nothing left after the down payment.",
+      "Six years and 180 homes later our prices are still published openly, because the people we work for cannot afford a surprise. If you only need the kitchen and the grille this year, we will quote you the kitchen and the grille."
+    ],
+    "seo": {
+      "homeTitle": "Affordable Home Renovation in Puncak Alam",
+      "homeDescription": "Nusa Rekabina offers fixed-price renovation packages for first-time homeowners in Puncak Alam, Kuala Selangor and Shah Alam. Published prices, instalment plans, 30-day builds.",
+      "aboutDescription": "Nusa Rekabina is a renovation contractor in Puncak Alam, founded 2020 — 180 homes completed, with published package prices aimed at first-time owners.",
+      "portfolioDescription": "Selected Nusa Rekabina projects: first-home packages, kitchen cabinets, wardrobes, painting and grille work across Puncak Alam and Shah Alam.",
+      "quoteDescription": "Tell us your budget and we will tell you what it buys. Nusa Rekabina quotes from published package prices, with instalment plans available."
+    }
+  },
+  "company": {
+    "name": "Nusa Rekabina",
+    "legalName": "Nusa Rekabina Enterprise",
+    "tagline": "Honest renovation at a price first-time owners can actually afford.",
+    "phone": "+60 17-283 9964",
+    "email": "nusarekabina@gmail.com",
+    "address": "No. 3-1, Jalan Suasa 7/2, Bandar Puncak Alam, 42300 Kuala Selangor, Selangor",
+    "founded": 2020,
+    "social": [
+      { "name": "Facebook", "url": "#" },
+      { "name": "TikTok", "url": "#" },
+      { "name": "WhatsApp", "url": "#" }
+    ],
+    "stats": [
+      { "value": 180, "suffix": "+", "label": "Homes completed" },
+      { "value": 14, "suffix": "", "label": "Crew members" },
+      { "value": 30, "suffix": "", "label": "Days typical build" },
+      { "value": 6, "suffix": "", "label": "Years in business" }
+    ],
+    "clients": [
+      { "name": "Puncak Hardware", "style": "caps" },
+      { "name": "Jubin Murah Sdn Bhd", "style": "mono" },
+      { "name": "Bina Mesra Supplies", "style": "serif" },
+      { "name": "Alam Perabot", "style": "script" },
+      { "name": "Rumah Pertama Co.", "style": "caps" }
+    ]
+  },
+  "services": [
+    {
+      "slug": "starter-package",
+      "icon": "clipboard",
+      "title": "First Home Package",
+      "blurb": "Fixed-price packages built for new owners with a real budget — everything essential, nothing padded.",
+      "includes": [
+        "Fixed price, published upfront",
+        "Grille, fan points & basic carpentry",
+        "Instalment payment plans",
+        "30-day typical completion"
+      ]
+    },
+    {
+      "slug": "kitchen",
+      "icon": "frame",
+      "title": "Kitchen Cabinet & Tops",
+      "blurb": "A proper kitchen without the showroom markup. Same board, same hardware, fewer middlemen.",
+      "includes": [
+        "Kitchen cabinets, top & bottom",
+        "Quartz or solid surface tops",
+        "Sink, tap & hob cut-outs",
+        "Wet kitchen options available"
+      ]
+    },
+    {
+      "slug": "carpentry",
+      "icon": "sofa",
+      "title": "Wardrobes & Carpentry",
+      "blurb": "Built-in wardrobes and TV consoles sized to your rooms, at a price close to flat-pack.",
+      "includes": [
+        "Built-in wardrobes",
+        "TV console & feature wall",
+        "Study table & shelving",
+        "Shoe cabinet at entry"
+      ]
+    },
+    {
+      "slug": "painting",
+      "icon": "earth",
+      "title": "Painting & Touch-Up",
+      "blurb": "Full house repainting with proper preparation, finished in under a week for most terrace units.",
+      "includes": [
+        "Full interior repainting",
+        "Wall preparation & patching",
+        "Feature wall & accent colours",
+        "Under one week for most terraces"
+      ]
+    },
+    {
+      "slug": "wet-works",
+      "icon": "hammer",
+      "title": "Tiling & Wet Works",
+      "blurb": "Tiling, waterproofing and bathroom upgrades done to standard, priced by the square foot.",
+      "includes": [
+        "Floor & wall tiling",
+        "Bathroom waterproofing",
+        "Sanitary ware installation",
+        "Priced clearly per square foot"
+      ]
+    },
+    {
+      "slug": "grille",
+      "icon": "drafting",
+      "title": "Grille & Awning",
+      "blurb": "Security grilles, gates and awnings — usually the first thing a new owner needs before moving in.",
+      "includes": [
+        "Window & door security grilles",
+        "Sliding & folding gates",
+        "Polycarbonate awnings",
+        "Powder-coated finish"
+      ]
+    }
+  ],
+  "projects": [
+    { "title": "Puncak Alam First Home Package", "location": "Puncak Alam, Selangor", "date": "July 2026", "service": "Starter Package", "seed": "nusa-first" },
+    { "title": "Bandar Puncak Alam Kitchen", "location": "Puncak Alam, Selangor", "date": "May 2026", "service": "Kitchen", "seed": "nusa-kitchen" },
+    { "title": "Elmina Valley Wardrobes", "location": "Shah Alam, Selangor", "date": "March 2026", "service": "Carpentry", "seed": "nusa-elmina" },
+    { "title": "Kuala Selangor Terrace Repaint", "location": "Kuala Selangor, Selangor", "date": "December 2025", "service": "Painting", "seed": "nusa-repaint" },
+    { "title": "Setia Alam Bathroom Upgrade", "location": "Setia Alam, Selangor", "date": "October 2025", "service": "Wet Works", "seed": "nusa-bath" },
+    { "title": "Ijok Grille & Awning Set", "location": "Ijok, Selangor", "date": "July 2025", "service": "Grille", "seed": "nusa-grille" },
+    { "title": "Bukit Cerakah Starter Home", "location": "Shah Alam, Selangor", "date": "April 2025", "service": "Starter Package", "seed": "nusa-cerakah" }
+  ],
+  "testimonials": [
+    {
+      "quote": "First house, small budget, and I was terrified of being cheated. They showed me the price list before I even asked. Everything came to exactly that.",
+      "name": "Amirul Hakim",
+      "city": "Puncak Alam, Selangor",
+      "seed": "avatar-amirul"
+    },
+    {
+      "quote": "They told me honestly that I did not need the full package, just the kitchen and grille first. A contractor turning down work is not something I expected.",
+      "name": "Suhaila Ramli",
+      "city": "Kuala Selangor, Selangor",
+      "seed": "avatar-suhaila"
+    },
+    {
+      "quote": "Thirty days from key collection to moving in, and the instalment plan meant I did not have to touch my savings. Cannot ask for more than that.",
+      "name": "Kavitha Selvam",
+      "city": "Shah Alam, Selangor",
+      "seed": "avatar-kavitha"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "Tell Us Your Budget",
+      "text": "We start from what you can actually spend, not from what we would like to sell you. Our package prices are published, so you can work out roughly where you stand before we even meet."
+    },
+    {
+      "number": "02",
+      "title": "Prioritise the Essentials",
+      "text": "Grille, kitchen and wiring first — the things you cannot move in without. Feature walls and nice-to-haves can wait for next year, and we will tell you which is which."
+    },
+    {
+      "number": "03",
+      "title": "Finish in 30 Days",
+      "text": "Most terrace packages complete within a month so you are not paying rent and instalments at the same time. Payment is staged, with instalment plans available on request."
+    }
+  ],
+  "team": [
+    { "name": "Izwan Mokhtar", "role": "Founder", "seed": "team-izwan" },
+    { "name": "Nur Farhana", "role": "Sales & Client Care", "seed": "team-farhana" },
+    { "name": "Chandran Maniam", "role": "Site Supervisor", "seed": "team-chandran" },
+    { "name": "Syafiq Adnan", "role": "Carpentry Lead", "seed": "team-syafiq" }
+  ],
+  "posts": [
+    {
+      "title": "What to Renovate First When You Collect Your Keys",
+      "category": "First Home",
+      "date": "July 6, 2026",
+      "seed": "post-keys",
+      "excerpt": "Grille, wiring, kitchen. What genuinely cannot wait, what can, and roughly what each costs in 2026."
+    },
+    {
+      "title": "Renovation on RM30,000: What That Actually Buys",
+      "category": "Bajet",
+      "date": "May 21, 2026",
+      "seed": "post-30k",
+      "excerpt": "An honest breakdown for a standard terrace, with the trade-offs spelled out item by item."
+    },
+    {
+      "title": "Five Warning Signs of a Contractor Who Will Disappear",
+      "category": "First Home",
+      "date": "February 18, 2026",
+      "seed": "post-warning",
+      "excerpt": "Large upfront deposits, no written quotation, no fixed address. How to check before you pay anyone."
+    }
+  ]
+}

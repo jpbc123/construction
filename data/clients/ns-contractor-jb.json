@@ -1,0 +1,123 @@
+{
+  "slug": "ns-contractor-jb",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "Web search listing + former blogspot nscontractorjb.blogspot.com (now 404)",
+    "webPresence": "Outdated / defunct Blogspot — qualifies under pitch-targeting rule",
+    "realFields": ["company.name", "company.phone", "company.email", "copy.region", "services (titles from stated services)"],
+    "verifyBeforePitch": ["phone", "email", "address", "founded", "licence", "legalName"],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client."
+  },
+  "copy": {
+    "region": "Johor Bahru, Johor",
+    "serviceArea": "Johor Bahru and surrounding areas",
+    "licence": "[verify CIDB registration — not stated in source]",
+    "budgets": ["Under RM30k", "RM30k – RM80k", "RM80k – RM160k", "RM160k – RM350k", "Above RM350k", "Not sure yet"],
+    "heroHeading": "Renovation, remodelling and repairs done right",
+    "storyHeading": "A Johor Bahru renovation team",
+    "mediaTag": "Johor Bahru, Johor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] NS Contractor is a Johor Bahru renovation and remodelling team handling renovation, demolition and repair works across the JB area.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation & Remodelling Contractor in Johor Bahru",
+      "homeDescription": "NS Contractor handles renovation, remodelling, demolition and repair works across Johor Bahru. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] NS Contractor is a renovation and repair contractor based in Johor Bahru.",
+      "portfolioDescription": "[SAMPLE] Selected NS Contractor projects across Johor Bahru — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact NS Contractor for a renovation quotation in Johor Bahru."
+    }
+  },
+  "company": {
+    "name": "NS Contractor JB",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, remodelling and repairs in Johor Bahru.",
+    "phone": "+60 11-6966 7922",
+    "email": "nsteam10@yahoo.com",
+    "address": "[verify — service area stated as Johor Bahru]",
+    "founded": 2015,
+    "social": [
+      { "name": "WhatsApp", "url": "https://wa.me/601169667922" },
+      { "name": "Facebook", "url": "#" }
+    ],
+    "stats": [
+      { "value": 0, "suffix": "+", "label": "[SAMPLE — jobs completed]" },
+      { "value": 0, "suffix": "", "label": "[SAMPLE — crew size]" },
+      { "value": 0, "suffix": "", "label": "[SAMPLE — years in JB]" },
+      { "value": 0, "suffix": "%", "label": "[SAMPLE — or remove tile]" }
+    ],
+    "clients": [
+      { "name": "[SAMPLE supplier]", "style": "caps" },
+      { "name": "[SAMPLE supplier]", "style": "serif" },
+      { "name": "[SAMPLE supplier]", "style": "mono" }
+    ]
+  },
+  "services": [
+    {
+      "slug": "renovation-remodelling",
+      "icon": "hammer",
+      "title": "Renovation & Remodelling",
+      "blurb": "Home and property renovation and remodelling works across Johor Bahru.",
+      "includes": ["[SAMPLE bullet — confirm]", "[SAMPLE bullet]", "[SAMPLE bullet]"]
+    },
+    {
+      "slug": "demolition",
+      "icon": "drafting",
+      "title": "Demolition Works",
+      "blurb": "Demolition services as stated in the firm's listing.",
+      "includes": ["[SAMPLE bullet — confirm]", "[SAMPLE bullet]"]
+    },
+    {
+      "slug": "repairs-maintenance",
+      "icon": "clipboard",
+      "title": "Repairs & Maintenance",
+      "blurb": "Repair and maintenance works for homes and buildings in the JB area.",
+      "includes": ["[SAMPLE bullet — confirm]", "[SAMPLE bullet]"]
+    },
+    {
+      "slug": "sample-4",
+      "icon": "frame",
+      "title": "[SAMPLE service — verify offering]",
+      "blurb": "[SAMPLE] Replace with a real service or delete this card.",
+      "includes": ["[SAMPLE bullet]", "[SAMPLE bullet]"]
+    },
+    {
+      "slug": "sample-5",
+      "icon": "sofa",
+      "title": "[SAMPLE service — verify offering]",
+      "blurb": "[SAMPLE] Replace with a real service or delete this card.",
+      "includes": ["[SAMPLE bullet]", "[SAMPLE bullet]"]
+    },
+    {
+      "slug": "sample-6",
+      "icon": "earth",
+      "title": "[SAMPLE service — verify offering]",
+      "blurb": "[SAMPLE] Replace with a real service or delete this card.",
+      "includes": ["[SAMPLE bullet]", "[SAMPLE bullet]"]
+    }
+  ],
+  "projects": [
+    { "title": "[SAMPLE project — replace with real photos]", "location": "Johor Bahru, Johor", "date": "2025", "service": "Renovation & Remodelling", "seed": "ns-sample-1" },
+    { "title": "[SAMPLE project]", "location": "Johor Bahru, Johor", "date": "2025", "service": "Repairs & Maintenance", "seed": "ns-sample-2" },
+    { "title": "[SAMPLE project]", "location": "Johor Bahru, Johor", "date": "2024", "service": "Demolition Works", "seed": "ns-sample-3" }
+  ],
+  "testimonials": [
+    { "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]", "name": "[Client name]", "city": "Johor Bahru, Johor", "seed": "ns-avatar-1" },
+    { "quote": "[SAMPLE testimonial — replace or remove.]", "name": "[Client name]", "city": "Johor Bahru, Johor", "seed": "ns-avatar-2" },
+    { "quote": "[SAMPLE testimonial — replace or remove.]", "name": "[Client name]", "city": "Johor Bahru, Johor", "seed": "ns-avatar-3" }
+  ],
+  "process": [
+    { "number": "01", "title": "[SAMPLE] Enquiry & Site Visit", "text": "[SAMPLE process step — replace with the firm's actual workflow.]" },
+    { "number": "02", "title": "[SAMPLE] Quotation", "text": "[SAMPLE process step — replace.]" },
+    { "number": "03", "title": "[SAMPLE] Build & Handover", "text": "[SAMPLE process step — replace.]" }
+  ],
+  "team": [
+    { "name": "[Team member]", "role": "[SAMPLE role]", "seed": "ns-team-1" },
+    { "name": "[Team member]", "role": "[SAMPLE role]", "seed": "ns-team-2" }
+  ],
+  "posts": [
+    { "title": "[SAMPLE blog post — replace or remove]", "category": "Field Notes", "date": "2025", "seed": "ns-post-1", "excerpt": "[SAMPLE excerpt.]" },
+    { "title": "[SAMPLE blog post]", "category": "Materials", "date": "2025", "seed": "ns-post-2", "excerpt": "[SAMPLE excerpt.]" },
+    { "title": "[SAMPLE blog post]", "category": "Regulations", "date": "2025", "seed": "ns-post-3", "excerpt": "[SAMPLE excerpt.]" }
+  ]
+}

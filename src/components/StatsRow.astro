@@ -1,0 +1,16 @@
+---
+const { client } = Astro.props;
+---
+
+<div class="stats-row" data-reveal>
+  {
+    client.company.stats.map((stat) => (
+      <div class="stat">
+        <div class="stat-figure">
+          <span data-countup={stat.value}>0</span><span class="suffix">{stat.suffix}</span>
+        </div>
+        <div class="stat-label">{stat.label}</div>
+      </div>
+    ))
+  }
+</div>

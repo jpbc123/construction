@@ -1,0 +1,27 @@
+---
+const { project, href = '/portfolio', delay = 0, eager = false } = Astro.props;
+---
+
+<a
+  class="card project-card"
+  href={href}
+  data-service={project.service}
+  data-reveal
+  style={`--reveal-delay: ${delay}ms;`}
+>
+  <img
+    src={`https://picsum.photos/seed/${project.seed}/800/600`}
+    alt={`${project.title} — ${project.service.toLowerCase()} project in ${project.location}`}
+    width="800"
+    height="600"
+    loading={eager ? 'eager' : 'lazy'}
+  />
+  <div class="project-body">
+    <h3>{project.title}</h3>
+    <dl class="project-meta">
+      <div><dt>Date</dt><dd>{project.date}</dd></div>
+      <div><dt>Location</dt><dd>{project.location}</dd></div>
+      <div><dt>Service</dt><dd>{project.service}</dd></div>
+    </dl>
+  </div>
+</a>

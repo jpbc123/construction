@@ -1,0 +1,199 @@
+{
+  "slug": "teratak-ideal",
+  "copy": {
+    "region": "Bukit Jelutong, Selangor",
+    "serviceArea": "Bukit Jelutong, Shah Alam, Denai Alam and Setia Alam",
+    "licence": "Registered renovation contractor (fictional)",
+    "budgets": ["Bawah RM40k", "RM40k – RM90k", "RM90k – RM180k", "RM180k – RM350k", "Melebihi RM350k", "Belum pasti"],
+    "heroHeading": "Rumah idaman, siap ikut janji",
+    "storyHeading": "Bermula dengan satu keluarga, satu rumah",
+    "mediaTag": "Bukit Jelutong, Shah Alam",
+    "story": [
+      "Teratak Ideal started in 2013 when Puan Rohani renovated her own family home and discovered how few contractors would simply finish what they promised, on the date they promised it.",
+      "Thirteen years and 310 homes later we still work mainly for families — people living in the house while we work in it. That shapes everything: we tidy daily, we schedule around Raya and school holidays, and we never charge for anything you did not agree to in writing."
+    ],
+    "seo": {
+      "homeTitle": "Ubah Suai Rumah di Bukit Jelutong & Shah Alam",
+      "homeDescription": "Teratak Ideal renovates family homes across Bukit Jelutong, Shah Alam and Setia Alam. Fixed-price packages, instalment plans, free first site visit.",
+      "aboutDescription": "Teratak Ideal is a family-focused renovation contractor in Bukit Jelutong, founded 2013 — 22 crew who have renovated over 310 homes across Shah Alam.",
+      "portfolioDescription": "Selected Teratak Ideal projects: full home renovations, wet kitchens, extensions and built-in cabinets across Bukit Jelutong, Shah Alam and Setia Alam.",
+      "quoteDescription": "Hubungi kami untuk lawatan tapak percuma. Teratak Ideal will send an itemised quotation within three working days, in Bahasa or English."
+    }
+  },
+  "company": {
+    "name": "Teratak Ideal",
+    "legalName": "Teratak Ideal Renovation Enterprise",
+    "tagline": "Rumah idaman keluarga — built by a team that treats your house like their own.",
+    "phone": "+60 13-662 5518",
+    "email": "salam@teratakideal.my",
+    "address": "No. 7, Jalan Jelutong U8/79, Bukit Jelutong, 40150 Shah Alam, Selangor",
+    "founded": 2013,
+    "social": [
+      { "name": "Facebook", "url": "#" },
+      { "name": "Instagram", "url": "#" },
+      { "name": "TikTok", "url": "#" }
+    ],
+    "stats": [
+      { "value": 310, "suffix": "+", "label": "Family homes" },
+      { "value": 22, "suffix": "", "label": "Crew members" },
+      { "value": 100, "suffix": "%", "label": "Muslim-friendly crew" },
+      { "value": 13, "suffix": "", "label": "Years serving families" }
+    ],
+    "clients": [
+      { "name": "Perabot Warisan", "style": "script" },
+      { "name": "Jubin Selatan", "style": "caps" },
+      { "name": "Kayu Nusantara", "style": "serif" },
+      { "name": "Sinar Hardware", "style": "mono" },
+      { "name": "Reka Bumi Supplies", "style": "caps" }
+    ]
+  },
+  "services": [
+    {
+      "slug": "ubahsuai",
+      "icon": "hammer",
+      "title": "Full Home Renovation",
+      "blurb": "Ubah suai rumah from start to finish — one team, one price, no chasing five different contractors.",
+      "includes": [
+        "Complete hacking & rebuilding",
+        "Wiring, plumbing & sanitary",
+        "Plaster ceiling & cornice",
+        "Progress updates in Bahasa or English"
+      ]
+    },
+    {
+      "slug": "dapur",
+      "icon": "frame",
+      "title": "Kitchen & Wet Works",
+      "blurb": "Dapur basah and dapur kering planned for real Malaysian cooking — heavy use, heavy oil, heavy washing.",
+      "includes": [
+        "Wet & dry kitchen separation",
+        "Heavy-duty ventilation",
+        "Full waterproofing system",
+        "Easy-clean tiling & surfaces"
+      ]
+    },
+    {
+      "slug": "kabinet",
+      "icon": "sofa",
+      "title": "Built-In Cabinets",
+      "blurb": "Wardrobes, kitchen cabinets and TV consoles built on site to fit your walls exactly.",
+      "includes": [
+        "Custom wardrobes & almari",
+        "Moisture-resistant kitchen cabinets",
+        "TV feature walls",
+        "Soft-close hinges & runners"
+      ]
+    },
+    {
+      "slug": "tambahan",
+      "icon": "drafting",
+      "title": "Extension & Awning",
+      "blurb": "Extra space for a growing family — rear extensions, car porch, and awnings that survive the sun.",
+      "includes": [
+        "Rear & side extensions",
+        "Car porch & polycarbonate awning",
+        "Engineer's drawings arranged",
+        "Council submission assistance"
+      ]
+    },
+    {
+      "slug": "cat",
+      "icon": "earth",
+      "title": "Painting & Repair",
+      "blurb": "Repainting, crack repair and waterproofing to keep the house looking cared for, inside and out.",
+      "includes": [
+        "Interior & exterior repainting",
+        "Crack repair & skim coat",
+        "Roof leak & gutter repair",
+        "Anti-fungal wet area treatment"
+      ]
+    },
+    {
+      "slug": "pakej",
+      "icon": "clipboard",
+      "title": "Renovation Packages",
+      "blurb": "Fixed-price packages for standard terrace layouts, so you know the cost before we even visit.",
+      "includes": [
+        "Fixed packages for 20x70 & 22x75",
+        "Instalment payment plans available",
+        "Clear scope, no hidden charges",
+        "Free first site visit & consultation"
+      ]
+    }
+  ],
+  "projects": [
+    { "title": "Bukit Jelutong Family Home", "location": "Shah Alam, Selangor", "date": "June 2026", "service": "Full Home", "seed": "teratak-jelutong" },
+    { "title": "Setia Alam Dapur Basah", "location": "Setia Alam, Selangor", "date": "March 2026", "service": "Kitchen", "seed": "teratak-dapur" },
+    { "title": "Denai Alam Rear Extension", "location": "Shah Alam, Selangor", "date": "January 2026", "service": "Extension", "seed": "teratak-denai" },
+    { "title": "Taman Nusa Subang Terrace", "location": "Subang, Selangor", "date": "October 2025", "service": "Full Home", "seed": "teratak-nusa" },
+    { "title": "Elmina Wardrobe & Cabinets", "location": "Shah Alam, Selangor", "date": "August 2025", "service": "Cabinets", "seed": "teratak-elmina" },
+    { "title": "Puncak Alam Repaint & Repair", "location": "Puncak Alam, Selangor", "date": "May 2025", "service": "Painting", "seed": "teratak-puncak" },
+    { "title": "Kota Kemuning Car Porch", "location": "Shah Alam, Selangor", "date": "February 2025", "service": "Extension", "seed": "teratak-porch" }
+  ],
+  "testimonials": [
+    {
+      "quote": "Puan Rohani and her team understood exactly what we needed for a family with four children. The dapur basah alone changed how we live.",
+      "name": "Ahmad Firdaus",
+      "city": "Bukit Jelutong, Selangor",
+      "seed": "avatar-firdaus"
+    },
+    {
+      "quote": "They stopped work for solat and finished before Raya as promised. Small things, but it showed they respected the house and us.",
+      "name": "Norazlina Abu Bakar",
+      "city": "Setia Alam, Selangor",
+      "seed": "avatar-norazlina"
+    },
+    {
+      "quote": "We took the fixed package for our 20x70. Price on the flyer was the price we paid. After three quotations elsewhere, that was a relief.",
+      "name": "Shahrul Nizam",
+      "city": "Denai Alam, Selangor",
+      "seed": "avatar-shahrul"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "Berbincang",
+      "text": "A free first visit to your home. We measure, listen, and talk through what your family actually needs — in Bahasa or English, whichever is easier. You get an itemised quotation within three working days."
+    },
+    {
+      "number": "02",
+      "title": "Reka Bentuk",
+      "text": "3D drawings so you can see the result before anything is hacked. Instalment payment plans are arranged here, and we agree the schedule around Raya, school holidays or whatever matters to you."
+    },
+    {
+      "number": "03",
+      "title": "Bina & Serah",
+      "text": "Our own crew works clean and tidies daily — you are still living there. Photo updates every week, and nothing extra is charged without your written agreement first."
+    }
+  ],
+  "team": [
+    { "name": "Rohani Ismail", "role": "Founder & Managing Director", "seed": "team-rohani" },
+    { "name": "Khairul Anwar", "role": "Site Supervisor", "seed": "team-khairul" },
+    { "name": "Fatimah Zahra", "role": "Design & Client Relations", "seed": "team-fatimah" },
+    { "name": "Sanjay Kumar", "role": "Carpentry Foreman", "seed": "team-sanjay" }
+  ],
+  "posts": [
+    {
+      "title": "Berapa Kos Ubah Suai Rumah Teres 20x70?",
+      "category": "Bajet",
+      "date": "June 30, 2026",
+      "seed": "post-kos-teres",
+      "excerpt": "Breakdown kos sebenar untuk rumah teres dua tingkat di Shah Alam dan Setia Alam, ikut setiap bahagian kerja."
+    },
+    {
+      "title": "Dapur Basah vs Dapur Kering: Which Do You Actually Need?",
+      "category": "Kitchen",
+      "date": "April 16, 2026",
+      "seed": "post-dapur",
+      "excerpt": "Not every home needs both. How to decide based on how your family cooks, and what each really costs to build."
+    },
+    {
+      "title": "Renovating While Still Living in the House",
+      "category": "Field Notes",
+      "date": "February 11, 2026",
+      "seed": "post-living",
+      "excerpt": "Dust, water cuts and where to cook. A practical guide to phasing renovation so your family can stay put."
+    }
+  ]
+}

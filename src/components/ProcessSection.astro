@@ -1,0 +1,38 @@
+---
+const { client, num = '07' } = Astro.props;
+---
+
+<section class="section" aria-labelledby="process-heading">
+  <div class="container">
+    <div class="process-grid">
+      <div data-reveal>
+        <p class="eyebrow"><span class="num">{num}</span> / How we work</p>
+        <h2 id="process-heading">A process with no surprises</h2>
+        <div class="process-steps">
+          {
+            client.process.map((step) => (
+              <div class="process-step">
+                <div class="step-num" aria-hidden="true">
+                  {step.number}
+                </div>
+                <div>
+                  <h3>{step.title}</h3>
+                  <p>{step.text}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+      <div class="process-media" data-reveal style="--reveal-delay: 120ms;">
+        <img
+          src={`https://picsum.photos/seed/${client.slug}-process/900/1050`}
+          alt={`${client.company.name} site supervisor reviewing drawings on an active job site`}
+          width="900"
+          height="1050"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+</section>

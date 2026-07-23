@@ -1,0 +1,67 @@
+---
+import Base from '../../layouts/Base.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import Icon from '../../components/Icon.astro';
+import { getClientSlugs, getClient, url } from '../../lib/clients.js';
+
+export function getStaticPaths() {
+  return getClientSlugs().map((slug) => ({
+    params: { client: slug },
+    props: { client: getClient(slug) },
+  }));
+}
+
+const { client } = Astro.props;
+const { services, copy } = client;
+---
+
+<Base
+  client={client}
+  title="Services"
+  description={`${services.map((s) => s.title).slice(0, 4).join(', ')} and more — six services from one accountable team.`}
+>
+  <section class="page-hero dark-section" aria-labelledby="services-hero-heading">
+    <div class="container">
+      <p class="eyebrow"><span class="num">01</span> / Services</p>
+      <h1 id="services-hero-heading">Everything between the first visit and the keys</h1>
+      <p class="lede">
+        Hire us for one phase or the whole project. Either way you get the same quoting rigour,
+        the same crew, and the same weekly reporting.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-label="All services">
+    <div class="container">
+      {
+        services.map((service, i) => (
+          <article class="service-row" id={service.slug} data-reveal>
+            <span class="icon-badge">
+              <Icon name={service.icon} size={32} />
+            </span>
+            <div>
+              <p class="eyebrow">
+                <span class="num">{String(i + 1).padStart(2, '0')}</span>
+              </p>
+              <h2>{service.title}</h2>
+              <p>{service.blurb}</p>
+              <a class="card-link-note" href={url(client, 'quote')}>
+                Request a quote →
+              </a>
+            </div>
+            <div>
+              <h3>What's included</h3>
+              <ul class="includes-list">
+                {service.includes.map((item) => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <CtaBand client={client} seed={`${client.slug}-cta-services`} />
+</Base>

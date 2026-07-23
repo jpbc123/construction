@@ -1,0 +1,199 @@
+{
+  "slug": "batu-besi",
+  "copy": {
+    "region": "Klang, Selangor",
+    "serviceArea": "Klang, Kapar, Meru, Port Klang and Setia Alam",
+    "licence": "CIDB registered · Certified welding (fictional)",
+    "budgets": ["Under RM10k", "RM10k – RM25k", "RM25k – RM60k", "RM60k – RM150k", "Above RM150k", "Not sure yet"],
+    "heroHeading": "Built to take the weather",
+    "storyHeading": "Eighteen years of fabricating in Klang",
+    "mediaTag": "Jalan Kapar, Klang",
+    "story": [
+      "Batu & Besi opened its Kapar workshop in 2008 making security grilles. Awnings followed, then staircases, then the external works that kept coming up on the same jobs — driveways, drains, boundary walls.",
+      "Eighteen years on we still fabricate everything ourselves rather than buying in. It is why we can show you the beam sizing before you commit, and why our structural steelwork carries a ten-year warranty."
+    ],
+    "seo": {
+      "homeTitle": "Awnings, Grilles & Metalwork in Klang",
+      "homeDescription": "Batu & Besi fabricates car porch awnings, security grilles, autogates, staircases and external works across Klang, Kapar and Setia Alam. Own workshop, 10-year structural warranty.",
+      "aboutDescription": "Batu & Besi is a metalwork and external works contractor in Klang, established 2008 — 24 fabricators and fitters with over 950 installations across the Klang Valley.",
+      "portfolioDescription": "Selected Batu & Besi projects: car porch awnings, autogates, glass balustrades, re-roofing, driveways and light industrial metalwork across Klang and Setia Alam.",
+      "quoteDescription": "Send us your span and site photos. Batu & Besi will size the steel and quote, including the load calculation behind the price."
+    }
+  },
+  "company": {
+    "name": "Batu & Besi",
+    "legalName": "Batu & Besi Contracting Sdn Bhd",
+    "tagline": "Metalwork, awnings and external works — the parts of the house that take the weather.",
+    "phone": "+60 3-3324 6619",
+    "email": "info@batubesi.com.my",
+    "address": "Lot 42, Jalan Kapar Batu 5, 42100 Klang, Selangor",
+    "founded": 2008,
+    "social": [
+      { "name": "Facebook", "url": "#" },
+      { "name": "WhatsApp", "url": "#" },
+      { "name": "Instagram", "url": "#" }
+    ],
+    "stats": [
+      { "value": 950, "suffix": "+", "label": "Installations" },
+      { "value": 24, "suffix": "", "label": "Fabricators & fitters" },
+      { "value": 10, "suffix": "yr", "label": "Structural warranty" },
+      { "value": 18, "suffix": "", "label": "Years fabricating" }
+    ],
+    "clients": [
+      { "name": "Kapar Steel Mill", "style": "caps" },
+      { "name": "Klang Alloy Trading", "style": "mono" },
+      { "name": "Selangor Autogate Co.", "style": "serif" },
+      { "name": "Besi Jaya Supply", "style": "caps" },
+      { "name": "Polycarb Malaysia", "style": "mono" }
+    ]
+  },
+  "services": [
+    {
+      "slug": "awning",
+      "icon": "frame",
+      "title": "Awnings & Car Porch",
+      "blurb": "Car porch roofing and awnings engineered for real monsoon loads, not just to look right on a sunny day.",
+      "includes": [
+        "Polycarbonate & metal deck roofing",
+        "Mild steel or aluminium frames",
+        "Proper fall & drainage design",
+        "10-year structural warranty"
+      ]
+    },
+    {
+      "slug": "grille",
+      "icon": "drafting",
+      "title": "Grilles & Gates",
+      "blurb": "Security grilles, sliding gates and autogates fabricated in our own Klang workshop.",
+      "includes": [
+        "Window & door security grilles",
+        "Sliding, folding & swing gates",
+        "Autogate motor supply & install",
+        "Powder-coated or galvanised finish"
+      ]
+    },
+    {
+      "slug": "staircase",
+      "icon": "sofa",
+      "title": "Staircases & Railings",
+      "blurb": "Steel staircases, glass balustrades and handrails — structural work that has to look like furniture.",
+      "includes": [
+        "Steel & timber staircases",
+        "Glass & stainless balustrades",
+        "Internal and external handrails",
+        "Site-measured, workshop-built"
+      ]
+    },
+    {
+      "slug": "roofing",
+      "icon": "earth",
+      "title": "Roofing & Waterproofing",
+      "blurb": "Re-roofing, leak repair, gutters and flashing across landed homes and light industrial units.",
+      "includes": [
+        "Metal deck & tile re-roofing",
+        "Gutter & downpipe replacement",
+        "Flashing & leak repair",
+        "Roof insulation & sisalation"
+      ]
+    },
+    {
+      "slug": "external",
+      "icon": "hammer",
+      "title": "External & Hardscape",
+      "blurb": "Driveways, drains, boundary walls and fencing — the groundwork that keeps water away from the house.",
+      "includes": [
+        "Driveway paving & concrete",
+        "Surface & perimeter drainage",
+        "Boundary walls & fencing",
+        "Retaining wall construction"
+      ]
+    },
+    {
+      "slug": "industrial",
+      "icon": "clipboard",
+      "title": "Light Industrial Works",
+      "blurb": "Factory and warehouse metalwork for owners around Kapar, Meru and Port Klang.",
+      "includes": [
+        "Mezzanine floors & platforms",
+        "Loading bay canopies",
+        "Safety railings & access ladders",
+        "Roller shutter installation"
+      ]
+    }
+  ],
+  "projects": [
+    { "title": "Bandar Bukit Raja Car Porch", "location": "Klang, Selangor", "date": "July 2026", "service": "Awning", "seed": "besi-porch" },
+    { "title": "Setia Alam Autogate & Grilles", "location": "Setia Alam, Selangor", "date": "April 2026", "service": "Grille", "seed": "besi-autogate" },
+    { "title": "Bandar Botanic Glass Balustrade", "location": "Klang, Selangor", "date": "February 2026", "service": "Staircase", "seed": "besi-balustrade" },
+    { "title": "Meru Factory Mezzanine", "location": "Meru, Selangor", "date": "November 2025", "service": "Industrial", "seed": "besi-mezzanine" },
+    { "title": "Kapar Terrace Re-Roofing", "location": "Kapar, Selangor", "date": "August 2025", "service": "Roofing", "seed": "besi-reroof" },
+    { "title": "Klang Driveway & Drainage", "location": "Klang, Selangor", "date": "May 2025", "service": "External", "seed": "besi-driveway" },
+    { "title": "Port Klang Loading Bay Canopy", "location": "Port Klang, Selangor", "date": "February 2025", "service": "Industrial", "seed": "besi-canopy" }
+  ],
+  "testimonials": [
+    {
+      "quote": "Our previous awning collapsed in a storm after four years. Batu & Besi showed us the beam sizing calculation before quoting. Three monsoons later it has not moved.",
+      "name": "Sivakumar Rajan",
+      "city": "Klang, Selangor",
+      "seed": "avatar-sivakumar"
+    },
+    {
+      "quote": "The autogate has been opening and closing twice a day for five years with one service call. For the price, that is remarkable.",
+      "name": "Yap Mei Chen",
+      "city": "Bandar Botanic, Selangor",
+      "seed": "avatar-meichen"
+    },
+    {
+      "quote": "They fixed the driveway drainage that three other contractors had patched. Water was never going to run uphill — someone finally said so and regraded it.",
+      "name": "Ismail Bakar",
+      "city": "Kapar, Selangor",
+      "seed": "avatar-ismail"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "Measure & Calculate",
+      "text": "We site-measure and size the steel to the span and the load. Most awning failures around here are undersized beams, so we will show you the calculation rather than ask you to trust the quote."
+    },
+    {
+      "number": "02",
+      "title": "Fabricate in Workshop",
+      "text": "Everything is cut, welded and finished in our Klang workshop, not on your driveway. Welds are done properly under cover, and the finish is applied before anything reaches your house."
+    },
+    {
+      "number": "03",
+      "title": "Install & Warrant",
+      "text": "Installation usually takes one to three days with minimal mess. Structural steelwork carries a ten-year warranty; motors and moving parts carry the manufacturer's terms plus our first-year service."
+    }
+  ],
+  "team": [
+    { "name": "Lim Boon Hock", "role": "Founder & Managing Director", "seed": "team-boonhock" },
+    { "name": "Suresh Nadarajah", "role": "Workshop Manager", "seed": "team-suresh" },
+    { "name": "Farid Osman", "role": "Installation Supervisor", "seed": "team-farid" },
+    { "name": "Angeline Ho", "role": "Sales & Scheduling", "seed": "team-angeline" }
+  ],
+  "posts": [
+    {
+      "title": "Why Car Porch Awnings Fail in Malaysian Storms",
+      "category": "Field Notes",
+      "date": "July 16, 2026",
+      "seed": "post-awning",
+      "excerpt": "Undersized beams, wrong fixings and no drainage fall. The three failures we are called out to fix most often."
+    },
+    {
+      "title": "Polycarbonate vs Metal Deck for Car Porch Roofing",
+      "category": "Materials",
+      "date": "May 2, 2026",
+      "seed": "post-polycarb",
+      "excerpt": "Heat, noise in rain, lifespan and cost compared honestly — including where each one is the wrong choice."
+    },
+    {
+      "title": "Autogate Motors: What Actually Determines Lifespan",
+      "category": "Maintenance",
+      "date": "March 12, 2026",
+      "seed": "post-autogate",
+      "excerpt": "Gate weight, rail alignment and servicing intervals matter far more than the brand on the motor casing."
+    }
+  ]
+}

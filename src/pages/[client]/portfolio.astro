@@ -1,0 +1,77 @@
+---
+import Base from '../../layouts/Base.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import { getClientSlugs, getClient } from '../../lib/clients.js';
+
+export function getStaticPaths() {
+  return getClientSlugs().map((slug) => ({
+    params: { client: slug },
+    props: { client: getClient(slug) },
+  }));
+}
+
+const { client } = Astro.props;
+const { projects, copy } = client;
+
+const categories = ['All', ...new Set(projects.map((p) => p.service))];
+---
+
+<Base client={client} title="Portfolio" description={copy.seo.portfolioDescription}>
+  <section class="page-hero dark-section" aria-labelledby="portfolio-hero-heading">
+    <div class="container">
+      <p class="eyebrow"><span class="num">01</span> / Portfolio</p>
+      <h1 id="portfolio-hero-heading">Built, delivered, and standing proud</h1>
+      <p class="lede">
+        A selection of recent work. Every project below finished within its approved budget —
+        ask us for the references.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Project gallery">
+    <div class="container">
+      <div class="filter-bar" role="group" aria-label="Filter projects by service">
+        {
+          categories.map((category, i) => (
+            <button
+              class="filter-btn"
+              type="button"
+              data-filter={category}
+              aria-pressed={i === 0 ? 'true' : 'false'}
+            >
+              {category}
+            </button>
+          ))
+        }
+      </div>
+
+      <div class="grid-3" id="project-grid">
+        {projects.map((project, i) => <ProjectCard project={project} href="#" delay={(i % 3) * 90} />)}
+      </div>
+    </div>
+  </section>
+
+  <CtaBand
+    client={client}
+    seed={`${client.slug}-cta-portfolio`}
+    heading="Your home could be next."
+    text="Send us the broad strokes and we'll tell you what it takes to build it — timeline, budget range, and the first three decisions that matter."
+  />
+
+  <script>
+    const buttons = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('#project-grid .project-card');
+
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+        buttons.forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+        cards.forEach((card) => {
+          const show = filter === 'All' || card.dataset.service === filter;
+          card.classList.toggle('project-hidden', !show);
+        });
+      });
+    });
+  </script>
+</Base>

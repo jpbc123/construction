@@ -1,0 +1,199 @@
+{
+  "slug": "ruang-murni",
+  "copy": {
+    "region": "Setia Alam, Selangor",
+    "serviceArea": "Setia Alam, Shah Alam and Petaling Jaya",
+    "licence": "Registered interior contractor (fictional)",
+    "budgets": ["Under RM25k", "RM25k – RM50k", "RM50k – RM90k", "RM90k – RM150k", "Above RM150k", "Not sure yet"],
+    "heroHeading": "Small space, properly solved",
+    "storyHeading": "We stopped taking landed homes in 2021",
+    "mediaTag": "Setia Avenue, Setia Alam",
+    "story": [
+      "Ruang Murni started in 2019 taking any work we could get. Within two years it was clear that condo units were where we were genuinely better than everyone else — and that treating them as small houses was why most contractors got them wrong.",
+      "So we stopped taking landed work entirely. Everything we know now is about units under 1,200 square feet: where storage hides, what management corporations require, and how to finish in forty-five days without your neighbours filing a complaint."
+    ],
+    "seo": {
+      "homeTitle": "Condo Renovation Specialists in Setia Alam",
+      "homeDescription": "Ruang Murni renovates condominium and small-space units across Setia Alam and Shah Alam. Fixed packages by square footage, management approvals handled, 45-day builds.",
+      "aboutDescription": "Ruang Murni is a condo and small-space renovation specialist in Setia Alam, founded 2019 — 240 units completed, and no landed homes since 2021.",
+      "portfolioDescription": "Selected Ruang Murni projects: condo renovations, storage-led interiors, compact kitchens and rental fit-outs across Setia Alam and Shah Alam.",
+      "quoteDescription": "Send us your unit size and floor plan. Ruang Murni will quote a fixed package price, usually the same day. No obligation."
+    }
+  },
+  "company": {
+    "name": "Ruang Murni",
+    "legalName": "Ruang Murni Interior Sdn Bhd",
+    "tagline": "Condo and small-space specialists. We make 900 square feet live like 1,300.",
+    "phone": "+60 16-408 2213",
+    "email": "hello@ruangmurni.my",
+    "address": "B-3-7, Setia Avenue, Jalan Setia Prima, Setia Alam, 40170 Shah Alam, Selangor",
+    "founded": 2019,
+    "social": [
+      { "name": "Instagram", "url": "#" },
+      { "name": "TikTok", "url": "#" },
+      { "name": "WhatsApp", "url": "#" }
+    ],
+    "stats": [
+      { "value": 240, "suffix": "+", "label": "Units completed" },
+      { "value": 11, "suffix": "", "label": "Team members" },
+      { "value": 45, "suffix": "", "label": "Days average build" },
+      { "value": 7, "suffix": "", "label": "Years specialising" }
+    ],
+    "clients": [
+      { "name": "Setia Avenue MC", "style": "caps" },
+      { "name": "Trefoil Residence", "style": "serif" },
+      { "name": "Alam Suites", "style": "mono" },
+      { "name": "Ruang Living Co.", "style": "script" },
+      { "name": "Kompak Storage", "style": "caps" }
+    ]
+  },
+  "services": [
+    {
+      "slug": "condo-package",
+      "icon": "clipboard",
+      "title": "Condo Renovation Package",
+      "blurb": "Fixed-price packages by unit size, covering everything from management approval to final cleaning.",
+      "includes": [
+        "Fixed price by unit square footage",
+        "Management approval paperwork",
+        "45-day typical completion",
+        "Final cleaning before handover"
+      ]
+    },
+    {
+      "slug": "storage",
+      "icon": "sofa",
+      "title": "Space & Storage Design",
+      "blurb": "The whole reason to hire us. Every awkward corner turned into storage you will actually use.",
+      "includes": [
+        "Full-height custom wardrobes",
+        "Under-bed & bench storage",
+        "Foldaway and multi-use furniture",
+        "Entryway & shoe storage planning"
+      ]
+    },
+    {
+      "slug": "kitchen",
+      "icon": "frame",
+      "title": "Compact Kitchen",
+      "blurb": "Small kitchens where the fridge door still opens fully and there is somewhere to put the shopping down.",
+      "includes": [
+        "Galley & L-shape optimisation",
+        "Integrated appliance planning",
+        "Tall pantry & pull-out units",
+        "Quartz or sintered stone tops"
+      ]
+    },
+    {
+      "slug": "design",
+      "icon": "drafting",
+      "title": "Interior Design & 3D",
+      "blurb": "See your unit before we touch it. Full 3D walkthrough so you approve the real thing, not a guess.",
+      "includes": [
+        "Measured survey of your unit",
+        "Full 3D walkthrough video",
+        "Material & finish selection",
+        "Lighting and power point planning"
+      ]
+    },
+    {
+      "slug": "rental",
+      "icon": "earth",
+      "title": "Rental & Airbnb Fit-Out",
+      "blurb": "Fast, durable fit-outs for investors — finished to photograph well and survive tenant turnover.",
+      "includes": [
+        "Durable, low-maintenance finishes",
+        "Full furnishing & styling",
+        "Listing photography arranged",
+        "Fast turnaround between tenants"
+      ]
+    },
+    {
+      "slug": "refresh",
+      "icon": "hammer",
+      "title": "Partial Refresh",
+      "blurb": "Not every unit needs gutting. Painting, one new bathroom, new carpentry — done in two weeks.",
+      "includes": [
+        "Repainting & feature walls",
+        "Single-room renovation",
+        "Carpentry-only packages",
+        "Two-week typical turnaround"
+      ]
+    }
+  ],
+  "projects": [
+    { "title": "Setia Avenue 950 sq ft", "location": "Setia Alam, Selangor", "date": "June 2026", "service": "Condo Package", "seed": "murni-avenue" },
+    { "title": "Trefoil Residence Studio", "location": "Setia Alam, Selangor", "date": "April 2026", "service": "Rental", "seed": "murni-trefoil" },
+    { "title": "Alam Suites Storage Rebuild", "location": "Shah Alam, Selangor", "date": "February 2026", "service": "Storage", "seed": "murni-suites" },
+    { "title": "Ara Damansara Compact Kitchen", "location": "Petaling Jaya, Selangor", "date": "November 2025", "service": "Kitchen", "seed": "murni-ara" },
+    { "title": "Eco Ardence Duplex", "location": "Setia Alam, Selangor", "date": "September 2025", "service": "Condo Package", "seed": "murni-duplex" },
+    { "title": "Bukit Rimau Airbnb Two-Bed", "location": "Shah Alam, Selangor", "date": "June 2025", "service": "Rental", "seed": "murni-airbnb" },
+    { "title": "Seksyen 13 Apartment Refresh", "location": "Shah Alam, Selangor", "date": "March 2025", "service": "Refresh", "seed": "murni-refresh" }
+  ],
+  "testimonials": [
+    {
+      "quote": "Our unit is 880 square feet and we have two children. They found storage in places I did not know existed. We have not thought about moving since.",
+      "name": "Aiman Zulkarnain",
+      "city": "Setia Alam, Selangor",
+      "seed": "avatar-aiman"
+    },
+    {
+      "quote": "They handled the entire management approval and booked the lift themselves. As an owner living overseas, that alone was worth the fee.",
+      "name": "Grace Yeoh",
+      "city": "Shah Alam, Selangor",
+      "seed": "avatar-grace"
+    },
+    {
+      "quote": "Two of my rental units done, forty days each, both let within a week of listing. They understand the investor side, not just the design side.",
+      "name": "Tengku Adlan",
+      "city": "Setia Alam, Selangor",
+      "seed": "avatar-adlan"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "Measure & Quote",
+      "text": "We measure your actual unit, not the developer's floor plan — they are rarely the same. Package pricing is by square footage, so you know the cost range before the first meeting ends."
+    },
+    {
+      "number": "02",
+      "title": "3D & Approvals",
+      "text": "A full 3D walkthrough video you can watch at home and share with family. Meanwhile we handle the management corporation submission, deposit, lift booking and permitted working hours."
+    },
+    {
+      "number": "03",
+      "title": "Build in 45 Days",
+      "text": "Condo work has rules — noise hours, lift access, debris removal — and we schedule around all of them so your neighbours stay friendly. Most units complete in about forty-five days."
+    }
+  ],
+  "team": [
+    { "name": "Melissa Chin", "role": "Founder & Design Lead", "seed": "team-melissa" },
+    { "name": "Hafiz Roslan", "role": "Project Manager", "seed": "team-hafiz" },
+    { "name": "Priya Nair", "role": "Interior Designer", "seed": "team-priya-n" },
+    { "name": "Kenny Tan", "role": "Carpentry Supervisor", "seed": "team-kenny" }
+  ],
+  "posts": [
+    {
+      "title": "Getting Renovation Approval From Your Management Corporation",
+      "category": "Condo Living",
+      "date": "July 10, 2026",
+      "seed": "post-mc",
+      "excerpt": "Deposits, permitted hours, lift booking and the forms nobody explains. A walkthrough of the whole process."
+    },
+    {
+      "title": "Eleven Storage Ideas for Units Under 1,000 Square Feet",
+      "category": "Small Spaces",
+      "date": "May 8, 2026",
+      "seed": "post-storage",
+      "excerpt": "Full-height, under-bed, and the entryway corner everyone wastes. Ideas taken from real units we have finished."
+    },
+    {
+      "title": "What a Rental Fit-Out Should and Should Not Cost",
+      "category": "Investment",
+      "date": "March 3, 2026",
+      "seed": "post-rental",
+      "excerpt": "Spend on the finishes tenants touch daily. Save on everything else. A budget breakdown for investor units."
+    }
+  ]
+}

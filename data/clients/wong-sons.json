@@ -1,0 +1,199 @@
+{
+  "slug": "wong-sons",
+  "copy": {
+    "region": "Klang, Selangor",
+    "serviceArea": "Klang, Port Klang, Meru and Setia Alam",
+    "licence": "Registered contractor since 1998 (fictional)",
+    "budgets": ["Under RM30k", "RM30k – RM80k", "RM80k – RM160k", "RM160k – RM350k", "Above RM350k", "Not sure yet"],
+    "heroHeading": "Twenty-eight years of doing it properly",
+    "storyHeading": "Two generations, one trade",
+    "mediaTag": "Taman Sri Andalas, Klang",
+    "story": [
+      "Wong Ah Sang started laying tile in Klang in 1998, working alone out of a van. He built the business on wet works — the unglamorous screeding, tiling and waterproofing that decides whether everything above it lasts.",
+      "His son runs it now, with 26 tradesmen on the payroll rather than day hire. We have no showroom and we do not produce 3D drawings. What we have is men who have done this for twenty years and a phone number that has not changed since 2004."
+    ],
+    "seo": {
+      "homeTitle": "Renovation & Wet Works Contractor in Klang",
+      "homeDescription": "Wong & Sons has done wet works, tiling, bathrooms and full house renovation in Klang since 1998. Second generation, own tradesmen, five-year waterproofing warranty.",
+      "aboutDescription": "Wong & Sons is a second-generation renovation contractor in Klang, established 1998 — 26 tradesmen known across the Klang Valley for wet works and tiling.",
+      "portfolioDescription": "Selected Wong & Sons projects: full house renovations, bathrooms, tiling, roofing and extensions across Klang, Port Klang and Setia Alam.",
+      "quoteDescription": "Call us and we will come and look properly. Wong & Sons provides an itemised written quotation priced by measured quantity. No obligation."
+    }
+  },
+  "company": {
+    "name": "Wong & Sons",
+    "legalName": "Wong & Sons Renovation Works Sdn Bhd",
+    "tagline": "Second generation, same trade. Twenty-eight years of wet works in the Klang Valley.",
+    "phone": "+60 3-3341 7726",
+    "email": "wongsons.reno@gmail.com",
+    "address": "18, Jalan Tengku Kelana, Taman Sri Andalas, 41200 Klang, Selangor",
+    "founded": 1998,
+    "social": [
+      { "name": "Facebook", "url": "#" },
+      { "name": "WhatsApp", "url": "#" },
+      { "name": "WeChat", "url": "#" }
+    ],
+    "stats": [
+      { "value": 1200, "suffix": "+", "label": "Jobs completed" },
+      { "value": 26, "suffix": "", "label": "Tradesmen on payroll" },
+      { "value": 2, "suffix": "", "label": "Generations" },
+      { "value": 28, "suffix": "", "label": "Years in Klang" }
+    ],
+    "clients": [
+      { "name": "Andalas Hardware", "style": "caps" },
+      { "name": "Hup Seng Tiles", "style": "serif" },
+      { "name": "Klang Sanitary Co.", "style": "mono" },
+      { "name": "Lian Huat Timber", "style": "script" },
+      { "name": "Sri Muda Supplies", "style": "caps" }
+    ]
+  },
+  "services": [
+    {
+      "slug": "wet-works",
+      "icon": "hammer",
+      "title": "Wet Works & Tiling",
+      "blurb": "What we are known for. Screeding, tiling and waterproofing done by men who have laid tile for twenty years.",
+      "includes": [
+        "Floor & wall tiling, all formats",
+        "Screeding and levelling",
+        "Full waterproofing systems",
+        "Large-format and mosaic work"
+      ]
+    },
+    {
+      "slug": "bathroom",
+      "icon": "frame",
+      "title": "Bathroom Renovation",
+      "blurb": "Strip to slab and rebuild properly, with the falls and drainage set right before a single tile goes down.",
+      "includes": [
+        "Complete strip-out to slab",
+        "Correct floor falls & drainage",
+        "Sanitary ware supply & install",
+        "5-year waterproofing warranty"
+      ]
+    },
+    {
+      "slug": "full-reno",
+      "icon": "clipboard",
+      "title": "Full House Renovation",
+      "blurb": "Whole-house jobs run by the same foreman from first day to handover. No subcontracting to strangers.",
+      "includes": [
+        "Hacking, rebuilding & finishing",
+        "Wiring & plumbing replacement",
+        "Plaster ceiling & painting",
+        "One foreman throughout"
+      ]
+    },
+    {
+      "slug": "carpentry",
+      "icon": "sofa",
+      "title": "Carpentry & Cabinets",
+      "blurb": "Site-built cabinets and wardrobes in solid plywood — heavier, costlier, and still standing in twenty years.",
+      "includes": [
+        "Solid plywood construction",
+        "Kitchen cabinets & wardrobes",
+        "Site-built to exact dimensions",
+        "Quality hinges & runners"
+      ]
+    },
+    {
+      "slug": "roof",
+      "icon": "earth",
+      "title": "Roofing & Leak Repair",
+      "blurb": "Leak tracing, tile replacement, gutter and flashing work — including the jobs other contractors give up on.",
+      "includes": [
+        "Leak tracing & diagnosis",
+        "Roof tile & flashing replacement",
+        "Gutter repair & replacement",
+        "Ceiling repair after water damage"
+      ]
+    },
+    {
+      "slug": "extension",
+      "icon": "drafting",
+      "title": "Extension Works",
+      "blurb": "Kitchen and rear extensions with proper footings — built to carry a second storey later if you ever want one.",
+      "includes": [
+        "Rear & kitchen extensions",
+        "Proper reinforced footings",
+        "Engineer's drawings arranged",
+        "Council submission assistance"
+      ]
+    }
+  ],
+  "projects": [
+    { "title": "Taman Sri Andalas Full House", "location": "Klang, Selangor", "date": "May 2026", "service": "Full Reno", "seed": "wong-andalas" },
+    { "title": "Bandar Bukit Tinggi Bathrooms", "location": "Klang, Selangor", "date": "March 2026", "service": "Bathroom", "seed": "wong-bukittinggi" },
+    { "title": "Bandar Botanic Roof Leak Repair", "location": "Klang, Selangor", "date": "December 2025", "service": "Roofing", "seed": "wong-botanic" },
+    { "title": "Setia Alam Large-Format Tiling", "location": "Setia Alam, Selangor", "date": "September 2025", "service": "Wet Works", "seed": "wong-tiling" },
+    { "title": "Meru Terrace Kitchen Extension", "location": "Klang, Selangor", "date": "July 2025", "service": "Extension", "seed": "wong-meru" },
+    { "title": "Port Klang Shophouse Upper Floor", "location": "Port Klang, Selangor", "date": "April 2025", "service": "Full Reno", "seed": "wong-shophouse" },
+    { "title": "Taman Rashna Cabinet Works", "location": "Klang, Selangor", "date": "February 2025", "service": "Carpentry", "seed": "wong-rashna" }
+  ],
+  "testimonials": [
+    {
+      "quote": "Four contractors could not find where the leak was coming from. Old Mr Wong found it in one afternoon. Turned out to be the flashing, not the tiles at all.",
+      "name": "Ganesh Pillai",
+      "city": "Klang, Selangor",
+      "seed": "avatar-ganesh"
+    },
+    {
+      "quote": "My parents used them in 2004. I used them last year for my own house. Same family, same standard of tiling. That says everything.",
+      "name": "Jasmine Lee",
+      "city": "Bandar Botanic, Selangor",
+      "seed": "avatar-jasmine"
+    },
+    {
+      "quote": "Not fancy, no showroom, no 3D drawings. But the workmanship is the best I have seen in twenty years of owning property in Klang.",
+      "name": "Hamid Osman",
+      "city": "Meru, Selangor",
+      "seed": "avatar-hamid"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "Come and Look",
+      "text": "We visit, look properly, and tell you honestly what needs doing and what does not. If a repair will do instead of a replacement, we will say so — we have never needed to sell work that isn't necessary."
+    },
+    {
+      "number": "02",
+      "title": "Written Quotation",
+      "text": "An itemised quotation on paper, priced by measured quantity. Our prices are not the lowest in Klang and we will not pretend otherwise; what they are is the price you will actually pay at the end."
+    },
+    {
+      "number": "03",
+      "title": "Our Own Men",
+      "text": "Every tradesman on your job is on our payroll, led by one foreman from first day to handover. Payment follows completed stages, and we come back if something is not right."
+    }
+  ],
+  "team": [
+    { "name": "Wong Kah Meng", "role": "Managing Director (2nd Gen)", "seed": "team-kahmeng" },
+    { "name": "Wong Ah Sang", "role": "Founder & Senior Advisor", "seed": "team-ahsang" },
+    { "name": "Vijay Anandan", "role": "Site Foreman", "seed": "team-vijay" },
+    { "name": "Wong Su Lin", "role": "Accounts & Scheduling", "seed": "team-sulin" }
+  ],
+  "posts": [
+    {
+      "title": "How to Tell Whether a Leak Is the Roof or the Waterproofing",
+      "category": "Field Notes",
+      "date": "June 5, 2026",
+      "seed": "post-leak",
+      "excerpt": "Stains lie about their source. A tradesman's method for tracing water back to where it actually enters."
+    },
+    {
+      "title": "Why Bathroom Floor Falls Matter More Than the Tiles",
+      "category": "Wet Works",
+      "date": "April 2, 2026",
+      "seed": "post-falls",
+      "excerpt": "Ponding water is a levelling failure, not a tile failure. What a correct fall looks like and how it gets set."
+    },
+    {
+      "title": "Plywood or Particle Board for Kitchen Cabinets in Klang",
+      "category": "Materials",
+      "date": "January 15, 2026",
+      "seed": "post-ply",
+      "excerpt": "Humidity near the coast is brutal on cabinet carcasses. Why we still build in plywood despite the cost."
+    }
+  ]
+}

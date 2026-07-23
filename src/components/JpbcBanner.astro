@@ -1,0 +1,30 @@
+---
+import { JPBC_BANNER_TEXT, JPBC_BANNER_CTA, JPBC_WA_LINK } from "../lib/jpbc.js";
+---
+
+<div class="jpbc-banner">
+  <span>{JPBC_BANNER_TEXT}</span>
+  <a href={JPBC_WA_LINK} target="_blank" rel="noopener">{JPBC_BANNER_CTA}</a>
+</div>
+
+<style>
+  .jpbc-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem 1rem;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #111;
+    font-size: 0.85rem;
+    text-align: center;
+    position: relative;
+    z-index: 60;
+  }
+
+  .jpbc-banner a {
+    font-weight: 700;
+    color: #111;
+  }
+</style>

@@ -1,0 +1,49 @@
+---
+import { url } from '../lib/clients.js';
+
+const { client } = Astro.props;
+const company = client.company;
+
+const links = [
+  { href: url(client), label: 'Home' },
+  { href: url(client, 'services'), label: 'Services' },
+  { href: url(client, 'portfolio'), label: 'Portfolio' },
+  { href: url(client, 'about'), label: 'About' },
+];
+
+const path = Astro.url.pathname.replace(/\/+$/, '') || '/';
+const isCurrent = (href) => path === href.replace(/\/+$/, '');
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href={url(client)} aria-label={`${company.name} — home`}>
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="6" fill="#F6F4EF"></rect>
+        <path d="M9 23V9h3l8 10V9h3v14h-3L12 13v10z" fill="#16222E"></path>
+        <rect x="9" y="25" width="14" height="2" fill="#B4532A"></rect>
+      </svg>
+      <span>{company.name}</span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <ul>
+        {
+          links.map((link) => (
+            <li>
+              <a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <a class="btn btn-oxide nav-cta" href={url(client, 'quote')}>Get a quote</a>
+    </nav>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Toggle menu</span>
+      <span class="bars" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>

@@ -1,0 +1,199 @@
+{
+  "slug": "kayu-kapur",
+  "copy": {
+    "region": "Kota Kemuning, Selangor",
+    "serviceArea": "Kota Kemuning, Shah Alam and Setia Alam",
+    "licence": "Registered interior design practice (fictional)",
+    "budgets": ["Under RM80k", "RM80k – RM150k", "RM150k – RM300k", "RM300k – RM600k", "Above RM600k", "Not sure yet"],
+    "heroHeading": "Designed and built by the same hands",
+    "storyHeading": "A studio that refused to stop building",
+    "mediaTag": "Kota Kemuning, Selangor",
+    "story": [
+      "Kayu & Kapur began in 2017 as a two-person design practice. We kept watching good drawings get built badly by contractors who had never been in the room when the decisions were made.",
+      "So we opened our own carpentry workshop and started building what we drew. Nine years on we are still deliberately small — nine people — because the moment we grow past that, someone else starts answering for the detail."
+    ],
+    "seo": {
+      "homeTitle": "Interior Design & Build in Kota Kemuning",
+      "homeDescription": "Kayu & Kapur is a design-and-build studio in Kota Kemuning with its own carpentry workshop. Full interior design, bespoke joinery and renovation across Shah Alam.",
+      "aboutDescription": "Kayu & Kapur is a nine-person interior design studio in Kota Kemuning, founded 2017, that designs and builds its own work — including joinery from our own workshop.",
+      "portfolioDescription": "Selected Kayu & Kapur projects: full interiors, bespoke joinery, kitchens and condo fit-outs across Kota Kemuning, Shah Alam and Setia Alam.",
+      "quoteDescription": "Tell us how you actually live and we will tell you what it costs. A first design conversation with Kayu & Kapur, no obligation."
+    }
+  },
+  "company": {
+    "name": "Kayu & Kapur",
+    "legalName": "Kayu & Kapur Design Studio",
+    "tagline": "A small studio that designs and builds its own work — so nothing gets lost between the drawing and the wall.",
+    "phone": "+60 11-2894 6027",
+    "email": "studio@kayukapur.my",
+    "address": "12A, Jalan Anggerik Vanilla 31/99, Kota Kemuning, 40460 Shah Alam, Selangor",
+    "founded": 2017,
+    "social": [
+      { "name": "Instagram", "url": "#" },
+      { "name": "Pinterest", "url": "#" },
+      { "name": "WhatsApp", "url": "#" }
+    ],
+    "stats": [
+      { "value": 130, "suffix": "+", "label": "Homes completed" },
+      { "value": 9, "suffix": "", "label": "People in studio" },
+      { "value": 6, "suffix": "", "label": "Design awards" },
+      { "value": 9, "suffix": "", "label": "Years designing" }
+    ],
+    "clients": [
+      { "name": "Meranti Timber Co.", "style": "script" },
+      { "name": "Lumen Lighting", "style": "mono" },
+      { "name": "Batu Reka Stone", "style": "serif" },
+      { "name": "Studio Sembilan", "style": "caps" },
+      { "name": "Rumah Journal", "style": "serif" }
+    ]
+  },
+  "services": [
+    {
+      "slug": "interior-design",
+      "icon": "drafting",
+      "title": "Interior Design",
+      "blurb": "Full design service starting from how you live, not from a mood board you found online.",
+      "includes": [
+        "Space planning & layout studies",
+        "Photorealistic 3D visualisation",
+        "Material and finish boards",
+        "Two rounds of revision included"
+      ]
+    },
+    {
+      "slug": "joinery",
+      "icon": "sofa",
+      "title": "Bespoke Joinery",
+      "blurb": "Our own carpentry workshop. Real timber veneer, proper edge banding, hardware that still works in year ten.",
+      "includes": [
+        "Wardrobes, consoles & bookshelves",
+        "Solid timber and veneer finishes",
+        "Workshop-built, site-installed",
+        "10-year hardware warranty"
+      ]
+    },
+    {
+      "slug": "kitchen",
+      "icon": "frame",
+      "title": "Kitchen Design & Build",
+      "blurb": "Kitchens planned around how you actually cook — wet and dry, ventilation, and where the rubbish bin goes.",
+      "includes": [
+        "Wet & dry kitchen planning",
+        "Quartz and sintered stone tops",
+        "Integrated appliance coordination",
+        "Ventilation & drainage detailing"
+      ]
+    },
+    {
+      "slug": "renovation",
+      "icon": "hammer",
+      "title": "Renovation Works",
+      "blurb": "We build what we draw. Hacking, wet works and finishing run by the same people who designed it.",
+      "includes": [
+        "Hacking & rebuilding",
+        "Electrical & plumbing re-routing",
+        "Plaster ceiling & lighting coves",
+        "Tiling and flooring installation"
+      ]
+    },
+    {
+      "slug": "condo",
+      "icon": "clipboard",
+      "title": "Condo & Small Space",
+      "blurb": "Under 1,200 sq ft is a design problem, not a smaller version of a house. We treat it that way.",
+      "includes": [
+        "Storage-first layout planning",
+        "Management approval paperwork",
+        "Noise-hour compliant scheduling",
+        "Lift protection & debris removal"
+      ]
+    },
+    {
+      "slug": "styling",
+      "icon": "earth",
+      "title": "Furnishing & Styling",
+      "blurb": "The last ten percent that makes a space feel finished instead of merely completed.",
+      "includes": [
+        "Loose furniture sourcing",
+        "Curtains, rugs & soft furnishing",
+        "Art and accessory curation",
+        "Final styling before handover"
+      ]
+    }
+  ],
+  "projects": [
+    { "title": "Gamuda Gardens Warm Minimal", "location": "Kota Kemuning, Selangor", "date": "May 2026", "service": "Interior Design", "seed": "kayu-gamuda" },
+    { "title": "Bukit Rimau Timber House", "location": "Kota Kemuning, Selangor", "date": "March 2026", "service": "Joinery", "seed": "kayu-rimau" },
+    { "title": "Tropicana Aman Kitchen", "location": "Telok Panglima Garang, Selangor", "date": "December 2025", "service": "Kitchen", "seed": "kayu-aman" },
+    { "title": "Setia Alam Compact Condo", "location": "Setia Alam, Selangor", "date": "October 2025", "service": "Condo", "seed": "kayu-condo" },
+    { "title": "Alam Impian Study & Library", "location": "Shah Alam, Selangor", "date": "August 2025", "service": "Joinery", "seed": "kayu-impian" },
+    { "title": "Eco Sanctuary Full Interior", "location": "Telok Panglima Garang, Selangor", "date": "June 2025", "service": "Interior Design", "seed": "kayu-sanctuary" },
+    { "title": "Kemuning Utama Family Home", "location": "Kota Kemuning, Selangor", "date": "April 2025", "service": "Renovation", "seed": "kayu-utama" }
+  ],
+  "testimonials": [
+    {
+      "quote": "They talked us out of two things we wanted, and they were right about both. That is worth more than a contractor who says yes to everything.",
+      "name": "Sarah Iskandar",
+      "city": "Kota Kemuning, Selangor",
+      "seed": "avatar-sarah"
+    },
+    {
+      "quote": "The carpentry is genuinely a different level. Two years in, not one door has sagged and every drawer still closes softly.",
+      "name": "Daniel Cheah",
+      "city": "Shah Alam, Selangor",
+      "seed": "avatar-daniel"
+    },
+    {
+      "quote": "Small studio, so you deal with the actual designer, not a salesperson. The 3D was almost exactly what we ended up living in.",
+      "name": "Nadia Kamarul",
+      "city": "Setia Alam, Selangor",
+      "seed": "avatar-nadia"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "Discovery",
+      "text": "A long first conversation about how you use your home — where you eat, where things pile up, what annoys you about the current layout. Design that skips this step produces spaces that photograph well and live badly."
+    },
+    {
+      "number": "02",
+      "title": "Design",
+      "text": "Layout studies first, then 3D visualisation and a physical material board you can hold. Two rounds of revision are included, and we would rather you change your mind here than on site."
+    },
+    {
+      "number": "03",
+      "title": "Build",
+      "text": "The same studio that designed it builds it, with joinery made in our own workshop. Nothing gets value-engineered behind your back to protect a margin."
+    }
+  ],
+  "team": [
+    { "name": "Yasmin Abdul Karim", "role": "Founder & Principal Designer", "seed": "team-yasmin" },
+    { "name": "Ong Jia Hui", "role": "Senior Interior Designer", "seed": "team-jiahui" },
+    { "name": "Shamsul Bahri", "role": "Workshop Foreman", "seed": "team-shamsul" },
+    { "name": "Elena Wong", "role": "Project Coordinator", "seed": "team-elena-w" }
+  ],
+  "posts": [
+    {
+      "title": "Why Your 3D Render Never Looks Like the Finished Room",
+      "category": "Design",
+      "date": "July 2, 2026",
+      "seed": "post-render",
+      "excerpt": "Lighting, scale and material sheen are where renders lie. Here is how to read one properly before you approve it."
+    },
+    {
+      "title": "Choosing Cabinet Board: Plywood, MDF or Blockboard",
+      "category": "Materials",
+      "date": "May 14, 2026",
+      "seed": "post-board",
+      "excerpt": "In a humid climate the board matters more than the door finish. A plain comparison of cost, weight and how each fails."
+    },
+    {
+      "title": "Designing Under 1,200 Square Feet",
+      "category": "Small Spaces",
+      "date": "March 27, 2026",
+      "seed": "post-small",
+      "excerpt": "Storage, sightlines and the one wall you should never build. Lessons from forty condo projects around Shah Alam."
+    }
+  ]
+}
