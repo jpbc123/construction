@@ -858,6 +858,7 @@ body.nav-open .nav-toggle .bars::after {
   display: flex;
   flex-direction: column;
   gap: 22px;
+  color: var(--ink);
 }
 
 .testimonial-card blockquote {
