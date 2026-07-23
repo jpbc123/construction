@@ -1,0 +1,268 @@
+{
+  "slug": "mutiara-tabah",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "elektrikkontraktor.wordpress.com (last post 2018)",
+    "webPresence": "Free WordPress site, last updated 2018 — no proper website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)",
+      "company.email"
+    ],
+    "verifyBeforePitch": [
+      "phone",
+      "email",
+      "address",
+      "founded",
+      "licence",
+      "legalName",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client.",
+    "note": "Registered business number and Yahoo email stated in own listing"
+  },
+  "copy": {
+    "region": "Shah Alam, Selangor",
+    "serviceArea": "Selangor and Kuala Lumpur",
+    "licence": "Business reg. 002198621-V stated — verify CIDB grade",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Shah Alam renovation team",
+    "mediaTag": "Shah Alam, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] Mutiara Tabah Enterprise handles renovation, repair and home-improvement works across Selangor and Kuala Lumpur.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Shah Alam",
+      "homeDescription": "Mutiara Tabah Enterprise handles renovation, repairs and home-improvement works across Selangor and Kuala Lumpur. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] Mutiara Tabah Enterprise is a renovation and repair contractor based in Shah Alam.",
+      "portfolioDescription": "[SAMPLE] Selected Mutiara Tabah Enterprise projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact Mutiara Tabah Enterprise for a renovation quotation in Shah Alam."
+    }
+  },
+  "company": {
+    "name": "Mutiara Tabah Enterprise",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, repairs and home improvement in Shah Alam.",
+    "phone": "+60 18-249 0393",
+    "email": "elektrikkontraktor@yahoo.com",
+    "address": "[verify — service area stated as Selangor and Kuala Lumpur]",
+    "founded": 0,
+    "whatsapp": "60182490393",
+    "whatsappMessage": "Hi Mohd Din, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60182490393"
+      },
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "clipboard",
+      "title": "Electrical Wiring",
+      "blurb": "Electrical Wiring — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "hammer",
+      "title": "Renovation & Remodelling",
+      "blurb": "Renovation & Remodelling — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "sofa",
+      "title": "Kitchen Cabinets",
+      "blurb": "Kitchen Cabinets — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "earth",
+      "title": "Tiling & Granite",
+      "blurb": "Tiling & Granite — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-5",
+      "icon": "frame",
+      "title": "Air-Cond Installation",
+      "blurb": "Air-Cond Installation — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-6",
+      "icon": "clipboard",
+      "title": "Painting & Plumbing",
+      "blurb": "Painting & Plumbing — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Shah Alam, Selangor",
+      "date": "2025",
+      "service": "Electrical Wiring",
+      "seed": "mutiara-tabah-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2025",
+      "service": "Renovation & Remodelling",
+      "seed": "mutiara-tabah-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2024",
+      "service": "Kitchen Cabinets",
+      "seed": "mutiara-tabah-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "mutiara-tabah-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "mutiara-tabah-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "mutiara-tabah-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "Mohd Din",
+      "role": "[SAMPLE role — owner/contact]",
+      "seed": "mutiara-tabah-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "mutiara-tabah-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "mutiara-tabah-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "mutiara-tabah-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "mutiara-tabah-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "slug": "jamal-renovation",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "m-niaga.com.my classified listings (2025)",
+    "webPresence": "Classified-ad listings only — no website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)"
+    ],
+    "verifyBeforePitch": [
+      "phone",
+      "email",
+      "address",
+      "founded",
+      "licence",
+      "legalName",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client."
+  },
+  "copy": {
+    "region": "Gombak, Selangor",
+    "serviceArea": "Gombak, Batu Caves, Selayang, Shah Alam, Setia Alam, Klang and Puncak Alam",
+    "licence": "[verify CIDB registration — not stated in source]",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Gombak renovation team",
+    "mediaTag": "Gombak, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] Mohd Jamal Renovation & Plumbing handles renovation, repair and home-improvement works across Gombak, Batu Caves, Selayang, Shah Alam, Setia Alam, Klang and Puncak Alam.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Gombak",
+      "homeDescription": "Mohd Jamal Renovation & Plumbing handles renovation, repairs and home-improvement works across Gombak, Batu Caves, Selayang, Shah Alam, Setia Alam, Klang and Puncak Alam. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] Mohd Jamal Renovation & Plumbing is a renovation and repair contractor based in Gombak.",
+      "portfolioDescription": "[SAMPLE] Selected Mohd Jamal Renovation & Plumbing projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact Mohd Jamal Renovation & Plumbing for a renovation quotation in Gombak."
+    }
+  },
+  "company": {
+    "name": "Mohd Jamal Renovation & Plumbing",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, repairs and home improvement in Gombak.",
+    "phone": "+60 11-2861 9833",
+    "email": "[verify — not stated in source]",
+    "address": "[verify — service area stated as Gombak, Batu Caves, Selayang, Shah Alam, Setia Alam, Klang and Puncak Alam]",
+    "founded": 0,
+    "whatsapp": "601128619833",
+    "whatsappMessage": "Hi Mohd Jamal, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/601128619833"
+      },
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "hammer",
+      "title": "Home Renovation",
+      "blurb": "Home Renovation — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "clipboard",
+      "title": "Plumbing Works",
+      "blurb": "Plumbing Works — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "frame",
+      "title": "Roof Repair & Painting",
+      "blurb": "Roof Repair & Painting — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "earth",
+      "title": "Tiling & Waterproofing",
+      "blurb": "Tiling & Waterproofing — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-5",
+      "icon": "clipboard",
+      "title": "Electrical Wiring",
+      "blurb": "Electrical Wiring — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-6",
+      "icon": "frame",
+      "title": "Awnings & Grilles",
+      "blurb": "Awnings & Grilles — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Gombak, Selangor",
+      "date": "2025",
+      "service": "Home Renovation",
+      "seed": "jamal-renovation-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Gombak, Selangor",
+      "date": "2025",
+      "service": "Plumbing Works",
+      "seed": "jamal-renovation-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Gombak, Selangor",
+      "date": "2024",
+      "service": "Roof Repair & Painting",
+      "seed": "jamal-renovation-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Gombak, Selangor",
+      "seed": "jamal-renovation-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Gombak, Selangor",
+      "seed": "jamal-renovation-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Gombak, Selangor",
+      "seed": "jamal-renovation-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "Mohd Jamal",
+      "role": "[SAMPLE role — owner/contact]",
+      "seed": "jamal-renovation-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "jamal-renovation-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "jamal-renovation-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "jamal-renovation-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "jamal-renovation-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "slug": "cm-soo-plaster",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "Facebook page (C M Soo Plaster Ceiling Enterprise)",
+    "webPresence": "Facebook page only — no website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)"
+    ],
+    "verifyBeforePitch": [
+      "phone",
+      "email",
+      "address",
+      "founded",
+      "licence",
+      "legalName",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client."
+  },
+  "copy": {
+    "region": "Shah Alam, Selangor",
+    "serviceArea": "Shah Alam, Klang and the Klang Valley",
+    "licence": "[verify CIDB registration — not stated in source]",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Shah Alam renovation team",
+    "mediaTag": "Shah Alam, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] C M Soo Plaster Ceiling Enterprise handles renovation, repair and home-improvement works across Shah Alam, Klang and the Klang Valley.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Shah Alam",
+      "homeDescription": "C M Soo Plaster Ceiling Enterprise handles renovation, repairs and home-improvement works across Shah Alam, Klang and the Klang Valley. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] C M Soo Plaster Ceiling Enterprise is a renovation and repair contractor based in Shah Alam.",
+      "portfolioDescription": "[SAMPLE] Selected C M Soo Plaster Ceiling Enterprise projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact C M Soo Plaster Ceiling Enterprise for a renovation quotation in Shah Alam."
+    }
+  },
+  "company": {
+    "name": "C M Soo Plaster Ceiling Enterprise",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, repairs and home improvement in Shah Alam.",
+    "phone": "+60 19-360 2985",
+    "email": "[verify — not stated in source]",
+    "address": "[verify — service area stated as Shah Alam, Klang and the Klang Valley]",
+    "founded": 0,
+    "whatsapp": "60193602985",
+    "whatsappMessage": "Hi C M Soo Plaster Ceiling Enterprise, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60193602985"
+      },
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "clipboard",
+      "title": "Plaster Ceiling",
+      "blurb": "Plaster Ceiling — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "frame",
+      "title": "Cornice & Decorative Ceiling",
+      "blurb": "Cornice & Decorative Ceiling — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "frame",
+      "title": "Partition Walls",
+      "blurb": "Partition Walls — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "hammer",
+      "title": "Renovation Works",
+      "blurb": "Renovation Works — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Shah Alam, Selangor",
+      "date": "2025",
+      "service": "Plaster Ceiling",
+      "seed": "cm-soo-plaster-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2025",
+      "service": "Cornice & Decorative Ceiling",
+      "seed": "cm-soo-plaster-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2024",
+      "service": "Partition Walls",
+      "seed": "cm-soo-plaster-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "cm-soo-plaster-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "cm-soo-plaster-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "cm-soo-plaster-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "cm-soo-plaster-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "cm-soo-plaster-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "cm-soo-plaster-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "cm-soo-plaster-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "cm-soo-plaster-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

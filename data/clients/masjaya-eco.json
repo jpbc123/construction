@@ -1,0 +1,240 @@
+{
+  "slug": "masjaya-eco",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "Yelp business listing (no own website found)",
+    "webPresence": "Directory listing only — no own website found — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)",
+      "company.address",
+      "company.founded",
+      "company.legalName"
+    ],
+    "verifyBeforePitch": [
+      "phone",
+      "email",
+      "licence",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client.",
+    "note": "Trades as \"Kontraktor Rumah IBS\"; builds on own land using Schnell IBS technology (stated). PHONE STILL UNVERIFIED — the number 016-354 7300 / rumahibs.com found in search belongs to a DIFFERENT firm (Golden Sharp Innovation, IP0580950-X); do not use it. Get Masjaya's number from its Yelp listing before pitching."
+  },
+  "copy": {
+    "region": "Klang, Selangor",
+    "serviceArea": "Klang, Shah Alam and Selangor",
+    "licence": "Stated CIDB Grade G3 — verify",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Klang renovation team",
+    "mediaTag": "Klang, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] Masjaya Eco Construction Sdn Bhd handles renovation, repair and home-improvement works across Klang, Shah Alam and Selangor.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Klang",
+      "homeDescription": "Masjaya Eco Construction Sdn Bhd handles renovation, repairs and home-improvement works across Klang, Shah Alam and Selangor. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] Masjaya Eco Construction Sdn Bhd is a renovation and repair contractor based in Klang.",
+      "portfolioDescription": "[SAMPLE] Selected Masjaya Eco Construction Sdn Bhd projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact Masjaya Eco Construction Sdn Bhd for a renovation quotation in Klang."
+    }
+  },
+  "company": {
+    "name": "Masjaya Eco Construction Sdn Bhd",
+    "legalName": "Masjaya Eco Construction Sdn Bhd (1238755-K — verify)",
+    "tagline": "Renovation, repairs and home improvement in Klang.",
+    "phone": "[verify — see Yelp listing]",
+    "email": "[verify — not stated in source]",
+    "address": "8, 8A, 8B, Jalan Bayu Tinggi 2, Klang, Selangor",
+    "founded": 2015,
+    "social": [
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "frame",
+      "title": "IBS House Construction",
+      "blurb": "IBS House Construction — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "frame",
+      "title": "Bina Rumah Atas Tanah Sendiri",
+      "blurb": "Bina Rumah Atas Tanah Sendiri — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "hammer",
+      "title": "Renovation & Extension",
+      "blurb": "Renovation & Extension — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "drafting",
+      "title": "Design & Build",
+      "blurb": "Design & Build — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Klang, Selangor",
+      "date": "2025",
+      "service": "IBS House Construction",
+      "seed": "masjaya-eco-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Klang, Selangor",
+      "date": "2025",
+      "service": "Bina Rumah Atas Tanah Sendiri",
+      "seed": "masjaya-eco-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Klang, Selangor",
+      "date": "2024",
+      "service": "Renovation & Extension",
+      "seed": "masjaya-eco-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Klang, Selangor",
+      "seed": "masjaya-eco-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Klang, Selangor",
+      "seed": "masjaya-eco-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Klang, Selangor",
+      "seed": "masjaya-eco-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "masjaya-eco-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "masjaya-eco-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "masjaya-eco-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "masjaya-eco-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "masjaya-eco-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "slug": "azizi-renovation",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "m-niaga.com.my classified listings (2025)",
+    "webPresence": "Classified-ad listings only — no website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)"
+    ],
+    "verifyBeforePitch": [
+      "phone",
+      "email",
+      "address",
+      "founded",
+      "licence",
+      "legalName",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client."
+  },
+  "copy": {
+    "region": "Puncak Alam, Selangor",
+    "serviceArea": "Puncak Alam, Shah Alam, Kuala Selangor and surrounding areas",
+    "licence": "[verify CIDB registration — not stated in source]",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Puncak Alam renovation team",
+    "mediaTag": "Puncak Alam, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] Azizi Renovation handles renovation, repair and home-improvement works across Puncak Alam, Shah Alam, Kuala Selangor and surrounding areas.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Puncak Alam",
+      "homeDescription": "Azizi Renovation handles renovation, repairs and home-improvement works across Puncak Alam, Shah Alam, Kuala Selangor and surrounding areas. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] Azizi Renovation is a renovation and repair contractor based in Puncak Alam.",
+      "portfolioDescription": "[SAMPLE] Selected Azizi Renovation projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact Azizi Renovation for a renovation quotation in Puncak Alam."
+    }
+  },
+  "company": {
+    "name": "Azizi Renovation",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, repairs and home improvement in Puncak Alam.",
+    "phone": "+60 12-688 7491",
+    "email": "[verify — not stated in source]",
+    "address": "[verify — service area stated as Puncak Alam, Shah Alam, Kuala Selangor and surrounding areas]",
+    "founded": 0,
+    "whatsapp": "60126887491",
+    "whatsappMessage": "Hi Azizi, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60126887491"
+      },
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "hammer",
+      "title": "Renovation Works",
+      "blurb": "Renovation Works — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "clipboard",
+      "title": "Plumbing & Pipe Works",
+      "blurb": "Plumbing & Pipe Works — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "earth",
+      "title": "Tiling",
+      "blurb": "Tiling — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "frame",
+      "title": "Painting",
+      "blurb": "Painting — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Puncak Alam, Selangor",
+      "date": "2025",
+      "service": "Renovation Works",
+      "seed": "azizi-renovation-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Puncak Alam, Selangor",
+      "date": "2025",
+      "service": "Plumbing & Pipe Works",
+      "seed": "azizi-renovation-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Puncak Alam, Selangor",
+      "date": "2024",
+      "service": "Tiling",
+      "seed": "azizi-renovation-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Puncak Alam, Selangor",
+      "seed": "azizi-renovation-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Puncak Alam, Selangor",
+      "seed": "azizi-renovation-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Puncak Alam, Selangor",
+      "seed": "azizi-renovation-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "Azizi",
+      "role": "[SAMPLE role — owner/contact]",
+      "seed": "azizi-renovation-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "azizi-renovation-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "azizi-renovation-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "azizi-renovation-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "azizi-renovation-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

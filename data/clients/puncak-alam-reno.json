@@ -1,0 +1,246 @@
+{
+  "slug": "puncak-alam-reno",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "m-niaga.com.my classified listings (2018)",
+    "webPresence": "Classified-ad listings only — no website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)"
+    ],
+    "verifyBeforePitch": [
+      "phone",
+      "email",
+      "address",
+      "founded",
+      "licence",
+      "legalName",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client."
+  },
+  "copy": {
+    "region": "Puncak Alam, Selangor",
+    "serviceArea": "Puncak Alam, Shah Alam and surrounding areas",
+    "licence": "[verify CIDB registration — not stated in source]",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Puncak Alam renovation team",
+    "mediaTag": "Puncak Alam, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] Puncak Alam Renovation & Wiring handles renovation, repair and home-improvement works across Puncak Alam, Shah Alam and surrounding areas.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Puncak Alam",
+      "homeDescription": "Puncak Alam Renovation & Wiring handles renovation, repairs and home-improvement works across Puncak Alam, Shah Alam and surrounding areas. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] Puncak Alam Renovation & Wiring is a renovation and repair contractor based in Puncak Alam.",
+      "portfolioDescription": "[SAMPLE] Selected Puncak Alam Renovation & Wiring projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact Puncak Alam Renovation & Wiring for a renovation quotation in Puncak Alam."
+    }
+  },
+  "company": {
+    "name": "Puncak Alam Renovation & Wiring",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, repairs and home improvement in Puncak Alam.",
+    "phone": "+60 12-901 4434",
+    "email": "[verify — not stated in source]",
+    "address": "[verify — service area stated as Puncak Alam, Shah Alam and surrounding areas]",
+    "founded": 0,
+    "whatsapp": "60129014434",
+    "whatsappMessage": "Hi Puncak Alam Renovation & Wiring, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60129014434"
+      },
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "hammer",
+      "title": "Renovation Works",
+      "blurb": "Renovation Works — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "clipboard",
+      "title": "Electrical Wiring",
+      "blurb": "Electrical Wiring — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "frame",
+      "title": "Plumbing",
+      "blurb": "Plumbing — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "earth",
+      "title": "Tiling & Painting",
+      "blurb": "Tiling & Painting — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Puncak Alam, Selangor",
+      "date": "2025",
+      "service": "Renovation Works",
+      "seed": "puncak-alam-reno-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Puncak Alam, Selangor",
+      "date": "2025",
+      "service": "Electrical Wiring",
+      "seed": "puncak-alam-reno-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Puncak Alam, Selangor",
+      "date": "2024",
+      "service": "Plumbing",
+      "seed": "puncak-alam-reno-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Puncak Alam, Selangor",
+      "seed": "puncak-alam-reno-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Puncak Alam, Selangor",
+      "seed": "puncak-alam-reno-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Puncak Alam, Selangor",
+      "seed": "puncak-alam-reno-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "puncak-alam-reno-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "puncak-alam-reno-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "puncak-alam-reno-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "puncak-alam-reno-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "puncak-alam-reno-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

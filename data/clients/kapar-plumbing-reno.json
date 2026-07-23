@@ -1,0 +1,247 @@
+{
+  "slug": "kapar-plumbing-reno",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "meru-kapar-puncak-alam.blogspot.com (last post 2017)",
+    "webPresence": "Shared Blogspot listing, last updated 2017 — no own website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)"
+    ],
+    "verifyBeforePitch": [
+      "phone",
+      "email",
+      "address",
+      "founded",
+      "licence",
+      "legalName",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client.",
+    "note": "Second contact number 010-299 6838 also stated"
+  },
+  "copy": {
+    "region": "Kapar, Klang, Selangor",
+    "serviceArea": "Kapar, Meru, Shah Alam, Setia Alam, Klang, Kota Kemuning and Puncak Alam",
+    "licence": "[verify CIDB registration — not stated in source]",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Kapar renovation team",
+    "mediaTag": "Kapar, Klang, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] Sg Kapar Renovation & Plumbing handles renovation, repair and home-improvement works across Kapar, Meru, Shah Alam, Setia Alam, Klang, Kota Kemuning and Puncak Alam.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Kapar",
+      "homeDescription": "Sg Kapar Renovation & Plumbing handles renovation, repairs and home-improvement works across Kapar, Meru, Shah Alam, Setia Alam, Klang, Kota Kemuning and Puncak Alam. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] Sg Kapar Renovation & Plumbing is a renovation and repair contractor based in Kapar.",
+      "portfolioDescription": "[SAMPLE] Selected Sg Kapar Renovation & Plumbing projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact Sg Kapar Renovation & Plumbing for a renovation quotation in Kapar."
+    }
+  },
+  "company": {
+    "name": "Sg Kapar Renovation & Plumbing",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, repairs and home improvement in Kapar.",
+    "phone": "+60 16-295 3641",
+    "email": "[verify — not stated in source]",
+    "address": "[verify — service area stated as Kapar, Meru, Shah Alam, Setia Alam, Klang, Kota Kemuning and Puncak Alam]",
+    "founded": 0,
+    "whatsapp": "60162953641",
+    "whatsappMessage": "Hi Dan / Asri, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60162953641"
+      },
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "clipboard",
+      "title": "Plumbing & Pipe Works",
+      "blurb": "Plumbing & Pipe Works — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "hammer",
+      "title": "Bathroom Renovation",
+      "blurb": "Bathroom Renovation — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "earth",
+      "title": "Tiling & Waterproofing",
+      "blurb": "Tiling & Waterproofing — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "frame",
+      "title": "Renovation Works",
+      "blurb": "Renovation Works — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Kapar, Klang, Selangor",
+      "date": "2025",
+      "service": "Plumbing & Pipe Works",
+      "seed": "kapar-plumbing-reno-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Kapar, Klang, Selangor",
+      "date": "2025",
+      "service": "Bathroom Renovation",
+      "seed": "kapar-plumbing-reno-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Kapar, Klang, Selangor",
+      "date": "2024",
+      "service": "Tiling & Waterproofing",
+      "seed": "kapar-plumbing-reno-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Kapar, Klang, Selangor",
+      "seed": "kapar-plumbing-reno-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Kapar, Klang, Selangor",
+      "seed": "kapar-plumbing-reno-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Kapar, Klang, Selangor",
+      "seed": "kapar-plumbing-reno-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "Dan / Asri",
+      "role": "[SAMPLE role — owner/contact]",
+      "seed": "kapar-plumbing-reno-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "kapar-plumbing-reno-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "kapar-plumbing-reno-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "kapar-plumbing-reno-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "kapar-plumbing-reno-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "slug": "kontraktor-amir",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "renovaterumahsepang.home.blog + kontraktorklrenovation.wordpress.com (same operator)",
+    "webPresence": "Several free WordPress / Home.blog microsites, last updated 2017–2019 — no proper website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)"
+    ],
+    "verifyBeforePitch": [
+      "phone",
+      "email",
+      "address",
+      "founded",
+      "licence",
+      "legalName",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client.",
+    "note": "Bumiputera contractor; CIDB/MOF claim stated in own listings"
+  },
+  "copy": {
+    "region": "Shah Alam, Selangor",
+    "serviceArea": "Shah Alam, Sepang, Klang and the greater Klang Valley",
+    "licence": "States \"berdaftar CIDB & Kementerian Kewangan (MOF)\" — verify registration",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Shah Alam renovation team",
+    "mediaTag": "Shah Alam, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] Kontraktor Renovate Rumah (Amir) handles renovation, repair and home-improvement works across Shah Alam, Sepang, Klang and the greater Klang Valley.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Shah Alam",
+      "homeDescription": "Kontraktor Renovate Rumah (Amir) handles renovation, repairs and home-improvement works across Shah Alam, Sepang, Klang and the greater Klang Valley. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] Kontraktor Renovate Rumah (Amir) is a renovation and repair contractor based in Shah Alam.",
+      "portfolioDescription": "[SAMPLE] Selected Kontraktor Renovate Rumah (Amir) projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact Kontraktor Renovate Rumah (Amir) for a renovation quotation in Shah Alam."
+    }
+  },
+  "company": {
+    "name": "Kontraktor Renovate Rumah (Amir)",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, repairs and home improvement in Shah Alam.",
+    "phone": "+60 14-804 0578",
+    "email": "[verify — not stated in source]",
+    "address": "[verify — service area stated as Shah Alam, Sepang, Klang and the greater Klang Valley]",
+    "founded": 0,
+    "whatsapp": "60148040578",
+    "whatsappMessage": "Hi Amir, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60148040578"
+      },
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "hammer",
+      "title": "Renovation & Remodelling",
+      "blurb": "Renovation & Remodelling — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "frame",
+      "title": "House Extensions",
+      "blurb": "House Extensions — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "sofa",
+      "title": "Kitchen Cabinets & Countertops",
+      "blurb": "Kitchen Cabinets & Countertops — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "clipboard",
+      "title": "Plaster Ceiling & Cornice",
+      "blurb": "Plaster Ceiling & Cornice — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-5",
+      "icon": "frame",
+      "title": "Grilles & Awnings",
+      "blurb": "Grilles & Awnings — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-6",
+      "icon": "earth",
+      "title": "Painting & Tiling",
+      "blurb": "Painting & Tiling — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Shah Alam, Selangor",
+      "date": "2025",
+      "service": "Renovation & Remodelling",
+      "seed": "kontraktor-amir-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2025",
+      "service": "House Extensions",
+      "seed": "kontraktor-amir-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2024",
+      "service": "Kitchen Cabinets & Countertops",
+      "seed": "kontraktor-amir-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "kontraktor-amir-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "kontraktor-amir-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "kontraktor-amir-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "Amir",
+      "role": "[SAMPLE role — owner/contact]",
+      "seed": "kontraktor-amir-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "kontraktor-amir-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "kontraktor-amir-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "kontraktor-amir-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "kontraktor-amir-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

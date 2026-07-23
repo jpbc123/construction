@@ -1,0 +1,246 @@
+{
+  "slug": "rusdi-imran",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "rusdiamran.wordpress.com (basic free WordPress, last post Jan 2024) + Yelp listing",
+    "webPresence": "Basic free WordPress site (last post Jan 2024) + directory listing — no proper website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)"
+    ],
+    "verifyBeforePitch": [
+      "email",
+      "address",
+      "founded",
+      "licence",
+      "legalName",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client.",
+    "note": "Owner En. Rusdi Hj Imran; additional numbers listed: 018-662 1373 and 018-967 9035. Site states coverage across Selangor and KL."
+  },
+  "copy": {
+    "region": "Setia Alam, Selangor",
+    "serviceArea": "Setia Alam, Shah Alam and surrounding areas",
+    "licence": "[verify CIDB registration — not stated in source]",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Setia Alam renovation team",
+    "mediaTag": "Setia Alam, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] Rusdi Hj Imran Renovation & Plumbing handles renovation, repair and home-improvement works across Setia Alam, Shah Alam and surrounding areas.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Setia Alam",
+      "homeDescription": "Rusdi Hj Imran Renovation & Plumbing handles renovation, repairs and home-improvement works across Setia Alam, Shah Alam and surrounding areas. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] Rusdi Hj Imran Renovation & Plumbing is a renovation and repair contractor based in Setia Alam.",
+      "portfolioDescription": "[SAMPLE] Selected Rusdi Hj Imran Renovation & Plumbing projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact Rusdi Hj Imran Renovation & Plumbing for a renovation quotation in Setia Alam."
+    }
+  },
+  "company": {
+    "name": "Rusdi Hj Imran Renovation & Plumbing",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, repairs and home improvement in Setia Alam.",
+    "phone": "+60 12-490 9579",
+    "email": "[verify — not stated in source]",
+    "address": "[verify — service area stated as Setia Alam, Shah Alam and surrounding areas]",
+    "founded": 0,
+    "whatsapp": "60124909579",
+    "whatsappMessage": "Hi En. Rusdi, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60124909579"
+      },
+      {
+        "name": "Website",
+        "url": "https://rusdiamran.wordpress.com/"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "hammer",
+      "title": "Home Renovation",
+      "blurb": "Home Renovation — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "clipboard",
+      "title": "Plumbing Works",
+      "blurb": "Plumbing Works — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "clipboard",
+      "title": "Repairs & Maintenance",
+      "blurb": "Repairs & Maintenance — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "earth",
+      "title": "Tiling & Painting",
+      "blurb": "Tiling & Painting — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Setia Alam, Selangor",
+      "date": "2025",
+      "service": "Home Renovation",
+      "seed": "rusdi-imran-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Setia Alam, Selangor",
+      "date": "2025",
+      "service": "Plumbing Works",
+      "seed": "rusdi-imran-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Setia Alam, Selangor",
+      "date": "2024",
+      "service": "Repairs & Maintenance",
+      "seed": "rusdi-imran-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Setia Alam, Selangor",
+      "seed": "rusdi-imran-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Setia Alam, Selangor",
+      "seed": "rusdi-imran-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Setia Alam, Selangor",
+      "seed": "rusdi-imran-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "Rusdi Hj Imran",
+      "role": "[SAMPLE role — owner/contact]",
+      "seed": "rusdi-imran-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "rusdi-imran-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "rusdi-imran-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "rusdi-imran-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "rusdi-imran-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

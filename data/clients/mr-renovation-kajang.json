@@ -1,0 +1,267 @@
+{
+  "slug": "mr-renovation-kajang",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "kontraktorridwan.wordpress.com (updated 2025)",
+    "webPresence": "Basic free WordPress site — no proper website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)"
+    ],
+    "verifyBeforePitch": [
+      "phone",
+      "email",
+      "address",
+      "founded",
+      "licence",
+      "legalName",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client.",
+    "note": "Second contact number 014-725 6073 also stated"
+  },
+  "copy": {
+    "region": "Kajang, Selangor",
+    "serviceArea": "Kajang, Bangi, Semenyih, Putrajaya, Cyberjaya and surrounding areas",
+    "licence": "[verify CIDB registration — not stated in source]",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Kajang renovation team",
+    "mediaTag": "Kajang, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] MR Renovation Kajang handles renovation, repair and home-improvement works across Kajang, Bangi, Semenyih, Putrajaya, Cyberjaya and surrounding areas.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Kajang",
+      "homeDescription": "MR Renovation Kajang handles renovation, repairs and home-improvement works across Kajang, Bangi, Semenyih, Putrajaya, Cyberjaya and surrounding areas. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] MR Renovation Kajang is a renovation and repair contractor based in Kajang.",
+      "portfolioDescription": "[SAMPLE] Selected MR Renovation Kajang projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact MR Renovation Kajang for a renovation quotation in Kajang."
+    }
+  },
+  "company": {
+    "name": "MR Renovation Kajang",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, repairs and home improvement in Kajang.",
+    "phone": "+60 14-234 3845",
+    "email": "[verify — not stated in source]",
+    "address": "[verify — service area stated as Kajang, Bangi, Semenyih, Putrajaya, Cyberjaya and surrounding areas]",
+    "founded": 0,
+    "whatsapp": "60142343845",
+    "whatsappMessage": "Hi Mohd Ridwan, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60142343845"
+      },
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "hammer",
+      "title": "Home & Office Renovation",
+      "blurb": "Home & Office Renovation — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "clipboard",
+      "title": "Plumbing & Water Pumps",
+      "blurb": "Plumbing & Water Pumps — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "frame",
+      "title": "Roof Repairs",
+      "blurb": "Roof Repairs — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "earth",
+      "title": "Tiling & Tabletops",
+      "blurb": "Tiling & Tabletops — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-5",
+      "icon": "clipboard",
+      "title": "Ceiling Plaster & Partitions",
+      "blurb": "Ceiling Plaster & Partitions — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-6",
+      "icon": "frame",
+      "title": "Porch Construction",
+      "blurb": "Porch Construction — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Kajang, Selangor",
+      "date": "2025",
+      "service": "Home & Office Renovation",
+      "seed": "mr-renovation-kajang-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Kajang, Selangor",
+      "date": "2025",
+      "service": "Plumbing & Water Pumps",
+      "seed": "mr-renovation-kajang-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Kajang, Selangor",
+      "date": "2024",
+      "service": "Roof Repairs",
+      "seed": "mr-renovation-kajang-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Kajang, Selangor",
+      "seed": "mr-renovation-kajang-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Kajang, Selangor",
+      "seed": "mr-renovation-kajang-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Kajang, Selangor",
+      "seed": "mr-renovation-kajang-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "Mohd Ridwan",
+      "role": "[SAMPLE role — owner/contact]",
+      "seed": "mr-renovation-kajang-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "mr-renovation-kajang-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "mr-renovation-kajang-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "mr-renovation-kajang-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "mr-renovation-kajang-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

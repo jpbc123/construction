@@ -1,0 +1,245 @@
+{
+  "slug": "cl-plaster-ceiling",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "Facebook page (facebook.com/clplasterceiling) — details cross-checked from listing",
+    "webPresence": "Facebook page only — no website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "company.email",
+      "company.address",
+      "company.legalName",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)"
+    ],
+    "verifyBeforePitch": [
+      "founded",
+      "licence",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client."
+  },
+  "copy": {
+    "region": "Cheras, Selangor",
+    "serviceArea": "Cheras, Kajang and the Klang Valley",
+    "licence": "[verify CIDB registration — not stated in source]",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Cheras renovation team",
+    "mediaTag": "Cheras, Selangor",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] C L Plaster Ceiling & Renovation handles renovation, repair and home-improvement works across Cheras, Kajang and the Klang Valley.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Cheras",
+      "homeDescription": "C L Plaster Ceiling & Renovation handles renovation, repairs and home-improvement works across Cheras, Kajang and the Klang Valley. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] C L Plaster Ceiling & Renovation is a renovation and repair contractor based in Cheras.",
+      "portfolioDescription": "[SAMPLE] Selected C L Plaster Ceiling & Renovation projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact C L Plaster Ceiling & Renovation for a renovation quotation in Cheras."
+    }
+  },
+  "company": {
+    "name": "C L Plaster Ceiling & Renovation",
+    "legalName": "C L Plaster Ceiling & Renovation (TR0213897-W)",
+    "tagline": "Renovation, repairs and home improvement in Cheras.",
+    "phone": "+60 11-6963 9181",
+    "email": "clplaster87@gmail.com",
+    "address": "Taman Taming, Cheras, Selangor",
+    "founded": 0,
+    "whatsapp": "601169639181",
+    "whatsappMessage": "Hi C L Plaster Ceiling & Renovation, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/601169639181"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/clplasterceiling/"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "clipboard",
+      "title": "Plaster Ceiling",
+      "blurb": "Plaster Ceiling — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "hammer",
+      "title": "Renovation Works",
+      "blurb": "Renovation Works — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "frame",
+      "title": "Cornice & Trim",
+      "blurb": "Cornice & Trim — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "frame",
+      "title": "Partition Walls",
+      "blurb": "Partition Walls — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Cheras, Selangor",
+      "date": "2025",
+      "service": "Plaster Ceiling",
+      "seed": "cl-plaster-ceiling-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Cheras, Selangor",
+      "date": "2025",
+      "service": "Renovation Works",
+      "seed": "cl-plaster-ceiling-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Cheras, Selangor",
+      "date": "2024",
+      "service": "Cornice & Trim",
+      "seed": "cl-plaster-ceiling-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Cheras, Selangor",
+      "seed": "cl-plaster-ceiling-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Cheras, Selangor",
+      "seed": "cl-plaster-ceiling-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Cheras, Selangor",
+      "seed": "cl-plaster-ceiling-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "cl-plaster-ceiling-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "cl-plaster-ceiling-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "cl-plaster-ceiling-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "cl-plaster-ceiling-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "cl-plaster-ceiling-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

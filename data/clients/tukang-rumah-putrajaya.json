@@ -1,0 +1,266 @@
+{
+  "slug": "tukang-rumah-putrajaya",
+  "_meta": {
+    "status": "REAL FIRM — details unverified",
+    "source": "putrajayatukangpaiprumah.wordpress.com (last post 2021)",
+    "webPresence": "Free WordPress site, last updated 2021 — no proper website — qualifies under pitch-targeting rule",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "copy.region",
+      "copy.serviceArea",
+      "services (titles from stated services)"
+    ],
+    "verifyBeforePitch": [
+      "phone",
+      "email",
+      "address",
+      "founded",
+      "licence",
+      "legalName",
+      "exact service list"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before showing the client."
+  },
+  "copy": {
+    "region": "Putrajaya",
+    "serviceArea": "Putrajaya, Bangi, Kajang, Klang and Selangor",
+    "licence": "[verify CIDB registration — not stated in source]",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and repairs done properly",
+    "storyHeading": "A Putrajaya renovation team",
+    "mediaTag": "Putrajaya",
+    "story": [
+      "[SAMPLE — replace with the firm's own story] Tukang Rumah & Paip Putrajaya handles renovation, repair and home-improvement works across Putrajaya, Bangi, Kajang, Klang and Selangor.",
+      "[SAMPLE — replace] Founding year, crew size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation Contractor in Putrajaya",
+      "homeDescription": "Tukang Rumah & Paip Putrajaya handles renovation, repairs and home-improvement works across Putrajaya, Bangi, Kajang, Klang and Selangor. [SAMPLE — confirm details before use.]",
+      "aboutDescription": "[SAMPLE] Tukang Rumah & Paip Putrajaya is a renovation and repair contractor based in Putrajaya.",
+      "portfolioDescription": "[SAMPLE] Selected Tukang Rumah & Paip Putrajaya projects — replace with real project photos.",
+      "quoteDescription": "[SAMPLE] Contact Tukang Rumah & Paip Putrajaya for a renovation quotation in Putrajaya."
+    }
+  },
+  "company": {
+    "name": "Tukang Rumah & Paip Putrajaya",
+    "legalName": "[verify registered name]",
+    "tagline": "Renovation, repairs and home improvement in Putrajaya.",
+    "phone": "+60 13-232 1081",
+    "email": "[verify — not stated in source]",
+    "address": "[verify — service area stated as Putrajaya, Bangi, Kajang, Klang and Selangor]",
+    "founded": 0,
+    "whatsapp": "60132321081",
+    "whatsappMessage": "Hi Tukang Rumah & Paip Putrajaya, I found your details and would like a renovation quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60132321081"
+      },
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — crew size]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      },
+      {
+        "value": 0,
+        "suffix": "%",
+        "label": "[SAMPLE — or remove tile]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "hammer",
+      "title": "Home & Office Renovation",
+      "blurb": "Home & Office Renovation — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "clipboard",
+      "title": "Plumbing Repairs",
+      "blurb": "Plumbing Repairs — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "frame",
+      "title": "Roof Leak Repairs",
+      "blurb": "Roof Leak Repairs — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "clipboard",
+      "title": "Electrical Work",
+      "blurb": "Electrical Work — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-5",
+      "icon": "earth",
+      "title": "Tiling & Grilles",
+      "blurb": "Tiling & Grilles — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-6",
+      "icon": "frame",
+      "title": "Ceiling Plaster",
+      "blurb": "Ceiling Plaster — a service stated in the firm's own listing. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Putrajaya",
+      "date": "2025",
+      "service": "Home & Office Renovation",
+      "seed": "tukang-rumah-putrajaya-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Putrajaya",
+      "date": "2025",
+      "service": "Plumbing Repairs",
+      "seed": "tukang-rumah-putrajaya-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Putrajaya",
+      "date": "2024",
+      "service": "Roof Leak Repairs",
+      "seed": "tukang-rumah-putrajaya-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real Google/Facebook review or remove.]",
+      "name": "[Client name]",
+      "city": "Putrajaya",
+      "seed": "tukang-rumah-putrajaya-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Putrajaya",
+      "seed": "tukang-rumah-putrajaya-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Client name]",
+      "city": "Putrajaya",
+      "seed": "tukang-rumah-putrajaya-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "[SAMPLE] Enquiry & Site Visit",
+      "text": "[SAMPLE process step — replace with the firm's actual workflow.]"
+    },
+    {
+      "number": "02",
+      "title": "[SAMPLE] Quotation",
+      "text": "[SAMPLE process step — replace.]"
+    },
+    {
+      "number": "03",
+      "title": "[SAMPLE] Build & Handover",
+      "text": "[SAMPLE process step — replace.]"
+    }
+  ],
+  "team": [
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "tukang-rumah-putrajaya-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "tukang-rumah-putrajaya-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Field Notes",
+      "date": "2025",
+      "seed": "tukang-rumah-putrajaya-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Materials",
+      "date": "2025",
+      "seed": "tukang-rumah-putrajaya-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Regulations",
+      "date": "2025",
+      "seed": "tukang-rumah-putrajaya-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ const CLIENTS_DIR = path.join(process.cwd(), 'data', 'clients');
 /**
  * Each client is one JSON file in data/clients/<slug>.json.
  * Adding a file and rebuilding publishes /<slug> and its sub-pages.
- * See data/clients/suria-bina.json for the full shape.
+ * See data/clients/ns-contractor-jb.json for the full shape.
  */
 export function getClientSlugs() {
   return fs
@@ -27,7 +27,7 @@ export function getAllClients() {
   return getClientSlugs().map(getClient);
 }
 
-/** Build a path within a client's site: url(client, 'services') -> /suria-bina/services */
+/** Build a path within a client's site: url(client, 'services') -> /ns-contractor-jb/services */
 export function url(client, page = '') {
   return page ? `/${client.slug}/${page}` : `/${client.slug}`;
 }
