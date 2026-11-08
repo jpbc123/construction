@@ -1,0 +1,273 @@
+{
+  "slug": "haikal-plumber-kl",
+  "_meta": {
+    "status": "REAL FIRM — preview built 2026-11-08, not sent",
+    "source": "haikalplumber.com (user-added lead, 2026-11-08)",
+    "webPresence": "haikalplumber.com — half-finished WordPress template (leftover theme text, default post, conflicting year claims)",
+    "trade": "plumbing",
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "company.whatsapp (same number)",
+      "copy.region",
+      "services not marked [verify] (from haikalplumber.com)",
+      "copy.serviceArea",
+      "24/7 emergency"
+    ],
+    "verifyBeforePitch": [
+      "full address",
+      "email",
+      "founded",
+      "licence",
+      "service list items marked [verify]",
+      "owner name",
+      "service area"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before going live.",
+    "note": "Different business from haikal-plumber-shah-alam (018-275 2073). Do NOT copy the 'Faizal' reviews or the 20-vs-16-years claims from haikalplumber.com."
+  },
+  "copy": {
+    "region": "Kuala Lumpur & Selangor",
+    "heroBadge": "24/7 emergency plumber",
+    "serviceArea": "Ampang, Cheras, Langat, Pandan, Kuala Lumpur, Kajang, Bangi, Serdang, Nilai, Putrajaya, Puchong, Semenyih, Balakong and Salak Selatan",
+    "licence": "[verify — not stated publicly]",
+    "budgetLabel": "Rough job size",
+    "budgetError": "A rough guess is fine — it helps us bring the right parts.",
+    "budgets": [
+      "Small repair (under RM300)",
+      "RM300 – RM1k",
+      "RM1k – RM3k",
+      "Above RM3k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Plumber on call 24/7 across KL",
+    "storyHeading": "Haikal Plumber, Kuala Lumpur",
+    "mediaTag": "Kuala Lumpur & Selangor",
+    "story": [
+      "[SAMPLE — replace with the owner's own story] Haikal Plumber handles leaking pipes (paip bocor), blocked sinks & toilets, water tanks for homes across Ampang, Cheras, Langat, Pandan, Kuala Lumpur, Kajang, Bangi, Serdang, Nilai, Putrajaya, Puchong, Semenyih, Balakong and Salak Selatan.",
+      "24/7 emergency call-outs. [SAMPLE — years in business, team size and history to be confirmed with Haikal.]"
+    ],
+    "seo": {
+      "homeTitle": "Plumber on call 24/7 across KL",
+      "homeDescription": "Haikal Plumber: leaking pipes (paip bocor), blocked sinks & toilets, water tanks in Kuala Lumpur & Selangor.",
+      "aboutDescription": "[SAMPLE] About Haikal Plumber, Kuala Lumpur & Selangor.",
+      "portfolioDescription": "[SAMPLE] Recent Haikal Plumber jobs — replace with real photos.",
+      "quoteDescription": "Request a quote from Haikal Plumber in Kuala Lumpur & Selangor."
+    }
+  },
+  "company": {
+    "name": "Haikal Plumber",
+    "legalName": "Haikal Plumber",
+    "tagline": "24/7 emergency plumbing across Kuala Lumpur and Selangor.",
+    "phone": "+60 18-241 2236",
+    "email": "[verify — not stated publicly]",
+    "address": "Ampang / Kuala Lumpur [verify base]",
+    "founded": "[verify year]",
+    "whatsapp": "60182412236",
+    "whatsappMessage": "Hi Haikal, I found your website and would like a quote.",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60182412236"
+      }
+    ],
+    "stats": [
+      {
+        "value": 24,
+        "suffix": "/7",
+        "label": "Emergency call-outs"
+      },
+      {
+        "value": 7,
+        "suffix": "",
+        "label": "Plumbing services"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active, confirm with Haikal]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "clipboard",
+      "title": "Leaking Pipes (Paip Bocor)",
+      "blurb": "Leaking Pipes (Paip Bocor) for homes in Kuala Lumpur. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "hammer",
+      "title": "Blocked Sinks & Toilets",
+      "blurb": "Blocked Sinks & Toilets for homes in Kuala Lumpur. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "earth",
+      "title": "Water Tanks",
+      "blurb": "Water Tanks for homes in Kuala Lumpur. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "frame",
+      "title": "Water Heaters",
+      "blurb": "Water Heaters for homes in Kuala Lumpur. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-5",
+      "icon": "clipboard",
+      "title": "Low Water Pressure",
+      "blurb": "Low Water Pressure for homes in Kuala Lumpur. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-6",
+      "icon": "frame",
+      "title": "Roof Leaks (Atap Bocor)",
+      "blurb": "Roof Leaks (Atap Bocor) for homes in Kuala Lumpur. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-7",
+      "icon": "earth",
+      "title": "Damp & Mouldy Walls",
+      "blurb": "Damp & Mouldy Walls for homes in Kuala Lumpur. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Kuala Lumpur & Selangor",
+      "date": "2026",
+      "service": "Leaking Pipes (Paip Bocor)",
+      "seed": "haikal-plumber-kl-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Kuala Lumpur & Selangor",
+      "date": "2026",
+      "service": "Blocked Sinks & Toilets",
+      "seed": "haikal-plumber-kl-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Kuala Lumpur & Selangor",
+      "date": "2025",
+      "service": "Water Tanks",
+      "seed": "haikal-plumber-kl-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE testimonial — replace with a real customer review or remove.]",
+      "name": "[Customer name]",
+      "city": "Kuala Lumpur & Selangor",
+      "seed": "haikal-plumber-kl-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Kuala Lumpur & Selangor",
+      "seed": "haikal-plumber-kl-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Kuala Lumpur & Selangor",
+      "seed": "haikal-plumber-kl-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "WhatsApp or call",
+      "text": "[SAMPLE] Tell us the problem — a photo helps. 24/7 for emergencies."
+    },
+    {
+      "number": "02",
+      "title": "We come to you",
+      "text": "[SAMPLE] We check the problem on site and quote before starting."
+    },
+    {
+      "number": "03",
+      "title": "Fixed & tested",
+      "text": "[SAMPLE] We fix it, test it and clean up."
+    }
+  ],
+  "team": [
+    {
+      "name": "Haikal",
+      "role": "[SAMPLE role — owner]",
+      "seed": "haikal-plumber-kl-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "haikal-plumber-kl-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Tips",
+      "date": "2026",
+      "seed": "haikal-plumber-kl-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Maintenance",
+      "date": "2026",
+      "seed": "haikal-plumber-kl-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Costs",
+      "date": "2026",
+      "seed": "haikal-plumber-kl-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

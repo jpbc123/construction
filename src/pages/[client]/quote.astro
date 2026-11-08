@@ -12,6 +12,9 @@ export function getStaticPaths() {
 const { client } = Astro.props;
 const { company, services, copy } = client;
 const budgets = copy.budgets;
+// Small-job trades (plumbing, grilles) override these with smaller ranges or job sizes.
+const budgetLabel = copy.budgetLabel ?? 'Budget range';
+const budgetError = copy.budgetError ?? 'A rough range is fine — it helps us scope realistically.';
 ---
 
 <Base client={client} title="Request a Quote" description={copy.seo.quoteDescription}>
@@ -95,14 +98,12 @@ const budgets = copy.budgets;
             </div>
 
             <div class="field">
-              <label for="qf-budget">Budget range</label>
+              <label for="qf-budget">{budgetLabel}</label>
               <select id="qf-budget" name="budget" required>
                 <option value="">Select a range…</option>
                 {budgets.map((b) => <option value={b}>{b}</option>)}
               </select>
-              <p class="field-error" id="qf-budget-error">
-                A rough range is fine — it helps us scope realistically.
-              </p>
+              <p class="field-error" id="qf-budget-error">{budgetError}</p>
             </div>
 
             <div class="field">

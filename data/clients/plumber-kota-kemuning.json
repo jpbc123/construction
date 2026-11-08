@@ -1,0 +1,252 @@
+{
+  "slug": "plumber-kota-kemuning",
+  "_meta": {
+    "status": "REAL FIRM — preview built 2026-11-08, not sent",
+    "source": "Google Maps listing via jpbc-webdesign/leads/setia-alam-shah-alam.csv",
+    "webPresence": "None — mobile tradesman, no shop address",
+    "trade": "plumbing + wiring + renovation",
+    "googleMaps": {
+      "rating": 4.9,
+      "reviews": 44,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_SzlU0izzTERYKf4PVTYWNE",
+      "area": "Mobile service — we come to you (no shop address)",
+      "checked": "2026-11-08 (from the leads CSV)"
+    },
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "company.whatsapp (same number)",
+      "copy.region",
+      "company.google (rating + review count from Google Maps)",
+      "services not marked [verify] (from the Google Maps category / business name)"
+    ],
+    "verifyBeforePitch": [
+      "full address",
+      "email",
+      "founded",
+      "licence",
+      "service list items marked [verify]",
+      "owner name",
+      "service area"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before going live."
+  },
+  "copy": {
+    "region": "Kota Kemuning, Shah Alam",
+    "serviceArea": "Kota Kemuning, Shah Alam and nearby areas [verify exact areas]",
+    "licence": "[verify — not stated publicly]",
+    "budgetLabel": "Rough job size",
+    "budgetError": "A rough guess is fine — it helps us quote faster.",
+    "budgets": [
+      "Small repair (under RM500)",
+      "RM500 – RM3k",
+      "RM3k – RM15k",
+      "Above RM15k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Plumbing, wiring and renovation — we come to you",
+    "storyHeading": "Plumber Kota Kemuning, Kota Kemuning",
+    "mediaTag": "Mobile service — Kota Kemuning",
+    "story": [
+      "[SAMPLE — replace with the owner's own story] Plumber Kota Kemuning handles plumbing repairs, electrical wiring, renovation works for homes across Kota Kemuning, Shah Alam and nearby areas.",
+      "[SAMPLE — replace] Founding year, team size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Plumbing, wiring and renovation — we come to you",
+      "homeDescription": "Plumber Kota Kemuning: plumbing repairs, electrical wiring, renovation works in Kota Kemuning, Shah Alam. Rated 4.9 from 44 Google reviews.",
+      "aboutDescription": "[SAMPLE] About Plumber Kota Kemuning, Kota Kemuning, Shah Alam.",
+      "portfolioDescription": "[SAMPLE] Recent Plumber Kota Kemuning jobs — replace with real photos.",
+      "quoteDescription": "Request a quote from Plumber Kota Kemuning in Kota Kemuning, Shah Alam."
+    }
+  },
+  "company": {
+    "name": "Plumber Kota Kemuning",
+    "legalName": "Plumber Kota Kemuning",
+    "tagline": "Mobile plumbing, wiring and renovation around Kota Kemuning.",
+    "phone": "+60 11-1161 9964",
+    "email": "[verify — not stated publicly]",
+    "address": "Mobile service — we come to you (no shop address)",
+    "founded": "[verify year]",
+    "whatsapp": "601111619964",
+    "whatsappMessage": "Hi Plumber Kota Kemuning, I found your website and would like a quote.",
+    "google": {
+      "rating": "4.9",
+      "reviews": 44,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ_SzlU0izzTERYKf4PVTYWNE"
+    },
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/601111619964"
+      }
+    ],
+    "stats": [
+      {
+        "value": 44,
+        "suffix": "",
+        "label": "Google reviews, rated 4.9★"
+      },
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "clipboard",
+      "title": "Plumbing Repairs",
+      "blurb": "Plumbing Repairs for homes in Kota Kemuning. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "frame",
+      "title": "Electrical Wiring",
+      "blurb": "Electrical Wiring for homes in Kota Kemuning. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "hammer",
+      "title": "Renovation Works",
+      "blurb": "Renovation Works for homes in Kota Kemuning. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "earth",
+      "title": "Water Heater & Pump [verify]",
+      "blurb": "Water Heater & Pump for homes in Kota Kemuning. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Kota Kemuning, Shah Alam",
+      "date": "2026",
+      "service": "Plumbing Repairs",
+      "seed": "plumber-kota-kemuning-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Kota Kemuning, Shah Alam",
+      "date": "2026",
+      "service": "Electrical Wiring",
+      "seed": "plumber-kota-kemuning-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Kota Kemuning, Shah Alam",
+      "date": "2025",
+      "service": "Renovation Works",
+      "seed": "plumber-kota-kemuning-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE — replace with one of the 44 real Google reviews, with permission.]",
+      "name": "[Customer name]",
+      "city": "Kota Kemuning, Shah Alam",
+      "seed": "plumber-kota-kemuning-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Kota Kemuning, Shah Alam",
+      "seed": "plumber-kota-kemuning-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Kota Kemuning, Shah Alam",
+      "seed": "plumber-kota-kemuning-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "WhatsApp or call",
+      "text": "[SAMPLE] Tell us the problem — a photo helps."
+    },
+    {
+      "number": "02",
+      "title": "We come to you",
+      "text": "[SAMPLE] We check the problem on site and quote before starting."
+    },
+    {
+      "number": "03",
+      "title": "Fixed & tested",
+      "text": "[SAMPLE] We fix it, test it and clean up."
+    }
+  ],
+  "team": [
+    {
+      "name": "[Owner name]",
+      "role": "[SAMPLE role — owner]",
+      "seed": "plumber-kota-kemuning-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "plumber-kota-kemuning-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Tips",
+      "date": "2026",
+      "seed": "plumber-kota-kemuning-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Maintenance",
+      "date": "2026",
+      "seed": "plumber-kota-kemuning-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Costs",
+      "date": "2026",
+      "seed": "plumber-kota-kemuning-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

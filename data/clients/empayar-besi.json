@@ -1,0 +1,252 @@
+{
+  "slug": "empayar-besi",
+  "_meta": {
+    "status": "REAL FIRM — preview built 2026-11-08, not sent",
+    "source": "Google Maps listing via jpbc-webdesign/leads/setia-alam-shah-alam.csv",
+    "webPresence": "None — no website or social page found",
+    "trade": "fences / grilles / metal works",
+    "googleMaps": {
+      "rating": 4.7,
+      "reviews": 29,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJHxodbIhTzDERL8hccwPFEtM",
+      "area": "Sunsuria Forum, Setia Alam",
+      "checked": "2026-11-08 (from the leads CSV)"
+    },
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "company.whatsapp (same number)",
+      "copy.region",
+      "company.google (rating + review count from Google Maps)",
+      "services not marked [verify] (from the Google Maps category / business name)"
+    ],
+    "verifyBeforePitch": [
+      "full address",
+      "email",
+      "founded",
+      "licence",
+      "service list items marked [verify]",
+      "owner name",
+      "service area"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before going live."
+  },
+  "copy": {
+    "region": "Setia Alam, Shah Alam",
+    "serviceArea": "Setia Alam, Shah Alam and nearby areas [verify]",
+    "licence": "[verify — not stated publicly]",
+    "budgetLabel": "Rough budget",
+    "budgetError": "A rough range is fine — it helps us suggest materials.",
+    "budgets": [
+      "Under RM2k",
+      "RM2k – RM5k",
+      "RM5k – RM15k",
+      "Above RM15k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Grilles, fences and metal works in Setia Alam",
+    "storyHeading": "Empayar Besi, Setia Alam",
+    "mediaTag": "Setia Alam, Shah Alam",
+    "story": [
+      "[SAMPLE — replace with the owner's own story] Empayar Besi handles window & door grilles, gates & fences, awnings & roofing frames for homes across Setia Alam, Shah Alam and nearby areas.",
+      "[SAMPLE — replace] Founding year, team size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Grilles, fences and metal works in Setia Alam",
+      "homeDescription": "Empayar Besi: window & door grilles, gates & fences, awnings & roofing frames in Setia Alam, Shah Alam. Rated 4.7 from 29 Google reviews.",
+      "aboutDescription": "[SAMPLE] About Empayar Besi, Setia Alam, Shah Alam.",
+      "portfolioDescription": "[SAMPLE] Recent Empayar Besi jobs — replace with real photos.",
+      "quoteDescription": "Request a quote from Empayar Besi in Setia Alam, Shah Alam."
+    }
+  },
+  "company": {
+    "name": "Empayar Besi",
+    "legalName": "Empayar Besi",
+    "tagline": "Grilles, gates, fences and metal works in Setia Alam.",
+    "phone": "+60 11-1165 5293",
+    "email": "[verify — not stated publicly]",
+    "address": "Sunsuria Forum, Setia Alam [verify full address]",
+    "founded": "[verify year]",
+    "whatsapp": "601111655293",
+    "whatsappMessage": "Hi Empayar Besi, I found your website and would like a quote.",
+    "google": {
+      "rating": "4.7",
+      "reviews": 29,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJHxodbIhTzDERL8hccwPFEtM"
+    },
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/601111655293"
+      }
+    ],
+    "stats": [
+      {
+        "value": 29,
+        "suffix": "",
+        "label": "Google reviews, rated 4.7★"
+      },
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "frame",
+      "title": "Window & Door Grilles",
+      "blurb": "Window & Door Grilles for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "hammer",
+      "title": "Gates & Fences",
+      "blurb": "Gates & Fences for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "earth",
+      "title": "Awnings & Roofing Frames [verify]",
+      "blurb": "Awnings & Roofing Frames for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "clipboard",
+      "title": "Custom Metal Works",
+      "blurb": "Custom Metal Works for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Setia Alam, Shah Alam",
+      "date": "2026",
+      "service": "Window & Door Grilles",
+      "seed": "empayar-besi-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Setia Alam, Shah Alam",
+      "date": "2026",
+      "service": "Gates & Fences",
+      "seed": "empayar-besi-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Setia Alam, Shah Alam",
+      "date": "2025",
+      "service": "Awnings & Roofing Frames [verify]",
+      "seed": "empayar-besi-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE — replace with one of the 29 real Google reviews, with permission.]",
+      "name": "[Customer name]",
+      "city": "Setia Alam, Shah Alam",
+      "seed": "empayar-besi-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Setia Alam, Shah Alam",
+      "seed": "empayar-besi-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Setia Alam, Shah Alam",
+      "seed": "empayar-besi-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "WhatsApp or call",
+      "text": "[SAMPLE] Send photos and a short description of the job."
+    },
+    {
+      "number": "02",
+      "title": "Site visit & quotation",
+      "text": "[SAMPLE] We measure on site and send a clear quotation."
+    },
+    {
+      "number": "03",
+      "title": "Work & handover",
+      "text": "[SAMPLE] We do the work, clean up and walk you through it."
+    }
+  ],
+  "team": [
+    {
+      "name": "[Owner name]",
+      "role": "[SAMPLE role — owner]",
+      "seed": "empayar-besi-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "empayar-besi-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Tips",
+      "date": "2026",
+      "seed": "empayar-besi-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Maintenance",
+      "date": "2026",
+      "seed": "empayar-besi-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Costs",
+      "date": "2026",
+      "seed": "empayar-besi-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

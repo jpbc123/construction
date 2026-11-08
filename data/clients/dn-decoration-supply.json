@@ -1,0 +1,252 @@
+{
+  "slug": "dn-decoration-supply",
+  "_meta": {
+    "status": "REAL FIRM — preview built 2026-11-08, not sent",
+    "source": "Google Maps listing via jpbc-webdesign/leads/setia-alam-shah-alam.csv",
+    "webPresence": "None — no website or social page found",
+    "trade": "renovation / decoration",
+    "googleMaps": {
+      "rating": 4.5,
+      "reviews": 34,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJgZiNMq5VzDERQc-XpxLBZ2s",
+      "area": "Setia Perdana U13, Setia Alam",
+      "checked": "2026-11-08 (from the leads CSV)"
+    },
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "company.whatsapp (same number)",
+      "copy.region",
+      "company.google (rating + review count from Google Maps)",
+      "services not marked [verify] (from the Google Maps category / business name)"
+    ],
+    "verifyBeforePitch": [
+      "full address",
+      "email",
+      "founded",
+      "licence",
+      "service list items marked [verify]",
+      "owner name",
+      "service area"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before going live."
+  },
+  "copy": {
+    "region": "Setia Alam, Shah Alam",
+    "serviceArea": "Setia Alam, Shah Alam and nearby areas [verify]",
+    "licence": "[verify — not stated publicly]",
+    "budgetLabel": "Budget range",
+    "budgets": [
+      "Under RM5k",
+      "RM5k – RM20k",
+      "RM20k – RM50k",
+      "RM50k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Renovation and decoration in Setia Alam",
+    "storyHeading": "DN Decoration & Supply, Setia Alam",
+    "mediaTag": "Setia Alam, Shah Alam",
+    "story": [
+      "[SAMPLE — replace with the owner's own story] DN Decoration & Supply handles renovation works, interior decoration, material supply for homes across Setia Alam, Shah Alam and nearby areas.",
+      "[SAMPLE — replace] Founding year, team size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Renovation and decoration in Setia Alam",
+      "homeDescription": "DN Decoration & Supply: renovation works, interior decoration, material supply in Setia Alam, Shah Alam. Rated 4.5 from 34 Google reviews.",
+      "aboutDescription": "[SAMPLE] About DN Decoration & Supply, Setia Alam, Shah Alam.",
+      "portfolioDescription": "[SAMPLE] Recent DN Decoration & Supply jobs — replace with real photos.",
+      "quoteDescription": "Request a quote from DN Decoration & Supply in Setia Alam, Shah Alam."
+    }
+  },
+  "company": {
+    "name": "DN Decoration & Supply",
+    "legalName": "DN Decoration & Supply",
+    "tagline": "Renovation, decoration and supply in Setia Alam.",
+    "phone": "+60 18-272 0154",
+    "email": "[verify — not stated publicly]",
+    "address": "Setia Perdana U13, Setia Alam [verify full address]",
+    "founded": "[verify year]",
+    "whatsapp": "60182720154",
+    "whatsappMessage": "Hi DN Decoration & Supply, I found your website and would like a quote.",
+    "google": {
+      "rating": "4.5",
+      "reviews": 34,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJgZiNMq5VzDERQc-XpxLBZ2s"
+    },
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60182720154"
+      }
+    ],
+    "stats": [
+      {
+        "value": 34,
+        "suffix": "",
+        "label": "Google reviews, rated 4.5★"
+      },
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "hammer",
+      "title": "Renovation Works",
+      "blurb": "Renovation Works for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "frame",
+      "title": "Interior Decoration",
+      "blurb": "Interior Decoration for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "clipboard",
+      "title": "Material Supply [verify]",
+      "blurb": "Material Supply for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "earth",
+      "title": "Plaster Ceiling & Partitions [verify]",
+      "blurb": "Plaster Ceiling & Partitions for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Setia Alam, Shah Alam",
+      "date": "2026",
+      "service": "Renovation Works",
+      "seed": "dn-decoration-supply-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Setia Alam, Shah Alam",
+      "date": "2026",
+      "service": "Interior Decoration",
+      "seed": "dn-decoration-supply-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Setia Alam, Shah Alam",
+      "date": "2025",
+      "service": "Material Supply [verify]",
+      "seed": "dn-decoration-supply-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE — replace with one of the 34 real Google reviews, with permission.]",
+      "name": "[Customer name]",
+      "city": "Setia Alam, Shah Alam",
+      "seed": "dn-decoration-supply-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Setia Alam, Shah Alam",
+      "seed": "dn-decoration-supply-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Setia Alam, Shah Alam",
+      "seed": "dn-decoration-supply-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "WhatsApp or call",
+      "text": "[SAMPLE] Send photos and a short description of the job."
+    },
+    {
+      "number": "02",
+      "title": "Site visit & quotation",
+      "text": "[SAMPLE] We measure on site and send a clear quotation."
+    },
+    {
+      "number": "03",
+      "title": "Work & handover",
+      "text": "[SAMPLE] We do the work, clean up and walk you through it."
+    }
+  ],
+  "team": [
+    {
+      "name": "[Owner name]",
+      "role": "[SAMPLE role — owner]",
+      "seed": "dn-decoration-supply-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "dn-decoration-supply-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Tips",
+      "date": "2026",
+      "seed": "dn-decoration-supply-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Maintenance",
+      "date": "2026",
+      "seed": "dn-decoration-supply-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Costs",
+      "date": "2026",
+      "seed": "dn-decoration-supply-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

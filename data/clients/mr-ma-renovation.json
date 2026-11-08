@@ -1,0 +1,258 @@
+{
+  "slug": "mr-ma-renovation",
+  "_meta": {
+    "status": "REAL FIRM — preview built 2026-11-08, not sent",
+    "source": "Google Maps listing via jpbc-webdesign/leads/setia-alam-shah-alam.csv",
+    "webPresence": "TikTok only (tiktok.com/@mr.ma.renovation) — no website",
+    "trade": "renovation",
+    "googleMaps": {
+      "rating": 4.9,
+      "reviews": 32,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJDQoSOftRzDER22V91WWfTLc",
+      "area": "Setia Perdana U13, Setia Alam",
+      "checked": "2026-11-08 (from the leads CSV)"
+    },
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "company.whatsapp (same number)",
+      "copy.region",
+      "company.google (rating + review count from Google Maps)",
+      "services not marked [verify] (from the Google Maps category / business name)",
+      "company.tiktok"
+    ],
+    "verifyBeforePitch": [
+      "full address",
+      "email",
+      "founded",
+      "licence",
+      "service list items marked [verify]",
+      "owner name",
+      "service area"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before going live."
+  },
+  "copy": {
+    "region": "Setia Alam, Shah Alam",
+    "serviceArea": "Setia Alam, Shah Alam and nearby areas [verify]",
+    "licence": "[verify — not stated publicly]",
+    "budgetLabel": "Budget range",
+    "budgets": [
+      "Under RM5k",
+      "RM5k – RM20k",
+      "RM20k – RM50k",
+      "RM50k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Home renovation in Setia Alam",
+    "storyHeading": "Mr.MA Renovation, Setia Alam",
+    "mediaTag": "Setia Alam, Shah Alam",
+    "story": [
+      "[SAMPLE — replace with the owner's own story] Mr.MA Renovation handles home renovation, kitchen & bathroom works, tiling & flooring for homes across Setia Alam, Shah Alam and nearby areas.",
+      "[SAMPLE — replace] Founding year, team size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Home renovation in Setia Alam",
+      "homeDescription": "Mr.MA Renovation: home renovation, kitchen & bathroom works, tiling & flooring in Setia Alam, Shah Alam. Rated 4.9 from 32 Google reviews.",
+      "aboutDescription": "[SAMPLE] About Mr.MA Renovation, Setia Alam, Shah Alam.",
+      "portfolioDescription": "[SAMPLE] Recent Mr.MA Renovation jobs — replace with real photos.",
+      "quoteDescription": "Request a quote from Mr.MA Renovation in Setia Alam, Shah Alam."
+    }
+  },
+  "company": {
+    "name": "Mr.MA Renovation",
+    "legalName": "Mr.MA Renovation",
+    "tagline": "Home renovation and repairs in Setia Alam.",
+    "phone": "+60 11-6061 9060",
+    "email": "[verify — not stated publicly]",
+    "address": "Setia Perdana U13, Setia Alam [verify full address]",
+    "founded": "[verify year]",
+    "whatsapp": "601160619060",
+    "whatsappMessage": "Hi Mr.MA Renovation, I found your website and would like a quote.",
+    "google": {
+      "rating": "4.9",
+      "reviews": 32,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJDQoSOftRzDER22V91WWfTLc"
+    },
+    "tiktok": "mr.ma.renovation",
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/601160619060"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/@mr.ma.renovation"
+      }
+    ],
+    "stats": [
+      {
+        "value": 32,
+        "suffix": "",
+        "label": "Google reviews, rated 4.9★"
+      },
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "hammer",
+      "title": "Home Renovation",
+      "blurb": "Home Renovation for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "frame",
+      "title": "Kitchen & Bathroom Works [verify]",
+      "blurb": "Kitchen & Bathroom Works for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "earth",
+      "title": "Tiling & Flooring [verify]",
+      "blurb": "Tiling & Flooring for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "clipboard",
+      "title": "Repairs & Touch-ups [verify]",
+      "blurb": "Repairs & Touch-ups for homes in Setia Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Setia Alam, Shah Alam",
+      "date": "2026",
+      "service": "Home Renovation",
+      "seed": "mr-ma-renovation-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Setia Alam, Shah Alam",
+      "date": "2026",
+      "service": "Kitchen & Bathroom Works [verify]",
+      "seed": "mr-ma-renovation-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Setia Alam, Shah Alam",
+      "date": "2025",
+      "service": "Tiling & Flooring [verify]",
+      "seed": "mr-ma-renovation-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE — replace with one of the 32 real Google reviews, with permission.]",
+      "name": "[Customer name]",
+      "city": "Setia Alam, Shah Alam",
+      "seed": "mr-ma-renovation-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Setia Alam, Shah Alam",
+      "seed": "mr-ma-renovation-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Setia Alam, Shah Alam",
+      "seed": "mr-ma-renovation-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "WhatsApp or call",
+      "text": "[SAMPLE] Send photos and a short description of the job."
+    },
+    {
+      "number": "02",
+      "title": "Site visit & quotation",
+      "text": "[SAMPLE] We measure on site and send a clear quotation."
+    },
+    {
+      "number": "03",
+      "title": "Work & handover",
+      "text": "[SAMPLE] We do the work, clean up and walk you through it."
+    }
+  ],
+  "team": [
+    {
+      "name": "[Owner name]",
+      "role": "[SAMPLE role — owner]",
+      "seed": "mr-ma-renovation-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "mr-ma-renovation-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Tips",
+      "date": "2026",
+      "seed": "mr-ma-renovation-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Maintenance",
+      "date": "2026",
+      "seed": "mr-ma-renovation-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Costs",
+      "date": "2026",
+      "seed": "mr-ma-renovation-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

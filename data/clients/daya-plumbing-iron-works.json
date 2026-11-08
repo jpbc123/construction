@@ -1,0 +1,252 @@
+{
+  "slug": "daya-plumbing-iron-works",
+  "_meta": {
+    "status": "REAL FIRM — preview built 2026-11-08, not sent",
+    "source": "Google Maps listing via jpbc-webdesign/leads/setia-alam-shah-alam.csv",
+    "webPresence": "None — no website or social page found",
+    "trade": "plumbing + iron works",
+    "googleMaps": {
+      "rating": 4.7,
+      "reviews": 21,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ3fIBxKVXzDERCPdkDnDwxgc",
+      "area": "Jalan Dato Kaya Kecil, Klang / Kapar",
+      "checked": "2026-11-08 (from the leads CSV)"
+    },
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "company.whatsapp (same number)",
+      "copy.region",
+      "company.google (rating + review count from Google Maps)",
+      "services not marked [verify] (from the Google Maps category / business name)"
+    ],
+    "verifyBeforePitch": [
+      "full address",
+      "email",
+      "founded",
+      "licence",
+      "service list items marked [verify]",
+      "owner name",
+      "service area"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before going live."
+  },
+  "copy": {
+    "region": "Klang / Kapar, Selangor",
+    "serviceArea": "Klang, Kapar and nearby areas [verify]",
+    "licence": "[verify — not stated publicly]",
+    "budgetLabel": "Rough job size",
+    "budgetError": "A rough guess is fine — it helps us quote faster.",
+    "budgets": [
+      "Small repair (under RM500)",
+      "RM500 – RM2k",
+      "RM2k – RM8k",
+      "Above RM8k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Plumbing and iron works in Klang",
+    "storyHeading": "Daya Plumbing and Iron Works, Klang / Kapar",
+    "mediaTag": "Klang / Kapar, Selangor",
+    "story": [
+      "[SAMPLE — replace with the owner's own story] Daya Plumbing and Iron Works handles plumbing & pipe repairs, window & door grilles, gates & iron works for homes across Klang, Kapar and nearby areas.",
+      "[SAMPLE — replace] Founding year, team size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Plumbing and iron works in Klang",
+      "homeDescription": "Daya Plumbing and Iron Works: plumbing & pipe repairs, window & door grilles, gates & iron works in Klang / Kapar, Selangor. Rated 4.7 from 21 Google reviews.",
+      "aboutDescription": "[SAMPLE] About Daya Plumbing and Iron Works, Klang / Kapar, Selangor.",
+      "portfolioDescription": "[SAMPLE] Recent Daya Plumbing and Iron Works jobs — replace with real photos.",
+      "quoteDescription": "Request a quote from Daya Plumbing and Iron Works in Klang / Kapar, Selangor."
+    }
+  },
+  "company": {
+    "name": "Daya Plumbing and Iron Works",
+    "legalName": "Daya Plumbing and Iron Works",
+    "tagline": "Plumbing repairs and iron works in Klang and Kapar.",
+    "phone": "+60 11-2114 2802",
+    "email": "[verify — not stated publicly]",
+    "address": "Jalan Dato Kaya Kecil, Klang / Kapar [verify full address]",
+    "founded": "[verify year]",
+    "whatsapp": "601121142802",
+    "whatsappMessage": "Hi Daya Plumbing and Iron Works, I found your website and would like a quote.",
+    "google": {
+      "rating": "4.7",
+      "reviews": 21,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ3fIBxKVXzDERCPdkDnDwxgc"
+    },
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/601121142802"
+      }
+    ],
+    "stats": [
+      {
+        "value": 21,
+        "suffix": "",
+        "label": "Google reviews, rated 4.7★"
+      },
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "clipboard",
+      "title": "Plumbing & Pipe Repairs",
+      "blurb": "Plumbing & Pipe Repairs for homes in Klang / Kapar. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "frame",
+      "title": "Window & Door Grilles",
+      "blurb": "Window & Door Grilles for homes in Klang / Kapar. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "hammer",
+      "title": "Gates & Iron Works",
+      "blurb": "Gates & Iron Works for homes in Klang / Kapar. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "earth",
+      "title": "Water Tank & Pump [verify]",
+      "blurb": "Water Tank & Pump for homes in Klang / Kapar. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Klang / Kapar, Selangor",
+      "date": "2026",
+      "service": "Plumbing & Pipe Repairs",
+      "seed": "daya-plumbing-iron-works-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Klang / Kapar, Selangor",
+      "date": "2026",
+      "service": "Window & Door Grilles",
+      "seed": "daya-plumbing-iron-works-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Klang / Kapar, Selangor",
+      "date": "2025",
+      "service": "Gates & Iron Works",
+      "seed": "daya-plumbing-iron-works-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE — replace with one of the 21 real Google reviews, with permission.]",
+      "name": "[Customer name]",
+      "city": "Klang / Kapar, Selangor",
+      "seed": "daya-plumbing-iron-works-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Klang / Kapar, Selangor",
+      "seed": "daya-plumbing-iron-works-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Klang / Kapar, Selangor",
+      "seed": "daya-plumbing-iron-works-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "WhatsApp or call",
+      "text": "[SAMPLE] Tell us the problem — a photo helps."
+    },
+    {
+      "number": "02",
+      "title": "We come to you",
+      "text": "[SAMPLE] We check the problem on site and quote before starting."
+    },
+    {
+      "number": "03",
+      "title": "Fixed & tested",
+      "text": "[SAMPLE] We fix it, test it and clean up."
+    }
+  ],
+  "team": [
+    {
+      "name": "[Owner name]",
+      "role": "[SAMPLE role — owner]",
+      "seed": "daya-plumbing-iron-works-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "daya-plumbing-iron-works-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Tips",
+      "date": "2026",
+      "seed": "daya-plumbing-iron-works-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Maintenance",
+      "date": "2026",
+      "seed": "daya-plumbing-iron-works-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Costs",
+      "date": "2026",
+      "seed": "daya-plumbing-iron-works-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

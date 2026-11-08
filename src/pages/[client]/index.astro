@@ -17,6 +17,12 @@ export function getStaticPaths() {
 
 const { client } = Astro.props;
 const { company, copy, services, projects, testimonials, posts } = client;
+const numberWords = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+const serviceCount = numberWords[services.length] ?? String(services.length);
+// copy.heroBadge overrides; else the real Google Maps rating, when the client JSON supplies one, replaces the "Est." year.
+const heroBadge = copy.heroBadge ?? (company.google
+  ? `★ ${company.google.rating} · ${company.google.reviews} Google reviews`
+  : `Est. ${company.founded}`);
 ---
 
 <Base client={client} title={copy.seo.homeTitle} description={copy.seo.homeDescription}>
@@ -25,7 +31,7 @@ const { company, copy, services, projects, testimonials, posts } = client;
     <div class="container">
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="num">Est. {company.founded}</span> / {copy.region}</p>
+          <p class="eyebrow"><span class="num">{heroBadge}</span> / {copy.region}</p>
           <h1 id="hero-heading">{copy.heroHeading}</h1>
           <p class="lede">
             {company.tagline} From first site visit to final handover, one team owns your budget,
@@ -101,7 +107,7 @@ const { company, copy, services, projects, testimonials, posts } = client;
     <div class="container">
       <div class="section-head" data-reveal>
         <p class="eyebrow"><span class="num">04</span> / What we do</p>
-        <h2 id="services-heading">Six services. One point of contact.</h2>
+        <h2 id="services-heading">{serviceCount} {services.length === 1 ? 'service' : 'services'}. One point of contact.</h2>
         <p class="lede">
           Whether you need a full renovation partner or a specialist for one phase, the same
           standards apply.

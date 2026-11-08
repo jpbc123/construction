@@ -1,0 +1,253 @@
+{
+  "slug": "haikal-plumber-shah-alam",
+  "_meta": {
+    "status": "REAL FIRM — preview built 2026-11-08, not sent",
+    "source": "Google Maps listing via jpbc-webdesign/leads/setia-alam-shah-alam.csv",
+    "webPresence": "None for this number (haikalplumber.com is a DIFFERENT KL-area plumber, 018-241 2236 — do not mention it)",
+    "trade": "plumbing",
+    "googleMaps": {
+      "rating": 4.9,
+      "reviews": 16,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJmZ0Z6NpTzDERK8bJrNHtZnQ",
+      "area": "Seksyen 8, Shah Alam",
+      "checked": "2026-11-08 (from the leads CSV)"
+    },
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "company.whatsapp (same number)",
+      "copy.region",
+      "company.google (rating + review count from Google Maps)",
+      "services not marked [verify] (from the Google Maps category / business name)"
+    ],
+    "verifyBeforePitch": [
+      "full address",
+      "email",
+      "founded",
+      "licence",
+      "service list items marked [verify]",
+      "owner name",
+      "service area"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before going live.",
+    "note": "haikalplumber.com is a different KL-area plumber (018-241 2236) — do not mention it in outreach."
+  },
+  "copy": {
+    "region": "Shah Alam, Selangor",
+    "serviceArea": "Shah Alam and nearby areas [verify]",
+    "licence": "[verify — not stated publicly]",
+    "budgetLabel": "Rough job size",
+    "budgetError": "A rough guess is fine — it helps us bring the right parts.",
+    "budgets": [
+      "Small repair (under RM300)",
+      "RM300 – RM1k",
+      "RM1k – RM3k",
+      "Above RM3k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Your plumber in Shah Alam",
+    "storyHeading": "Haikal Plumber Shah Alam, Shah Alam",
+    "mediaTag": "Shah Alam, Selangor",
+    "story": [
+      "[SAMPLE — replace with the owner's own story] Haikal Plumber Shah Alam handles leaking pipes, blocked sinks & toilets, water heater & pump for homes across Shah Alam and nearby areas.",
+      "[SAMPLE — replace] Founding year, team size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Your plumber in Shah Alam",
+      "homeDescription": "Haikal Plumber Shah Alam: leaking pipes, blocked sinks & toilets, water heater & pump in Shah Alam, Selangor. Rated 4.9 from 16 Google reviews.",
+      "aboutDescription": "[SAMPLE] About Haikal Plumber Shah Alam, Shah Alam, Selangor.",
+      "portfolioDescription": "[SAMPLE] Recent Haikal Plumber Shah Alam jobs — replace with real photos.",
+      "quoteDescription": "Request a quote from Haikal Plumber Shah Alam in Shah Alam, Selangor."
+    }
+  },
+  "company": {
+    "name": "Haikal Plumber Shah Alam",
+    "legalName": "Haikal Plumber Shah Alam",
+    "tagline": "Plumbing repairs across Shah Alam.",
+    "phone": "+60 18-275 2073",
+    "email": "[verify — not stated publicly]",
+    "address": "Seksyen 8, Shah Alam [verify full address]",
+    "founded": "[verify year]",
+    "whatsapp": "60182752073",
+    "whatsappMessage": "Hi Haikal, I found your website and would like a quote.",
+    "google": {
+      "rating": "4.9",
+      "reviews": 16,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJmZ0Z6NpTzDERK8bJrNHtZnQ"
+    },
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60182752073"
+      }
+    ],
+    "stats": [
+      {
+        "value": 16,
+        "suffix": "",
+        "label": "Google reviews, rated 4.9★"
+      },
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "clipboard",
+      "title": "Leaking Pipes",
+      "blurb": "Leaking Pipes for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "hammer",
+      "title": "Blocked Sinks & Toilets",
+      "blurb": "Blocked Sinks & Toilets for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "earth",
+      "title": "Water Heater & Pump [verify]",
+      "blurb": "Water Heater & Pump for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "frame",
+      "title": "Bathroom Plumbing [verify]",
+      "blurb": "Bathroom Plumbing for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Shah Alam, Selangor",
+      "date": "2026",
+      "service": "Leaking Pipes",
+      "seed": "haikal-plumber-shah-alam-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2026",
+      "service": "Blocked Sinks & Toilets",
+      "seed": "haikal-plumber-shah-alam-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2025",
+      "service": "Water Heater & Pump [verify]",
+      "seed": "haikal-plumber-shah-alam-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE — replace with one of the 16 real Google reviews, with permission.]",
+      "name": "[Customer name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "haikal-plumber-shah-alam-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "haikal-plumber-shah-alam-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "haikal-plumber-shah-alam-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "WhatsApp or call",
+      "text": "[SAMPLE] Tell us the problem — a photo helps."
+    },
+    {
+      "number": "02",
+      "title": "We come to you",
+      "text": "[SAMPLE] We check the problem on site and quote before starting."
+    },
+    {
+      "number": "03",
+      "title": "Fixed & tested",
+      "text": "[SAMPLE] We fix it, test it and clean up."
+    }
+  ],
+  "team": [
+    {
+      "name": "Haikal",
+      "role": "[SAMPLE role — owner]",
+      "seed": "haikal-plumber-shah-alam-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "haikal-plumber-shah-alam-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Tips",
+      "date": "2026",
+      "seed": "haikal-plumber-shah-alam-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Maintenance",
+      "date": "2026",
+      "seed": "haikal-plumber-shah-alam-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Costs",
+      "date": "2026",
+      "seed": "haikal-plumber-shah-alam-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

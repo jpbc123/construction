@@ -1,0 +1,256 @@
+{
+  "slug": "jhang-safdar-enterprise",
+  "_meta": {
+    "status": "REAL FIRM — preview built 2026-11-08, not sent",
+    "source": "Google Maps listing via jpbc-webdesign/leads/setia-alam-shah-alam.csv",
+    "webPresence": "Facebook page only — no website",
+    "trade": "plumbing",
+    "googleMaps": {
+      "rating": 4.9,
+      "reviews": 28,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJB0oQ0VhNzDERM_-c9qfw75k",
+      "area": "Astana Alam / Bukit Raja, Shah Alam",
+      "checked": "2026-11-08 (from the leads CSV)"
+    },
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "company.whatsapp (same number)",
+      "copy.region",
+      "company.google (rating + review count from Google Maps)",
+      "services not marked [verify] (from the Google Maps category / business name)"
+    ],
+    "verifyBeforePitch": [
+      "full address",
+      "email",
+      "founded",
+      "licence",
+      "service list items marked [verify]",
+      "owner name",
+      "service area"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before going live."
+  },
+  "copy": {
+    "region": "Shah Alam, Selangor",
+    "serviceArea": "Shah Alam, Bukit Raja and nearby areas [verify]",
+    "licence": "[verify — not stated publicly]",
+    "budgetLabel": "Rough job size",
+    "budgetError": "A rough guess is fine — it helps us bring the right parts.",
+    "budgets": [
+      "Small repair (under RM300)",
+      "RM300 – RM1k",
+      "RM1k – RM3k",
+      "Above RM3k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Plumbing services in Shah Alam",
+    "storyHeading": "Jhang Safdar Enterprise, Shah Alam",
+    "mediaTag": "Shah Alam, Selangor",
+    "story": [
+      "[SAMPLE — replace with the owner's own story] Jhang Safdar Enterprise handles plumbing repairs, pipe installation, blocked drains & toilets for homes across Shah Alam, Bukit Raja and nearby areas.",
+      "[SAMPLE — replace] Founding year, team size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Plumbing services in Shah Alam",
+      "homeDescription": "Jhang Safdar Enterprise: plumbing repairs, pipe installation, blocked drains & toilets in Shah Alam, Selangor. Rated 4.9 from 28 Google reviews.",
+      "aboutDescription": "[SAMPLE] About Jhang Safdar Enterprise, Shah Alam, Selangor.",
+      "portfolioDescription": "[SAMPLE] Recent Jhang Safdar Enterprise jobs — replace with real photos.",
+      "quoteDescription": "Request a quote from Jhang Safdar Enterprise in Shah Alam, Selangor."
+    }
+  },
+  "company": {
+    "name": "Jhang Safdar Enterprise",
+    "legalName": "Jhang Safdar Enterprise",
+    "tagline": "Plumbing installation and repairs in Shah Alam.",
+    "phone": "+60 11-3989 3625",
+    "email": "[verify — not stated publicly]",
+    "address": "Astana Alam / Bukit Raja, Shah Alam [verify full address]",
+    "founded": "[verify year]",
+    "whatsapp": "601139893625",
+    "whatsappMessage": "Hi Jhang Safdar Enterprise, I found your website and would like a quote.",
+    "google": {
+      "rating": "4.9",
+      "reviews": 28,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJB0oQ0VhNzDERM_-c9qfw75k"
+    },
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/601139893625"
+      },
+      {
+        "name": "Facebook",
+        "url": "#"
+      }
+    ],
+    "stats": [
+      {
+        "value": 28,
+        "suffix": "",
+        "label": "Google reviews, rated 4.9★"
+      },
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "clipboard",
+      "title": "Plumbing Repairs",
+      "blurb": "Plumbing Repairs for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "hammer",
+      "title": "Pipe Installation [verify]",
+      "blurb": "Pipe Installation for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "earth",
+      "title": "Blocked Drains & Toilets [verify]",
+      "blurb": "Blocked Drains & Toilets for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "frame",
+      "title": "Water Tank & Pump [verify]",
+      "blurb": "Water Tank & Pump for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Shah Alam, Selangor",
+      "date": "2026",
+      "service": "Plumbing Repairs",
+      "seed": "jhang-safdar-enterprise-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2026",
+      "service": "Pipe Installation [verify]",
+      "seed": "jhang-safdar-enterprise-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2025",
+      "service": "Blocked Drains & Toilets [verify]",
+      "seed": "jhang-safdar-enterprise-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE — replace with one of the 28 real Google reviews, with permission.]",
+      "name": "[Customer name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "jhang-safdar-enterprise-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "jhang-safdar-enterprise-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "jhang-safdar-enterprise-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "WhatsApp or call",
+      "text": "[SAMPLE] Tell us the problem — a photo helps."
+    },
+    {
+      "number": "02",
+      "title": "We come to you",
+      "text": "[SAMPLE] We check the problem on site and quote before starting."
+    },
+    {
+      "number": "03",
+      "title": "Fixed & tested",
+      "text": "[SAMPLE] We fix it, test it and clean up."
+    }
+  ],
+  "team": [
+    {
+      "name": "[Owner name]",
+      "role": "[SAMPLE role — owner]",
+      "seed": "jhang-safdar-enterprise-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "jhang-safdar-enterprise-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Tips",
+      "date": "2026",
+      "seed": "jhang-safdar-enterprise-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Maintenance",
+      "date": "2026",
+      "seed": "jhang-safdar-enterprise-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Costs",
+      "date": "2026",
+      "seed": "jhang-safdar-enterprise-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}

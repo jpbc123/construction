@@ -1,0 +1,252 @@
+{
+  "slug": "prima-roofing-plumbing",
+  "_meta": {
+    "status": "REAL FIRM — preview built 2026-11-08, not sent",
+    "source": "Google Maps listing via jpbc-webdesign/leads/setia-alam-shah-alam.csv",
+    "webPresence": "None — no website or social page found",
+    "trade": "roofing + plumbing",
+    "googleMaps": {
+      "rating": 5,
+      "reviews": 48,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJH9iSc3vmzw8Rm2vd0qh5NV0",
+      "area": "Service area: Shah Alam [verify]",
+      "checked": "2026-11-08 (from the leads CSV)"
+    },
+    "realFields": [
+      "company.name",
+      "company.phone",
+      "company.whatsapp (same number)",
+      "copy.region",
+      "company.google (rating + review count from Google Maps)",
+      "services not marked [verify] (from the Google Maps category / business name)"
+    ],
+    "verifyBeforePitch": [
+      "full address",
+      "email",
+      "founded",
+      "licence",
+      "service list items marked [verify]",
+      "owner name",
+      "service area"
+    ],
+    "placeholderNote": "Every value containing [SAMPLE] or [verify] is filler to make the page render — replace before going live."
+  },
+  "copy": {
+    "region": "Shah Alam, Selangor",
+    "serviceArea": "Shah Alam and nearby areas [verify]",
+    "licence": "[verify — not stated publicly]",
+    "budgetLabel": "Rough job size",
+    "budgetError": "A rough guess is fine — roof jobs vary a lot by size.",
+    "budgets": [
+      "Small repair (under RM1k)",
+      "RM1k – RM5k",
+      "RM5k – RM20k",
+      "Above RM20k",
+      "Not sure yet"
+    ],
+    "heroHeading": "Roof and plumbing repairs in Shah Alam",
+    "storyHeading": "Prima Roofing and Plumbing Service, Shah Alam",
+    "mediaTag": "Shah Alam, Selangor",
+    "story": [
+      "[SAMPLE — replace with the owner's own story] Prima Roofing and Plumbing Service handles roof leak repairs, re-roofing & roof replacement, gutters & awnings for homes across Shah Alam and nearby areas.",
+      "[SAMPLE — replace] Founding year, team size and history to be confirmed with the owner."
+    ],
+    "seo": {
+      "homeTitle": "Roof and plumbing repairs in Shah Alam",
+      "homeDescription": "Prima Roofing and Plumbing Service: roof leak repairs, re-roofing & roof replacement, gutters & awnings in Shah Alam, Selangor. Rated 5.0 from 48 Google reviews.",
+      "aboutDescription": "[SAMPLE] About Prima Roofing and Plumbing Service, Shah Alam, Selangor.",
+      "portfolioDescription": "[SAMPLE] Recent Prima Roofing and Plumbing Service jobs — replace with real photos.",
+      "quoteDescription": "Request a quote from Prima Roofing and Plumbing Service in Shah Alam, Selangor."
+    }
+  },
+  "company": {
+    "name": "Prima Roofing and Plumbing Service",
+    "legalName": "Prima Roofing and Plumbing Service",
+    "tagline": "Roofing and plumbing services in Shah Alam.",
+    "phone": "+60 12-377 8261",
+    "email": "[verify — not stated publicly]",
+    "address": "Service area: Shah Alam [verify] [verify full address]",
+    "founded": "[verify year]",
+    "whatsapp": "60123778261",
+    "whatsappMessage": "Hi Prima Roofing and Plumbing Service, I found your website and would like a quote.",
+    "google": {
+      "rating": "5.0",
+      "reviews": 48,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJH9iSc3vmzw8Rm2vd0qh5NV0"
+    },
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60123778261"
+      }
+    ],
+    "stats": [
+      {
+        "value": 48,
+        "suffix": "",
+        "label": "Google reviews, rated 5.0★"
+      },
+      {
+        "value": 0,
+        "suffix": "+",
+        "label": "[SAMPLE — jobs completed]"
+      },
+      {
+        "value": 0,
+        "suffix": "",
+        "label": "[SAMPLE — years active]"
+      }
+    ],
+    "clients": [
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "caps"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "serif"
+      },
+      {
+        "name": "[SAMPLE supplier]",
+        "style": "mono"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "svc-1",
+      "icon": "frame",
+      "title": "Roof Leak Repairs",
+      "blurb": "Roof Leak Repairs for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-2",
+      "icon": "hammer",
+      "title": "Re-roofing & Roof Replacement [verify]",
+      "blurb": "Re-roofing & Roof Replacement for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-3",
+      "icon": "earth",
+      "title": "Gutters & Awnings [verify]",
+      "blurb": "Gutters & Awnings for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    },
+    {
+      "slug": "svc-4",
+      "icon": "clipboard",
+      "title": "Plumbing Repairs",
+      "blurb": "Plumbing Repairs for homes in Shah Alam. [SAMPLE blurb — confirm scope with the owner.]",
+      "includes": [
+        "[SAMPLE bullet — confirm]",
+        "[SAMPLE bullet]"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "[SAMPLE project — replace with real photos]",
+      "location": "Shah Alam, Selangor",
+      "date": "2026",
+      "service": "Roof Leak Repairs",
+      "seed": "prima-roofing-plumbing-p1"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2026",
+      "service": "Re-roofing & Roof Replacement [verify]",
+      "seed": "prima-roofing-plumbing-p2"
+    },
+    {
+      "title": "[SAMPLE project]",
+      "location": "Shah Alam, Selangor",
+      "date": "2025",
+      "service": "Gutters & Awnings [verify]",
+      "seed": "prima-roofing-plumbing-p3"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "[SAMPLE — replace with one of the 48 real Google reviews, with permission.]",
+      "name": "[Customer name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "prima-roofing-plumbing-a1"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "prima-roofing-plumbing-a2"
+    },
+    {
+      "quote": "[SAMPLE testimonial — replace or remove.]",
+      "name": "[Customer name]",
+      "city": "Shah Alam, Selangor",
+      "seed": "prima-roofing-plumbing-a3"
+    }
+  ],
+  "process": [
+    {
+      "number": "01",
+      "title": "WhatsApp or call",
+      "text": "[SAMPLE] Tell us the problem — a photo helps."
+    },
+    {
+      "number": "02",
+      "title": "We come to you",
+      "text": "[SAMPLE] We check the problem on site and quote before starting."
+    },
+    {
+      "number": "03",
+      "title": "Fixed & tested",
+      "text": "[SAMPLE] We fix it, test it and clean up."
+    }
+  ],
+  "team": [
+    {
+      "name": "[Owner name]",
+      "role": "[SAMPLE role — owner]",
+      "seed": "prima-roofing-plumbing-t1"
+    },
+    {
+      "name": "[Team member]",
+      "role": "[SAMPLE role]",
+      "seed": "prima-roofing-plumbing-t2"
+    }
+  ],
+  "posts": [
+    {
+      "title": "[SAMPLE blog post — replace or remove]",
+      "category": "Tips",
+      "date": "2026",
+      "seed": "prima-roofing-plumbing-b1",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Maintenance",
+      "date": "2026",
+      "seed": "prima-roofing-plumbing-b2",
+      "excerpt": "[SAMPLE excerpt.]"
+    },
+    {
+      "title": "[SAMPLE blog post]",
+      "category": "Costs",
+      "date": "2026",
+      "seed": "prima-roofing-plumbing-b3",
+      "excerpt": "[SAMPLE excerpt.]"
+    }
+  ]
+}
