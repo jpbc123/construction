@@ -400,77 +400,90 @@ const pad = (i) => String(i + 1).padStart(2, '0');
     }
   }
 
-  // Process: once the heading reaches the middle of the screen, the step cards
-  // appear one at a time. Each card also waits until it is in view, so on phones
-  // (one column) they keep appearing in order as you scroll down.
-  const steps = [...document.querySelectorAll('#lx-steps .lx-step')];
-  const procHead = document.getElementById('lx-proc-h');
-  if (steps.length && procHead) {
-    if (reduceMotion || !('IntersectionObserver' in window)) {
-      steps.forEach((s) => s.classList.add('is-in'));
-    } else {
-      root.classList.add('lx-js');
-      const GAP = 450; // ms between cards
-      let armed = false;
-      let next = 0;
-      let lastShown = 0;
-      let timer = null;
-      const inView = new Set();
+  // Process steps: scroll-driven, not timers (same as the ai-concierge "trust" section),
+  // so it plays the same scrolling down or back up. The section pins in the middle of
+  // the screen; the 1st card shows once it is pinned, then every STEP px of scrolling
+  // shows the next; after the last one it stays pinned STEP px more so it can be read,
+  // then scrolls on. On phones, if the whole section is too tall to pin, the card list
+  // pins instead; if even that won't fit, each card shows once it reaches 75% down.
+  const stepList = document.getElementById('lx-steps');
+  if (stepList && !reduceMotion && window.requestAnimationFrame) {
+    const STEP = 260; // about 2-3 mouse-wheel notches
+    const SIDE = 130; // unpinned fallback: stagger cards in the same row
+    const items = [...stepList.children];
+    const wrap = stepList.closest('section')?.querySelector('.lx-wrap');
+    const header = document.querySelector('.lx-header');
+    stepList.classList.add('reveal');
+    let u = null;
+    let ticking = false;
 
-      const pump = () => {
-        timer = null;
-        if (!armed || next >= steps.length) return;
-        const card = steps[next];
-        if (!inView.has(card)) return; // wait until the user scrolls to it
-        const wait = lastShown + GAP - performance.now();
-        if (wait > 0) {
-          timer = setTimeout(pump, wait);
-          return;
+    const reset = () => {
+      if (!u) return;
+      if (u.pin) {
+        u.pin.classList.remove('lx-pinned');
+        u.pin.style.top = '';
+      }
+      u.spacer?.remove();
+      u = null;
+    };
+    const update = () => {
+      ticking = false;
+      if (!u) return;
+      if (u.pin) {
+        // px scrolled since pinning: where the pin would be without sticky vs where it is held
+        const d = u.top - (u.pin.parentNode.getBoundingClientRect().top + u.nat);
+        const shown = d < 0 ? 0 : Math.min(items.length, 1 + Math.floor(d / STEP));
+        items.forEach((it, i) => it.classList.toggle('is-in', i < shown));
+      } else {
+        const line = window.innerHeight * 0.75;
+        items.forEach((it, i) => it.classList.toggle('is-in', it.getBoundingClientRect().top + u.cols[i] * SIDE < line));
+      }
+    };
+    const layout = () => {
+      reset();
+      const head = header ? header.offsetHeight : 0;
+      const room = window.innerHeight - head - 32;
+      const candidates = window.innerWidth < 900 ? [wrap, stepList] : [wrap];
+      u = { pin: null };
+      for (const c of candidates) {
+        if (c && c.offsetHeight <= room) {
+          u.pin = c;
+          break;
         }
-        card.classList.add('is-in');
-        lastShown = performance.now();
-        next += 1;
-        timer = setTimeout(pump, GAP);
-      };
-      const kick = () => {
-        if (!timer) pump();
-      };
-
-      // A zero-height line across the middle of the viewport.
-      new IntersectionObserver(
-        (entries, obs) => {
-          if (entries.some((e) => e.isIntersecting)) {
-            armed = true;
-            lastShown = performance.now() - GAP; // first card immediately
-            obs.disconnect();
-            kick();
-          }
-        },
-        { rootMargin: '-50% 0px -50% 0px' }
-      ).observe(procHead);
-
-      // Scrolling fast past the heading still arms it.
-      const armIfPassed = () => {
-        if (!armed && procHead.getBoundingClientRect().top < window.innerHeight / 2) {
-          armed = true;
-          lastShown = performance.now() - GAP;
-          kick();
+      }
+      if (u.pin) {
+        u.nat = u.pin.getBoundingClientRect().top - u.pin.parentNode.getBoundingClientRect().top;
+        u.top = head + (window.innerHeight - head - u.pin.offsetHeight) / 2;
+        u.pin.classList.add('lx-pinned');
+        u.pin.style.top = `${u.top}px`;
+        u.spacer = document.createElement('div');
+        u.spacer.setAttribute('aria-hidden', 'true');
+        u.spacer.style.gridColumn = '1 / -1';
+        u.spacer.style.height = `${items.length * STEP}px`;
+        u.pin.parentNode.insertBefore(u.spacer, u.pin.nextSibling);
+      }
+      // column index of each card within its row, for the unpinned fallback
+      u.cols = items.map((it, i) => {
+        let c = 0;
+        for (let j = i - 1; j >= 0 && Math.abs(items[j].offsetTop - it.offsetTop) < 2; j--) c++;
+        return c;
+      });
+      update();
+    };
+    window.addEventListener(
+      'scroll',
+      () => {
+        if (!ticking) {
+          ticking = true;
+          requestAnimationFrame(update);
         }
-      };
-      window.addEventListener('scroll', armIfPassed, { passive: true });
-      armIfPassed();
-
-      const cardObs = new IntersectionObserver(
-        (entries) => {
-          for (const e of entries) {
-            if (e.isIntersecting) inView.add(e.target);
-          }
-          kick();
-        },
-        { rootMargin: '0px 0px -12% 0px' }
-      );
-      steps.forEach((s) => cardObs.observe(s));
-    }
+      },
+      { passive: true }
+    );
+    window.addEventListener('resize', layout);
+    // Fonts change heights; lay out again once they've loaded.
+    document.fonts?.ready.then(layout);
+    layout();
   }
 
   // Quote form -> WhatsApp with the details filled in (no backend needed).
@@ -1049,30 +1062,26 @@ const pad = (i) => String(i + 1).padStart(2, '0');
     background: var(--gold);
     transform-origin: left;
   }
-  /* Hidden only once JS is running (html.lx-js), so no-JS visitors still see the steps. */
-  :global(html.lx-js) .lx-step {
+  /* Scroll reveal: only when JS adds .reveal, so the steps still show without JS. */
+  .lx-steps.reveal .lx-step {
     opacity: 0;
-    transform: translateY(28px);
-    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+    transform: translateY(32px);
+    transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
   }
-  :global(html.lx-js) .lx-step::before {
+  .lx-steps.reveal .lx-step::before {
     transform: scaleX(0);
-    transition: transform 0.9s cubic-bezier(0.6, 0, 0.2, 1) 0.15s;
+    transition: transform 0.7s cubic-bezier(0.6, 0, 0.2, 1) 0.1s;
   }
-  :global(html.lx-js) .lx-step.is-in {
+  .lx-steps.reveal .lx-step.is-in {
     opacity: 1;
     transform: none;
   }
-  :global(html.lx-js) .lx-step.is-in::before {
+  .lx-steps.reveal .lx-step.is-in::before {
     transform: scaleX(1);
   }
-  @media (prefers-reduced-motion: reduce) {
-    :global(html.lx-js) .lx-step,
-    :global(html.lx-js) .lx-step::before {
-      opacity: 1;
-      transform: none;
-      transition: none;
-    }
+  /* Process section: top is set by JS to centre it under the header. */
+  .lx-pinned {
+    position: sticky;
   }
   .lx-step-n {
     display: block;
