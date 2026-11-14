@@ -1,0 +1,11 @@
+---
+/**
+ * Bilingual text for the "luxe" layout. `v` is { en, zh } (or a plain string).
+ * Both spans are rendered; CSS shows one based on <html data-lang>.
+ */
+const { v } = Astro.props;
+const en = typeof v === 'string' ? v : v?.en ?? '';
+const zh = typeof v === 'string' ? v : v?.zh ?? en;
+---
+
+{en === zh ? <Fragment>{en}</Fragment> : <Fragment><span data-l="en">{en}</span><span data-l="zh" lang="zh-Hans">{zh}</span></Fragment>}

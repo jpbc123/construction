@@ -5,7 +5,8 @@ import Icon from '../../components/Icon.astro';
 import { getClientSlugs, getClient, url } from '../../lib/clients.js';
 
 export function getStaticPaths() {
-  return getClientSlugs().map((slug) => ({
+  // Clients on the one-page "luxe" layout have no sub-pages.
+  return getClientSlugs().filter((slug) => getClient(slug).layout !== 'luxe').map((slug) => ({
     params: { client: slug },
     props: { client: getClient(slug) },
   }));

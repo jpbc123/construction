@@ -6,6 +6,7 @@ import CtaBand from '../../components/CtaBand.astro';
 import ProcessSection from '../../components/ProcessSection.astro';
 import ProjectCard from '../../components/ProjectCard.astro';
 import Icon from '../../components/Icon.astro';
+import LuxeHome from '../../components/luxe/LuxeHome.astro';
 import { getClientSlugs, getClient, url } from '../../lib/clients.js';
 
 export function getStaticPaths() {
@@ -17,6 +18,9 @@ export function getStaticPaths() {
 
 const { client } = Astro.props;
 const { company, copy, services, projects, testimonials, posts } = client;
+// "layout": "luxe" in the client JSON swaps in the premium one-page bilingual home.
+const isLuxe = client.layout === 'luxe';
+const luxeOg = isLuxe ? new URL(client.luxe.hero.image, Astro.site ?? Astro.url.origin).href : undefined;
 const numberWords = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
 const serviceCount = numberWords[services.length] ?? String(services.length);
 // copy.heroBadge overrides; else the real Google Maps rating, when the client JSON supplies one, replaces the "Est." year.
@@ -25,6 +29,17 @@ const heroBadge = copy.heroBadge ?? (company.google
   : `Est. ${company.founded}`);
 ---
 
+{isLuxe ? (
+<Base client={client} title={copy.seo.homeTitle} description={copy.seo.homeDescription} chrome={false} ogImage={luxeOg}>
+  <Fragment slot="head">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@500;600&display=swap"
+    />
+  </Fragment>
+  <LuxeHome client={client} />
+</Base>
+) : (
 <Base client={client} title={copy.seo.homeTitle} description={copy.seo.homeDescription}>
   <!-- 01 · Hero -->
   <section class="hero" aria-labelledby="hero-heading">
@@ -228,3 +243,5 @@ const heroBadge = copy.heroBadge ?? (company.google
     </div>
   </section>
 </Base>
+
+)}

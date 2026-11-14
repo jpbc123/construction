@@ -1,0 +1,384 @@
+{
+  "slug": "miss-renovate",
+  "layout": "luxe",
+  "_meta": {
+    "status": "REAL FIRM — preview built 2026-11-14, not sent",
+    "source": "facebook.com/missrenovate (About, featured posts of 17 Feb 2025 and 9 Apr 2025, 'Craftsmanship' story highlight) + Google Maps listing (rating/count from the JPBC note, checked 2026-11-14)",
+    "webPresence": "Facebook only. Old site missreno.com.my no longer resolves.",
+    "trade": "interior design + renovation (one-stop)",
+    "doNotUse": [
+      "support@missreno.com and anything from missreno.com: that domain belongs to a DIFFERENT company (MissReno, Kota Kinabalu)",
+      "The 'SEMI D - Eco Ardence' and 'NEW OFFICE - Eco Ardence Crest' FB albums: 3D renders captioned 'Designed by EZ HOMEZ HOLDING SDN BHD' with an @EzHomez watermark. Excluded by the user on 2026-11-14",
+      "Mood-board / festive graphics from the FB Photos tab (not their own project photos)"
+    ],
+    "googleMaps": {
+      "rating": 4.7,
+      "reviews": 40,
+      "placeId": "ChIJVRDCSzpTzDERDYC1f3JJCvQ",
+      "checked": "2026-11-14 (JPBC note)"
+    },
+    "photos": "public/clients/miss-renovate/craft-1..6.jpg, from the FB story highlight 'Craftsmanship' (facebook.com/stories/842675957477860). Downloaded 2026-11-14 with the user's OK.",
+    "verifyBeforePitch": [
+      "Company reg. no.: FB shows '20230116746 (1500667-P)', the JPBC note has '202301167486 / 1506667-P'. Not shown on the page until confirmed",
+      "Address: FB About says 11-1 Jalan Eco Ardence D U12/36D (used); their 2025 posts say 11, Jln Setia Dagang AK U13/AK, Setia Alam (older?)",
+      "'10 years design experience' is their own claim (FB post); company registered 2023",
+      "Photo captions describe what is visible; project locations not stated"
+    ]
+  },
+  "copy": {
+    "region": "Selangor & Kuala Lumpur",
+    "serviceArea": "Selangor and Kuala Lumpur",
+    "budgets": [
+      "Under RM10k",
+      "RM10k – RM30k",
+      "RM30k – RM80k",
+      "RM80k – RM150k",
+      "Above RM150k",
+      "Not sure yet"
+    ],
+    "seo": {
+      "homeTitle": "Interior Design & Renovation, Shah Alam",
+      "homeDescription": "Miss Renovate Sdn Bhd: one-stop interior design and renovation for terrace, semi-D and bungalow homes in Selangor and KL. Rated 4.7 from 40 Google reviews.",
+      "aboutDescription": "About Miss Renovate, Shah Alam.",
+      "portfolioDescription": "Miss Renovate craftsmanship: real site photos.",
+      "quoteDescription": "Request a consultation from Miss Renovate."
+    }
+  },
+  "company": {
+    "name": "Miss Renovate",
+    "legalName": "Miss Renovate Sdn Bhd",
+    "tagline": "Crafting Luxury with Artisanal Precision in Design and Renovation",
+    "phone": "+60 12-858 9118",
+    "hotline": "1-700-81-1822",
+    "address": "11-1, Jalan Eco Ardence D U12/36D, Eco Ardence, Seksyen U12, 40170 Shah Alam, Selangor",
+    "whatsapp": "60124347118",
+    "whatsappDisplay": "+60 12-434 7118",
+    "whatsappMessage": "Hi Miss Renovate, I found your website and would like a free consultation.",
+    "facebook": "https://www.facebook.com/missrenovate",
+    "mapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJVRDCSzpTzDERDYC1f3JJCvQ",
+    "google": {
+      "rating": "4.7",
+      "reviews": 40,
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJVRDCSzpTzDERDYC1f3JJCvQ"
+    },
+    "social": [
+      {
+        "name": "WhatsApp",
+        "url": "https://wa.me/60124347118"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/missrenovate"
+      }
+    ],
+    "stats": [],
+    "clients": []
+  },
+  "luxe": {
+    "brandLine": {
+      "en": "Beyond Satisfaction",
+      "zh": "Beyond Satisfaction"
+    },
+    "values": [
+      "Mindful",
+      "Innovative",
+      "Skilful",
+      "Sincere"
+    ],
+    "hero": {
+      "eyebrow": {
+        "en": "Interior design & renovation · Selangor & KL",
+        "zh": "室内设计 · 一站式装修 · 雪兰莪 & 吉隆坡"
+      },
+      "heading": {
+        "en": "Crafting luxury, down to every detail.",
+        "zh": "精致装修，让每一寸都物超所值。"
+      },
+      "lede": {
+        "en": "One-stop design and renovation for terrace, semi-D and bungalow homes. Design, build and furniture, all by our own team.",
+        "zh": "专为排屋、独立式、半独立式住宅设计。从设计、装修到家具，全由自家团队包办。"
+      },
+      "image": "/clients/miss-renovate/craft-1.jpg",
+      "imageAlt": {
+        "en": "A kitchen after renovation by Miss Renovate",
+        "zh": "Miss Renovate 完工的厨房"
+      }
+    },
+    "why": {
+      "heading": {
+        "en": "Why Miss Renovate",
+        "zh": "为什么选择 Miss Renovate？"
+      },
+      "intro": {
+        "en": "Luxury isn't about spending more. It's about value you can see in every detail.",
+        "zh": "奢华不是越贵越好，而是价值体现在每一处细节。"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "One-stop service",
+            "zh": "一站式服务"
+          },
+          "text": {
+            "en": "Design, renovation and furniture, all handled by our own team, so quality and completion stay on track.",
+            "zh": "从设计、装修到家具，全由自家团队包办，确保品质与工期完美竣工！"
+          }
+        },
+        {
+          "title": {
+            "en": "Uncompromising detail",
+            "zh": "苛求完美"
+          },
+          "text": {
+            "en": "From design to construction, every detail is done to the highest standard.",
+            "zh": "从设计到施工，确保每一处细节都做到最好，只为让你的家更完美！"
+          }
+        },
+        {
+          "title": {
+            "en": "Premium materials",
+            "zh": "顶级质感"
+          },
+          "text": {
+            "en": "Carefully selected materials and a professional build team, brought together with top-tier design.",
+            "zh": "材质严格甄选，加上专业团队施工，融合顶级设计，呈现出有格调的品味！"
+          }
+        },
+        {
+          "title": {
+            "en": "Private showroom",
+            "zh": "私人展示厅"
+          },
+          "text": {
+            "en": "See and feel the materials, styles and designs in person before you renovate. What you see is what you get.",
+            "zh": "让顾客亲自感受材质、风格、设计，所见即所得，装修前确保100%满意！"
+          }
+        },
+        {
+          "title": {
+            "en": "Factory-direct value",
+            "zh": "高端性价比"
+          },
+          "text": {
+            "en": "Our own renovation team and our own furniture factory. No middlemen, factory prices.",
+            "zh": "自家装修团队，自家家私工厂，去除中间商，直供工厂价！"
+          }
+        }
+      ]
+    },
+    "services": {
+      "heading": {
+        "en": "One team, from design to handover",
+        "zh": "从设计到装修，全部帮你包到完"
+      },
+      "items": [
+        {
+          "icon": "drafting",
+          "title": {
+            "en": "Interior design",
+            "zh": "室内设计"
+          },
+          "text": {
+            "en": "3D design drawings tailored to your needs, plus 3D renders. The finished home matches the render by up to 95%.",
+            "zh": "提供 3D 设计图，根据您的喜好需求设计独一无二的家；3D 效果图，实际还原度高达95%！"
+          }
+        },
+        {
+          "icon": "hammer",
+          "title": {
+            "en": "Full renovation",
+            "zh": "全屋装修"
+          },
+          "text": {
+            "en": "Our own build team for terrace, semi-D and bungalow homes. Modern, Nordic or industrial: the style is yours.",
+            "zh": "自家装修团队，专为排屋、独立式、半独立式住宅。现代、北欧、工业风，风格随你的喜好。"
+          }
+        },
+        {
+          "icon": "sofa",
+          "title": {
+            "en": "Custom furniture & cabinetry",
+            "zh": "私人订制家私"
+          },
+          "text": {
+            "en": "Made-to-measure furniture from our own factory. Cabinets, sockets, lights and fans all handled by our team.",
+            "zh": "自家工厂打造的私人订制家私。橱柜、插座、灯、风扇等，全由我们团队负责。"
+          }
+        },
+        {
+          "icon": "clipboard",
+          "title": {
+            "en": "Transparent progress",
+            "zh": "透明进度"
+          },
+          "text": {
+            "en": "Weekly 360° photo and video updates, so you can follow the work without being on site.",
+            "zh": "每周 360° 照片＋影片更新进度，不用亲自监督，随时掌握进度。"
+          }
+        }
+      ],
+      "design": {
+        "heading": {
+          "en": "How we design",
+          "zh": "我们的设计"
+        },
+        "points": [
+          {
+            "en": "Light and ventilation first, for brighter, more spacious rooms.",
+            "zh": "特别注重采光与通风，让空间更明亮宽敞。"
+          },
+          {
+            "en": "Considered colour: paint and furniture that blend into a calm, relaxing home.",
+            "zh": "色彩搭配讲究，油漆与家具融合自然，营造温馨放松的氛围。"
+          },
+          {
+            "en": "Multi-functional storage that makes clever use of every space.",
+            "zh": "多功能收纳设计，巧妙利用空间，既美观又实用！"
+          }
+        ]
+      }
+    },
+    "work": {
+      "heading": {
+        "en": "Craftsmanship, on site",
+        "zh": "工艺，从工地开始"
+      },
+      "intro": {
+        "en": "Real photos from our own jobs.",
+        "zh": "来自我们工地的真实照片。"
+      },
+      "source": "https://www.facebook.com/stories/842675957477860/",
+      "items": [
+        {
+          "image": "/clients/miss-renovate/craft-1.jpg",
+          "caption": {
+            "en": "Kitchen: before and after",
+            "zh": "厨房：装修前后"
+          }
+        },
+        {
+          "image": "/clients/miss-renovate/craft-2.jpg",
+          "caption": {
+            "en": "Brickwork",
+            "zh": "砌砖工程"
+          }
+        },
+        {
+          "image": "/clients/miss-renovate/craft-3.jpg",
+          "caption": {
+            "en": "Wall plastering",
+            "zh": "墙面批荡"
+          }
+        },
+        {
+          "image": "/clients/miss-renovate/craft-4.jpg",
+          "caption": {
+            "en": "Steel awning frame",
+            "zh": "钢架雨棚"
+          }
+        },
+        {
+          "image": "/clients/miss-renovate/craft-5.jpg",
+          "caption": {
+            "en": "Wall tiling",
+            "zh": "墙面铺砖"
+          }
+        },
+        {
+          "image": "/clients/miss-renovate/craft-6.jpg",
+          "caption": {
+            "en": "Wet works and finishing",
+            "zh": "泥水与收尾工程"
+          }
+        }
+      ]
+    },
+    "process": {
+      "heading": {
+        "en": "Your dream home doesn't have to wait",
+        "zh": "您的梦想之家，不必再等了"
+      },
+      "steps": [
+        {
+          "title": {
+            "en": "Tell us about your home",
+            "zh": "告诉我们你的需求"
+          },
+          "text": {
+            "en": "Your style, needs, preferences and lifestyle. Consultation is free.",
+            "zh": "直接告诉我们你想要的装修风格、需求、喜好和生活方式。#免费咨询"
+          }
+        },
+        {
+          "title": {
+            "en": "3D design",
+            "zh": "3D 设计"
+          },
+          "text": {
+            "en": "3D drawings and renders, so you see the result before work starts.",
+            "zh": "3D 设计图与效果图，装修前先看到成果。"
+          }
+        },
+        {
+          "title": {
+            "en": "Build, with weekly updates",
+            "zh": "施工，每周汇报"
+          },
+          "text": {
+            "en": "Our own team builds, with 360° photo and video reports every week.",
+            "zh": "自家团队施工，每周 360° 照片＋影片汇报进度。"
+          }
+        },
+        {
+          "title": {
+            "en": "Furnished handover",
+            "zh": "完工交屋"
+          },
+          "text": {
+            "en": "Custom furniture from our factory, installed and ready to live in.",
+            "zh": "自家工厂订制家私，安装完成，即可入住。"
+          }
+        }
+      ]
+    },
+    "reviews": [],
+    "contact": {
+      "heading": {
+        "en": "Book a free consultation",
+        "zh": "立即预约免费咨询"
+      },
+      "propertyTypes": [
+        {
+          "en": "Terrace house",
+          "zh": "排屋"
+        },
+        {
+          "en": "Semi-D",
+          "zh": "半独立式"
+        },
+        {
+          "en": "Bungalow",
+          "zh": "独立式"
+        },
+        {
+          "en": "Condo / apartment",
+          "zh": "公寓"
+        },
+        {
+          "en": "Other",
+          "zh": "其他"
+        }
+      ],
+      "areas": {
+        "en": "Selangor · Kuala Lumpur · Klang",
+        "zh": "雪兰莪 · 吉隆坡 · 巴生"
+      }
+    }
+  },
+  "services": [],
+  "projects": [],
+  "testimonials": [],
+  "process": [],
+  "team": [],
+  "posts": []
+}

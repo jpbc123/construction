@@ -9,6 +9,8 @@ const {
   title,
   description,
   ogImage = `https://picsum.photos/seed/${client.slug}-og/1200/630`,
+  // chrome={false}: the page draws its own header/footer (e.g. the "luxe" layout).
+  chrome = true,
 } = Astro.props;
 
 const company = client.company;
@@ -43,15 +45,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).hr
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
     />
+    <slot name="head" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <JpbcBanner />
-    <Header client={client} />
+    {chrome && <Header client={client} />}
     <main id="main">
       <slot />
     </main>
-    <Footer client={client} />
+    {chrome ? <Footer client={client} /> : <slot name="footer" />}
 
     <script>
       const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

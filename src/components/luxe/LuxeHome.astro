@@ -1,0 +1,1127 @@
+---
+/**
+ * "luxe" layout: a premium, one-page, bilingual (EN / 中文) home for clients whose
+ * JSON sets "layout": "luxe" and supplies a `luxe` block. Every text field is
+ * { en, zh }. Only facts from the client's JSON are shown; there are no
+ * placeholder stats, team, blog or email.
+ */
+import fs from 'node:fs';
+import path from 'node:path';
+import L from './L.astro';
+import Icon from '../Icon.astro';
+import { waLink } from '../../lib/clients.js';
+
+const { client } = Astro.props;
+const { company, copy, luxe } = client;
+
+// Only show photos that are actually in /public (so a missing download never renders a broken image).
+const exists = (src) => fs.existsSync(path.join(process.cwd(), 'public', src.replace(/^\//, '')));
+const work = luxe.work.items.filter((w) => exists(w.image));
+const reviews = luxe.reviews ?? [];
+
+const wa = waLink(client);
+const tel = (n) => `tel:${n.replace(/[^+\d]/g, '')}`;
+const year = new Date().getFullYear();
+const nav = [
+  { id: 'why', label: { en: 'Why us', zh: '优势' } },
+  { id: 'services', label: { en: 'Services', zh: '服务' } },
+  { id: 'work', label: { en: 'Our work', zh: '作品' } },
+  { id: 'process', label: { en: 'Process', zh: '流程' } },
+  { id: 'contact', label: { en: 'Contact', zh: '联系' } },
+];
+const pad = (i) => String(i + 1).padStart(2, '0');
+---
+
+<div class="lx" id="lx">
+  <header class="lx-header">
+    <div class="lx-wrap lx-header-inner">
+      <a class="lx-logo" href="#top" aria-label={`${company.name}, back to top`}>
+        <svg width="34" height="34" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M6 19 20 7l14 12v14H6z" fill="none" stroke="url(#lxg)" stroke-width="2" stroke-linejoin="round" />
+          <path d="M15 33V22h10v11" fill="none" stroke="url(#lxg)" stroke-width="2" />
+          <defs>
+            <linearGradient id="lxg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f3dfa2" /><stop offset=".55" stop-color="#c9a45c" /><stop offset="1" stop-color="#8a6a2f" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="lx-logo-text">
+          <span class="lx-logo-name">MISS <b>RENOVATE</b></span>
+          <span class="lx-logo-sub">BEYOND SATISFACTION</span>
+        </span>
+      </a>
+      <nav class="lx-nav" aria-label="Sections">
+        {nav.map((n) => <a href={`#${n.id}`}><L v={n.label} /></a>)}
+      </nav>
+      <div class="lx-header-actions">
+        <button class="lx-lang" type="button" id="lx-lang" aria-label="Switch language / 切换语言">
+          <span data-l="en">中文</span><span data-l="zh">EN</span>
+        </button>
+        <a class="lx-btn lx-btn-gold lx-header-cta" href={wa} target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="lx-hero" id="top" aria-labelledby="lx-hero-h">
+    <div class="lx-wrap lx-hero-grid">
+      <div class="lx-hero-copy">
+        <a class="lx-rating" href={company.google.url} target="_blank" rel="noopener">
+          <span class="lx-stars" aria-hidden="true">★★★★★</span>
+          <span><b>{company.google.rating}</b> · <L v={{ en: `${company.google.reviews} Google reviews`, zh: `${company.google.reviews} 条 Google 评价` }} /></span>
+        </a>
+        <p class="lx-eyebrow"><L v={luxe.hero.eyebrow} /></p>
+        <h1 id="lx-hero-h"><L v={luxe.hero.heading} /></h1>
+        <p class="lx-lede"><L v={luxe.hero.lede} /></p>
+        <div class="lx-actions">
+          <a class="lx-btn lx-btn-gold" href={wa} target="_blank" rel="noopener">
+            <L v={{ en: 'Free consultation on WhatsApp', zh: 'WhatsApp 免费咨询' }} />
+          </a>
+          <a class="lx-btn lx-btn-line" href={tel(company.hotline)}>
+            <L v={{ en: `Hotline ${company.hotline}`, zh: `热线 ${company.hotline}` }} />
+          </a>
+        </div>
+      </div>
+      <figure class="lx-hero-media">
+        <img
+          src={luxe.hero.image}
+          alt={luxe.hero.imageAlt.en}
+          data-alt-zh={luxe.hero.imageAlt.zh}
+          data-alt-en={luxe.hero.imageAlt.en}
+          width="960"
+          height="540"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <figcaption><L v={{ en: 'Completed kitchen, from our own job', zh: '完工厨房 · 我们的真实案例' }} /></figcaption>
+      </figure>
+    </div>
+    <div class="lx-values" aria-label="Mindful, Innovative, Skilful, Sincere">
+      {luxe.values.map((v) => <span><b>{v[0]}</b>{v.slice(1)}</span>)}
+    </div>
+  </section>
+
+  <!-- Why -->
+  <section class="lx-section" id="why" aria-labelledby="lx-why-h">
+    <div class="lx-wrap">
+      <div class="lx-head">
+        <p class="lx-kicker">01</p>
+        <h2 id="lx-why-h"><L v={luxe.why.heading} /></h2>
+        <p class="lx-quote"><L v={luxe.why.intro} /></p>
+      </div>
+      <ol class="lx-why">
+        {
+          luxe.why.items.map((item, i) => (
+            <li data-reveal style={`--reveal-delay:${(i % 3) * 80}ms`}>
+              <span class="lx-num">{pad(i)}</span>
+              <h3><L v={item.title} /></h3>
+              <p><L v={item.text} /></p>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="lx-section lx-alt" id="services" aria-labelledby="lx-svc-h">
+    <div class="lx-wrap">
+      <div class="lx-head">
+        <p class="lx-kicker">02</p>
+        <h2 id="lx-svc-h"><L v={luxe.services.heading} /></h2>
+      </div>
+      <div class="lx-svc-grid">
+        {
+          luxe.services.items.map((s, i) => (
+            <article class="lx-svc" data-reveal style={`--reveal-delay:${(i % 2) * 80}ms`}>
+              <span class="lx-icon"><Icon name={s.icon} size={26} /></span>
+              <h3><L v={s.title} /></h3>
+              <p><L v={s.text} /></p>
+            </article>
+          ))
+        }
+      </div>
+      <div class="lx-design" data-reveal>
+        <h3><L v={luxe.services.design.heading} /></h3>
+        <ul>
+          {luxe.services.design.points.map((p) => <li><L v={p} /></li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  {
+    work.length > 0 && (
+      <section class="lx-section" id="work" aria-labelledby="lx-work-h">
+        <div class="lx-wrap">
+          <div class="lx-head">
+            <p class="lx-kicker">03</p>
+            <h2 id="lx-work-h"><L v={luxe.work.heading} /></h2>
+            <p class="lx-sub"><L v={luxe.work.intro} /></p>
+          </div>
+          <div class="lx-gallery">
+            {work.map((w, i) => (
+              <figure class={i === 0 ? 'lx-shot lx-shot-wide' : 'lx-shot'} data-reveal style={`--reveal-delay:${(i % 3) * 80}ms`}>
+                <img src={w.image} alt={w.caption.en} data-alt-en={w.caption.en} data-alt-zh={w.caption.zh} width="960" height="1080" loading="lazy" />
+                <figcaption><L v={w.caption} /></figcaption>
+              </figure>
+            ))}
+          </div>
+          <p class="lx-source">
+            <a href={company.facebook} target="_blank" rel="noopener">
+              <L v={{ en: 'More on our Facebook →', zh: '更多作品请看我们的 Facebook →' }} />
+            </a>
+          </p>
+        </div>
+      </section>
+    )
+  }
+
+  <!-- Process -->
+  <section class="lx-section lx-alt" id="process" aria-labelledby="lx-proc-h">
+    <div class="lx-wrap">
+      <div class="lx-head">
+        <p class="lx-kicker">04</p>
+        <h2 id="lx-proc-h"><L v={luxe.process.heading} /></h2>
+      </div>
+      <ol class="lx-steps">
+        {
+          luxe.process.steps.map((s, i) => (
+            <li data-reveal style={`--reveal-delay:${i * 80}ms`}>
+              <span class="lx-step-n">{pad(i)}</span>
+              <h3><L v={s.title} /></h3>
+              <p><L v={s.text} /></p>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="lx-section" id="reviews" aria-labelledby="lx-rev-h">
+    <div class="lx-wrap">
+      <div class="lx-head">
+        <p class="lx-kicker">05</p>
+        <h2 id="lx-rev-h"><L v={{ en: 'What our clients say', zh: '客户评价' }} /></h2>
+      </div>
+      <a class="lx-score" href={company.google.url} target="_blank" rel="noopener">
+        <span class="lx-score-n">{company.google.rating}</span>
+        <span>
+          <span class="lx-stars" aria-hidden="true">★★★★★</span><br />
+          <L v={{ en: `from ${company.google.reviews} reviews on Google Maps`, zh: `来自 Google 地图的 ${company.google.reviews} 条评价` }} />
+        </span>
+      </a>
+      {
+        reviews.length > 0 && (
+          <div class="lx-reviews">
+            {reviews.map((r, i) => (
+              <figure class="lx-review" data-reveal style={`--reveal-delay:${(i % 3) * 80}ms`}>
+                <span class="lx-stars" aria-label={`${r.stars} stars`}>{'★'.repeat(r.stars)}</span>
+                <blockquote>{r.text}</blockquote>
+                <figcaption>{r.name} · Google</figcaption>
+              </figure>
+            ))}
+          </div>
+        )
+      }
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="lx-section lx-alt" id="contact" aria-labelledby="lx-contact-h">
+    <div class="lx-wrap lx-contact">
+      <div>
+        <p class="lx-kicker">06</p>
+        <h2 id="lx-contact-h"><L v={luxe.contact.heading} /></h2>
+        <ul class="lx-details">
+          <li>
+            <span class="lx-dt">WhatsApp</span>
+            <a href={wa} target="_blank" rel="noopener">{company.whatsappDisplay}</a>
+          </li>
+          <li>
+            <span class="lx-dt"><L v={{ en: 'Hotline', zh: '热线' }} /></span>
+            <a href={tel(company.hotline)}>{company.hotline}</a>
+          </li>
+          <li>
+            <span class="lx-dt"><L v={{ en: 'Phone', zh: '电话' }} /></span>
+            <a href={tel(company.phone)}>{company.phone}</a>
+          </li>
+          <li>
+            <span class="lx-dt"><L v={{ en: 'Office', zh: '办公室' }} /></span>
+            <span>
+              {company.address}<br />
+              <a href={company.mapsUrl} target="_blank" rel="noopener"><L v={{ en: 'Open in Google Maps →', zh: '在 Google 地图打开 →' }} /></a>
+            </span>
+          </li>
+          <li>
+            <span class="lx-dt"><L v={{ en: 'Areas', zh: '服务地区' }} /></span>
+            <span><L v={luxe.contact.areas} /></span>
+          </li>
+        </ul>
+      </div>
+
+      <form class="lx-form" id="lx-form" novalidate data-wa={company.whatsapp}>
+        <p class="lx-form-note"><L v={{ en: 'Send this form and it opens WhatsApp with your details filled in.', zh: '提交后将打开 WhatsApp，并自动填好您的资料。' }} /></p>
+        <label>
+          <span><L v={{ en: 'Name', zh: '姓名' }} /></span>
+          <input name="name" autocomplete="name" required />
+        </label>
+        <label>
+          <span><L v={{ en: 'Property type', zh: '房屋类型' }} /></span>
+          <select name="property" required>
+            <option value="" data-en="Select…" data-zh="请选择…">Select…</option>
+            {luxe.contact.propertyTypes.map((p) => <option value={p.en} data-en={p.en} data-zh={p.zh}>{p.en}</option>)}
+          </select>
+        </label>
+        <label>
+          <span><L v={{ en: 'Budget', zh: '预算' }} /></span>
+          <select name="budget" required>
+            <option value="" data-en="Select…" data-zh="请选择…">Select…</option>
+            {copy.budgets.map((b) => <option value={b}>{b}</option>)}
+          </select>
+        </label>
+        <label>
+          <span><L v={{ en: 'Area', zh: '地区' }} /></span>
+          <input name="area" placeholder="e.g. Setia Alam" data-ph-en="e.g. Setia Alam" data-ph-zh="例如：Setia Alam" />
+        </label>
+        <label class="lx-full">
+          <span><L v={{ en: 'What would you like done?', zh: '您想装修什么？' }} /></span>
+          <textarea name="details" rows="4"></textarea>
+        </label>
+        <p class="lx-error" id="lx-form-error" role="alert" hidden><L v={{ en: 'Please fill in your name, property type and budget.', zh: '请填写姓名、房屋类型和预算。' }} /></p>
+        <button class="lx-btn lx-btn-gold lx-full" type="submit"><L v={{ en: 'Send on WhatsApp', zh: '通过 WhatsApp 发送' }} /></button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="lx-footer">
+    <div class="lx-wrap lx-footer-inner">
+      <div>
+        <div class="lx-footer-name">{company.legalName}</div>
+        <div class="lx-footer-tag">{company.tagline} — Beyond Satisfaction</div>
+      </div>
+      <div class="lx-footer-links">
+        <a href={company.facebook} target="_blank" rel="noopener">Facebook</a>
+        <a href={wa} target="_blank" rel="noopener">WhatsApp</a>
+        <a href={company.mapsUrl} target="_blank" rel="noopener">Google Maps</a>
+      </div>
+      <div class="lx-footer-copy">© {year} {company.legalName}</div>
+    </div>
+  </footer>
+
+  <a class="lx-float" href={wa} target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 0 0-7.3 12.8L3.5 20.5l4.3-1.1A8.5 8.5 0 1 0 12 3.5z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/><path d="M9.2 8.8c.3-.1.6 0 .8.4l.6 1.1c.1.3 0 .6-.2.8l-.4.4c.5 1 1.3 1.8 2.3 2.3l.4-.4c.2-.2.5-.3.8-.2l1.1.6c.4.2.5.5.4.8-.2.7-.9 1.2-1.7 1.1-2.6-.3-4.9-2.6-5.2-5.2-.1-.8.4-1.5 1.1-1.7z" fill="currentColor"/></svg>
+  </a>
+</div>
+
+<script>
+  const root = document.documentElement;
+  const KEY = 'lx-lang';
+
+  const apply = (lang) => {
+    root.dataset.lang = lang;
+    root.lang = lang === 'zh' ? 'zh-Hans' : 'en';
+    document.querySelectorAll('[data-alt-en]').forEach((el) => {
+      el.setAttribute('alt', el.getAttribute(`data-alt-${lang}`) ?? '');
+    });
+    document.querySelectorAll('option[data-en]').forEach((el) => {
+      el.textContent = el.getAttribute(`data-${lang}`);
+    });
+    document.querySelectorAll('[data-ph-en]').forEach((el) => {
+      el.setAttribute('placeholder', el.getAttribute(`data-ph-${lang}`) ?? '');
+    });
+  };
+
+  let initial = 'en';
+  try {
+    const saved = localStorage.getItem(KEY);
+    if (saved === 'en' || saved === 'zh') initial = saved;
+  } catch {}
+  apply(initial);
+
+  document.getElementById('lx-lang')?.addEventListener('click', () => {
+    const next = root.dataset.lang === 'zh' ? 'en' : 'zh';
+    apply(next);
+    try {
+      localStorage.setItem(KEY, next);
+    } catch {}
+  });
+
+  // Quote form -> WhatsApp with the details filled in (no backend needed).
+  const form = document.getElementById('lx-form');
+  const error = document.getElementById('lx-form-error');
+  form?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const data = new FormData(form);
+    const get = (k) => String(data.get(k) ?? '').trim();
+    if (!get('name') || !get('property') || !get('budget')) {
+      if (error) error.hidden = false;
+      return;
+    }
+    if (error) error.hidden = true;
+    const lines = [
+      'Hi Miss Renovate, I would like a free consultation.',
+      `Name: ${get('name')}`,
+      `Property: ${get('property')}`,
+      `Budget: ${get('budget')}`,
+      get('area') && `Area: ${get('area')}`,
+      get('details') && `Details: ${get('details')}`,
+    ].filter(Boolean);
+    const url = `https://wa.me/${form.dataset.wa}?text=${encodeURIComponent(lines.join('\n'))}`;
+    window.open(url, '_blank', 'noopener');
+  });
+</script>
+
+<style>
+  :global(body:has(.lx)) {
+    background: #0b0a08;
+    color: #ece6da;
+  }
+  :global(html:not([data-lang='zh'])) :global([data-l='zh']),
+  :global(html[data-lang='zh']) :global([data-l='en']) {
+    display: none;
+  }
+
+  .lx {
+    --gold: #c9a45c;
+    --gold-hi: #f0d898;
+    --gold-lo: #8a6a2f;
+    --gold-grad: linear-gradient(120deg, #f3dfa2 0%, #c9a45c 45%, #8a6a2f 100%);
+    --ink: #0b0a08;
+    --ink-2: #14120e;
+    --ink-3: #1d1a14;
+    --ivory: #ece6da;
+    --muted: #a59d8d;
+    --rule: rgba(201, 164, 92, 0.22);
+    --serif: 'Cormorant Garamond', 'Noto Serif SC', Georgia, serif;
+    --sans: 'Jost', 'Noto Sans SC', system-ui, sans-serif;
+    font-family: var(--sans);
+    font-weight: 300;
+    color: var(--ivory);
+    background: var(--ink);
+    overflow-x: clip;
+  }
+  .lx-num,
+  .lx-kicker,
+  .lx-step-n,
+  .lx-score-n {
+    font-variant-numeric: lining-nums;
+  }
+  .lx :global([lang='zh-Hans']) {
+    letter-spacing: 0.02em;
+  }
+  .lx h1,
+  .lx h2,
+  .lx h3 {
+    font-family: var(--serif);
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--ivory);
+  }
+  .lx a {
+    color: var(--gold-hi);
+  }
+  .lx :focus-visible {
+    outline: 2px solid var(--gold-hi);
+    outline-offset: 3px;
+  }
+  .lx-wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* Header */
+  .lx-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(11, 10, 8, 0.86);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .lx-header-inner {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-height: 68px;
+  }
+  .lx-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    margin-right: auto;
+  }
+  .lx-logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.05;
+  }
+  .lx-logo-name {
+    font-family: var(--sans);
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    font-size: 0.95rem;
+    color: var(--ivory);
+  }
+  .lx-logo-name b {
+    font-weight: 600;
+    background: var(--gold-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .lx-logo-sub {
+    font-size: 0.58rem;
+    letter-spacing: 0.32em;
+    color: var(--muted);
+    margin-top: 3px;
+  }
+  .lx-nav {
+    display: flex;
+    gap: 22px;
+  }
+  .lx-nav a {
+    color: var(--ivory);
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.06em;
+    opacity: 0.85;
+  }
+  .lx-nav a:hover {
+    color: var(--gold-hi);
+    opacity: 1;
+  }
+  .lx-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .lx-lang {
+    font: inherit;
+    font-size: 0.85rem;
+    min-width: 48px;
+    min-height: 40px;
+    padding: 0 12px;
+    color: var(--gold-hi);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .lx-lang:hover {
+    border-color: var(--gold);
+  }
+
+  /* Buttons */
+  .lx-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 26px;
+    border-radius: 2px;
+    font-family: var(--sans);
+    font-size: 0.92rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  }
+  .lx .lx-btn-gold {
+    background: var(--gold-grad);
+    color: #1a1408;
+  }
+  .lx .lx-btn-gold:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 30px rgba(201, 164, 92, 0.25);
+  }
+  .lx .lx-btn-line {
+    color: var(--ivory);
+    border-color: var(--rule);
+  }
+  .lx .lx-btn-line:hover {
+    border-color: var(--gold);
+    color: var(--gold-hi);
+  }
+  .lx-header-cta {
+    min-height: 40px;
+    padding: 0 18px;
+  }
+
+  /* Hero */
+  .lx-hero {
+    position: relative;
+    padding: 72px 0 0;
+    background:
+      radial-gradient(1200px 500px at 85% -10%, rgba(201, 164, 92, 0.14), transparent 60%),
+      var(--ink);
+  }
+  .lx-hero-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap: 56px;
+    align-items: center;
+  }
+  .lx-rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    color: var(--ivory) !important;
+    text-decoration: none;
+    margin-bottom: 26px;
+  }
+  .lx-stars {
+    color: var(--gold);
+    letter-spacing: 2px;
+  }
+  .lx-eyebrow {
+    font-size: 0.78rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin: 0 0 18px;
+  }
+  .lx h1 {
+    font-size: clamp(2.6rem, 6vw, 4.6rem);
+    line-height: 1.04;
+    margin: 0 0 22px;
+  }
+  .lx-lede {
+    font-size: 1.12rem;
+    color: #cfc7b7;
+    max-width: 34em;
+    margin: 0 0 32px;
+  }
+  .lx-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .lx-hero-media {
+    margin: 0;
+    position: relative;
+  }
+  .lx-hero-media::before {
+    content: '';
+    position: absolute;
+    inset: -14px 14px 14px -14px;
+    border: 1px solid var(--rule);
+    pointer-events: none;
+  }
+  .lx-hero-media img {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 960 / 540;
+    object-fit: cover;
+    object-position: 50% 100%;
+  }
+  .lx-hero-media figcaption {
+    margin-top: 12px;
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+  }
+  .lx-values {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 48px;
+    margin-top: 72px;
+    padding: 26px 24px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    font-family: var(--serif);
+    font-size: 1.4rem;
+    letter-spacing: 0.08em;
+    color: #d8d0c0;
+  }
+  .lx-values b {
+    font-weight: 600;
+    background: var(--gold-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Sections */
+  .lx-section {
+    padding: 104px 0;
+  }
+  .lx-alt {
+    background: var(--ink-2);
+  }
+  .lx-head {
+    max-width: 760px;
+    margin-bottom: 52px;
+  }
+  .lx-kicker {
+    font-family: var(--serif);
+    font-size: 1rem;
+    color: var(--gold);
+    letter-spacing: 0.2em;
+    margin: 0 0 10px;
+  }
+  .lx-kicker::after {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 1px;
+    background: var(--gold);
+    vertical-align: middle;
+    margin-left: 14px;
+  }
+  .lx h2 {
+    font-size: clamp(2rem, 4.2vw, 3.1rem);
+    line-height: 1.1;
+    margin: 0 0 16px;
+  }
+  .lx h3 {
+    font-size: 1.45rem;
+    line-height: 1.2;
+    margin: 0 0 10px;
+  }
+  .lx-quote {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.35rem;
+    color: var(--gold-hi);
+    margin: 0;
+  }
+  .lx-sub {
+    color: var(--muted);
+    margin: 0;
+  }
+  .lx p {
+    color: #cfc7b7;
+  }
+
+  /* Why */
+  .lx-why {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+  }
+  .lx-why li {
+    background: var(--ink);
+    padding: 36px 32px;
+  }
+  .lx-why li:nth-child(4) {
+    grid-column: 1 / 2;
+  }
+  .lx-num {
+    display: block;
+    font-family: var(--serif);
+    font-size: 2.4rem;
+    line-height: 1;
+    margin-bottom: 18px;
+    background: var(--gold-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .lx-why li p {
+    margin: 0;
+  }
+
+  /* Services */
+  .lx-svc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .lx-svc {
+    padding: 34px 32px;
+    background: var(--ink-3);
+    border: 1px solid var(--rule);
+    transition: border-color 0.25s ease;
+  }
+  .lx-svc:hover {
+    border-color: var(--gold);
+  }
+  .lx-svc p {
+    margin: 0;
+  }
+  .lx-icon {
+    display: inline-flex;
+    width: 52px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--gold);
+    border-radius: 50%;
+    color: var(--gold-hi);
+    margin-bottom: 20px;
+  }
+  .lx-design {
+    margin-top: 44px;
+    padding: 34px 32px;
+    border-left: 2px solid var(--gold);
+    background: linear-gradient(90deg, rgba(201, 164, 92, 0.08), transparent 70%);
+  }
+  .lx-design ul {
+    margin: 0;
+    padding-left: 1.1em;
+    display: grid;
+    gap: 8px;
+    color: #cfc7b7;
+  }
+  .lx-design li::marker {
+    color: var(--gold);
+  }
+
+  /* Gallery */
+  .lx-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .lx-shot {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    background: var(--ink-3);
+  }
+  .lx-shot img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+  }
+  .lx-shot:hover img {
+    transform: scale(1.04);
+  }
+  .lx-shot-wide {
+    grid-row: span 2;
+  }
+  .lx-shot-wide {
+    display: flex;
+    flex-direction: column;
+  }
+  .lx-shot-wide img {
+    aspect-ratio: auto;
+    flex: 1;
+    min-height: 0;
+  }
+  .lx-shot figcaption {
+    padding: 12px 14px;
+    border-top: 1px solid var(--rule);
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    color: var(--ivory);
+  }
+  .lx-source {
+    margin: 28px 0 0;
+  }
+
+  /* Process */
+  .lx-steps {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+  }
+  .lx-steps li {
+    border-top: 1px solid var(--gold);
+    padding-top: 22px;
+  }
+  .lx-step-n {
+    display: block;
+    font-family: var(--serif);
+    color: var(--gold);
+    font-size: 1.1rem;
+    letter-spacing: 0.2em;
+    margin-bottom: 10px;
+  }
+  .lx-steps p {
+    margin: 0;
+  }
+
+  /* Reviews */
+  .lx-score {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: var(--ivory) !important;
+    padding: 22px 30px;
+    border: 1px solid var(--rule);
+  }
+  .lx-score-n {
+    font-family: var(--serif);
+    font-size: 3.6rem;
+    line-height: 1;
+    background: var(--gold-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .lx-reviews {
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .lx-review {
+    margin: 0;
+    padding: 30px 28px;
+    background: var(--ink-3);
+    border: 1px solid var(--rule);
+  }
+  .lx-review blockquote {
+    margin: 14px 0 18px;
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    line-height: 1.5;
+    color: var(--ivory);
+  }
+  .lx-review figcaption {
+    font-size: 0.85rem;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+  }
+
+  /* Contact */
+  .lx-contact {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 56px;
+    align-items: start;
+  }
+  .lx-details {
+    list-style: none;
+    margin: 28px 0 0;
+    padding: 0;
+  }
+  .lx-details li {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--rule);
+    overflow-wrap: anywhere;
+  }
+  .lx-dt {
+    font-size: 0.78rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    padding-top: 3px;
+  }
+  .lx-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    padding: 34px 32px;
+    background: var(--ink-3);
+    border: 1px solid var(--rule);
+  }
+  .lx-form label {
+    display: grid;
+    gap: 8px;
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+  .lx-full,
+  .lx-form-note,
+  .lx-error {
+    grid-column: 1 / -1;
+  }
+  .lx-form-note {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  .lx-form input,
+  .lx-form select,
+  .lx-form textarea {
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--ivory);
+    background: var(--ink);
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    padding: 12px 14px;
+    min-height: 48px;
+    width: 100%;
+  }
+  .lx-form select option {
+    background: var(--ink);
+  }
+  .lx-form input:focus,
+  .lx-form select:focus,
+  .lx-form textarea:focus {
+    border-color: var(--gold);
+    outline: none;
+  }
+  .lx .lx-error {
+    margin: 0;
+    color: #f0a58c;
+  }
+
+  /* Footer */
+  .lx-footer {
+    padding: 44px 0 110px;
+    border-top: 1px solid var(--rule);
+  }
+  .lx-footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .lx-footer-name {
+    font-family: var(--serif);
+    font-size: 1.3rem;
+    color: var(--ivory);
+  }
+  .lx-footer-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  /* Floating WhatsApp (mobile) */
+  .lx-float {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 60;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: var(--gold-grad);
+    color: #1a1408 !important;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Reveal (shared script adds .is-visible) */
+  .lx :global([data-reveal]) {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.7s ease var(--reveal-delay, 0ms), transform 0.7s ease var(--reveal-delay, 0ms);
+  }
+  .lx :global([data-reveal].is-visible) {
+    opacity: 1;
+    transform: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .lx :global([data-reveal]) {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .lx-nav {
+      display: none;
+    }
+    .lx-why {
+      grid-template-columns: 1fr 1fr;
+    }
+    .lx-why li:nth-child(4) {
+      grid-column: auto;
+    }
+    .lx-steps {
+      grid-template-columns: 1fr 1fr;
+    }
+    .lx-reviews {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .lx-wrap {
+      padding: 0 16px;
+    }
+    .lx-header-cta {
+      display: none;
+    }
+    .lx-float {
+      display: inline-flex;
+    }
+    .lx-hero {
+      padding-top: 40px;
+    }
+    .lx-hero-grid,
+    .lx-contact {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    .lx-hero-media::before {
+      inset: -8px 8px 8px -8px;
+    }
+    .lx-actions .lx-btn {
+      width: 100%;
+    }
+    .lx-values {
+      margin-top: 48px;
+      gap: 6px 22px;
+      font-size: 1.1rem;
+    }
+    .lx-section {
+      padding: 72px 0;
+    }
+    .lx-head {
+      margin-bottom: 36px;
+    }
+    .lx-why,
+    .lx-svc-grid,
+    .lx-steps,
+    .lx-reviews {
+      grid-template-columns: 1fr;
+    }
+    .lx-why li,
+    .lx-svc,
+    .lx-design,
+    .lx-form {
+      padding: 26px 20px;
+    }
+    .lx-gallery {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .lx-shot-wide {
+      grid-column: 1 / -1;
+      grid-row: auto;
+    }
+    .lx-shot-wide img {
+      aspect-ratio: 960 / 1080;
+      height: auto;
+    }
+    .lx-form {
+      grid-template-columns: 1fr;
+    }
+    .lx-details li {
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
+    .lx-score {
+      padding: 18px 20px;
+    }
+  }
+</style>

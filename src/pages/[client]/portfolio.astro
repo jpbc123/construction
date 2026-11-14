@@ -5,7 +5,8 @@ import ProjectCard from '../../components/ProjectCard.astro';
 import { getClientSlugs, getClient } from '../../lib/clients.js';
 
 export function getStaticPaths() {
-  return getClientSlugs().map((slug) => ({
+  // Clients on the one-page "luxe" layout have no sub-pages.
+  return getClientSlugs().filter((slug) => getClient(slug).layout !== 'luxe').map((slug) => ({
     params: { client: slug },
     props: { client: getClient(slug) },
   }));
