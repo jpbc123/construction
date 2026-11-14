@@ -310,9 +310,19 @@ const pad = (i) => String(i + 1).padStart(2, '0');
 
   <footer class="lx-footer">
     <div class="lx-wrap lx-footer-inner">
-      <div>
-        <div class="lx-footer-name">{company.legalName}</div>
-        <div class="lx-footer-tag">{company.tagline} — Beyond Satisfaction</div>
+      <div class="lx-footer-brand">
+        <a class="lx-logo lx-logo-lg" href="#top" aria-label={`${company.name}, back to top`}>
+          {/* Same mark as the header; reuses its #lxg gold gradient. */}
+          <svg width="44" height="44" viewBox="0 0 40 40" aria-hidden="true">
+            <path d="M6 19 20 7l14 12v14H6z" fill="none" stroke="url(#lxg)" stroke-width="2" stroke-linejoin="round" />
+            <path d="M15 33V22h10v11" fill="none" stroke="url(#lxg)" stroke-width="2" />
+          </svg>
+          <span class="lx-logo-text">
+            <span class="lx-logo-name">MISS <b>RENOVATE</b></span>
+            <span class="lx-logo-sub">BEYOND SATISFACTION</span>
+          </span>
+        </a>
+        <div class="lx-footer-tag">{company.tagline}</div>
       </div>
       <div class="lx-footer-links">
         <a href={company.facebook} target="_blank" rel="noopener">Facebook</a>
@@ -1239,10 +1249,25 @@ const pad = (i) => String(i + 1).padStart(2, '0');
     font-size: 0.85rem;
     color: var(--muted);
   }
-  .lx-footer-name {
+  .lx-footer-brand {
+    display: grid;
+    gap: 14px;
+  }
+  .lx-logo-lg {
+    margin-right: 0;
+    gap: 12px;
+  }
+  .lx-logo-lg .lx-logo-name {
+    font-size: 1.15rem;
+  }
+  .lx-logo-lg .lx-logo-sub {
+    font-size: 0.66rem;
+  }
+  .lx-footer-tag {
     font-family: var(--serif);
-    font-size: 1.3rem;
-    color: var(--ivory);
+    font-style: italic;
+    font-size: 1rem;
+    color: #cfc7b7;
   }
   .lx-footer-links {
     display: flex;
