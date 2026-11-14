@@ -219,7 +219,10 @@ const pad = (i) => String(i + 1).padStart(2, '0');
             {reviews.map((r, i) => (
               <figure class="lx-review" data-reveal style={`--reveal-delay:${(i % 3) * 80}ms`}>
                 <span class="lx-stars" aria-label={`${r.stars} stars`}>{'★'.repeat(r.stars)}</span>
-                <blockquote>{r.text}</blockquote>
+                <blockquote>
+                  {r.text}
+                  {r.translation && <span class="lx-tr" data-l="en">“{r.translation}” (translated by Google)</span>}
+                </blockquote>
                 <figcaption>{r.name} · Google</figcaption>
               </figure>
             ))}
@@ -891,6 +894,13 @@ const pad = (i) => String(i + 1).padStart(2, '0');
     font-size: 1.15rem;
     line-height: 1.5;
     color: var(--ivory);
+  }
+  .lx-tr {
+    display: block;
+    margin-top: 8px;
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    color: var(--muted);
   }
   .lx-review figcaption {
     font-size: 0.85rem;

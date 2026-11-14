@@ -23,7 +23,8 @@
       "Address: FB About says 11-1 Jalan Eco Ardence D U12/36D (used); their 2025 posts say 11, Jln Setia Dagang AK U13/AK, Setia Alam (older?)",
       "'10 years design experience' is their own claim (FB post); company registered 2023",
       "Photo captions describe what is visible; project locations not stated"
-    ]
+    ],
+    "reviewsNote": "Copied verbatim from the Google Maps listing on 2026-11-15 (all 40 loaded, 16 have text). Names shortened to given name + initial. NOT used: two 1-star reviews from ~Mar 2026 (Matthew, I-Vy C.) both complaining about project manager Lucas Tan; one 3-star (Emily Tan); one-word 5-stars."
   },
   "copy": {
     "region": "Selangor & Kuala Lumpur",
@@ -341,7 +342,39 @@
         }
       ]
     },
-    "reviews": [],
+    "reviews": [
+      {
+        "name": "Jimmy O.",
+        "stars": 5,
+        "text": "One stop design and build company that you will impress!!"
+      },
+      {
+        "name": "Grace M.",
+        "stars": 5,
+        "text": "Good Quality and service, highly recommended."
+      },
+      {
+        "name": "Natalie C.",
+        "stars": 5,
+        "text": "nice interior with many options to pick from!"
+      },
+      {
+        "name": "Allyschia C.",
+        "stars": 5,
+        "text": "This new interior shop is really nice! They sell tiles"
+      },
+      {
+        "name": "Chee Kin C.",
+        "stars": 5,
+        "text": "Nice and creative"
+      },
+      {
+        "name": "Yaw Sam W.",
+        "stars": 5,
+        "text": "美，要自身来了才可以感觉到",
+        "translation": "Beauty can only be felt when you experience it yourself."
+      }
+    ],
     "contact": {
       "heading": {
         "en": "Book a free consultation",
