@@ -6,5 +6,5 @@ export const JPBC_WA_LINK = `https://wa.me/${JPBC_WHATSAPP}?text=${encodeURIComp
 )}`;
 
 export const JPBC_BANNER_TEXT =
-  "Draf pratonton oleh JPBC Web Designs — belum live";
+  "Preview by JPBC Web Designs: a concept, not the official site.";
 export const JPBC_BANNER_CTA = "WhatsApp us to go live →";
